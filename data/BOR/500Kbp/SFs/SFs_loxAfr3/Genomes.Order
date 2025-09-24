@@ -1,0 +1,372 @@
+>hg19	23
+# chr1
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 $
+# chr10
+20 21 22 23 24 25 26 27 28 29 30 31 32 $
+# chr11
+33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 $
+# chr12
+51 52 53 54 55 56 57 58 59 60 61 62 $
+# chr13
+63 64 65 66 67 68 69 70 71 $
+# chr14
+72 73 74 75 76 $
+# chr15
+77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 $
+# chr16
+96 97 98 99 100 101 102 103 104 105 106 107 108 $
+# chr17
+109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 $
+# chr18
+128 129 130 131 $
+# chr19
+132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 $
+# chr2
+150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 $
+# chr20
+168 169 170 171 172 $
+# chr21
+173 174 175 $
+# chr22
+176 177 178 179 180 181 182 183 184 $
+# chr3
+185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 $
+# chr4
+205 206 207 208 209 210 211 212 213 214 215 216 217 $
+# chr5
+218 219 220 221 222 223 224 225 226 227 228 $
+# chr6
+229 230 231 232 233 234 235 236 237 238 $
+# chr7
+239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 $
+# chr8
+261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 $
+# chr9
+277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 $
+# chrX
+292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 $
+
+>loxAfr3	161
+# scaffold_26
+-1 -139 -138 -137 $
+# scaffold_34
+2 $
+# scaffold_17
+-3 $
+# scaffold_60
+-5 -4 $
+# scaffold_11
+-65 -69 -8 6 $
+# scaffold_127
+7 $
+# scaffold_33
+9 17 -10 $
+# scaffold_16
+-11 18 -15 $
+# scaffold_13
+12 -173 192 $
+# scaffold_148
+13 $
+# scaffold_74
+14 $
+# scaffold_110
+16 $
+# scaffold_1
+222 -223 224 -226 -225 227 228 -19 $
+# scaffold_15
+-20 -260 -23 22 -21 -176 -51 52 53 $
+# scaffold_97
+-24 $
+# scaffold_157
+25 $
+# scaffold_10
+-30 28 26 -27 $
+# scaffold_63
+29 242 $
+# scaffold_123
+-31 $
+# scaffold_72
+32 $
+# scaffold_145
+33 $
+# scaffold_79
+-45 -44 34 $
+# scaffold_116
+35 36 $
+# scaffold_21
+-37 $
+# scaffold_142
+38 $
+# scaffold_115
+39 $
+# scaffold_71
+-41 -40 $
+# scaffold_159
+42 $
+# scaffold_156
+-43 $
+# scaffold_62
+46 $
+# scaffold_35
+47 $
+# scaffold_147
+48 $
+# scaffold_58
+49 $
+# scaffold_50
+-160 -50 $
+# scaffold_2
+54 55 56 181 $
+# scaffold_70
+178 -57 -59 $
+# scaffold_84
+-60 58 $
+# scaffold_207
+61 $
+# scaffold_113
+62 $
+# scaffold_29
+63 64 70 $
+# scaffold_23
+-68 67 -66 $
+# scaffold_27
+157 -71 153 $
+# scaffold_118
+-72 $
+# scaffold_104
+73 $
+# scaffold_9
+74 -75 76 $
+# scaffold_93
+-79 80 77 $
+# scaffold_95
+78 $
+# scaffold_64
+-81 82 $
+# scaffold_80
+-83 $
+# scaffold_90
+84 $
+# scaffold_59
+85 $
+# scaffold_28
+86 -88 -87 -89 90 -91 93 -92 94 95 $
+# scaffold_53
+-96 $
+# scaffold_124
+99 -97 $
+# scaffold_65
+-98 100 -101 102 $
+# scaffold_43
+-104 -141 140 103 $
+# scaffold_48
+105 -106 107 $
+# scaffold_57
+-108 $
+# scaffold_47
+118 -109 110 -112 -111 113 $
+# scaffold_92
+114 -115 $
+# scaffold_96
+116 $
+# scaffold_31
+-117 119 -120 123 -122 121 124 $
+# scaffold_49
+-127 126 -125 $
+# scaffold_4
+144 145 -147 -146 148 149 -131 128 -129 130 $
+# scaffold_153
+132 $
+# scaffold_132
+-133 $
+# scaffold_125
+134 $
+# scaffold_119
+-135 $
+# scaffold_114
+136 $
+# scaffold_99
+-142 143 $
+# scaffold_20
+-261 150 $
+# scaffold_40
+151 $
+# scaffold_52
+-152 $
+# scaffold_86
+-155 -154 $
+# scaffold_129
+-158 156 $
+# scaffold_186
+159 $
+# scaffold_3
+-165 161 $
+# scaffold_46
+162 -163 164 $
+# scaffold_55
+-166 $
+# scaffold_109
+-167 $
+# scaffold_19
+-168 169 $
+# scaffold_75
+170 $
+# scaffold_137
+-171 $
+# scaffold_121
+-172 $
+# scaffold_67
+174 $
+# scaffold_126
+-175 $
+# scaffold_68
+179 -180 177 $
+# scaffold_73
+-182 $
+# scaffold_102
+183 $
+# scaffold_151
+184 $
+# scaffold_12
+-190 196 186 187 -197 -185 -191 258 $
+# scaffold_103
+-188 198 $
+# scaffold_36
+-189 $
+# scaffold_66
+193 $
+# scaffold_112
+194 $
+# scaffold_25
+203 -204 -195 $
+# scaffold_76
+-199 $
+# scaffold_41
+-200 $
+# scaffold_136
+201 $
+# scaffold_42
+-202 $
+# scaffold_18
+208 -205 -206 209 $
+# scaffold_167
+207 $
+# scaffold_38
+210 $
+# scaffold_30
+-211 $
+# scaffold_14
+212 213 $
+# scaffold_51
+-214 $
+# scaffold_61
+-215 $
+# scaffold_37
+216 $
+# scaffold_22
+-263 -266 265 -267 -262 264 -217 $
+# scaffold_169
+-218 $
+# scaffold_7
+-219 220 221 $
+# scaffold_54
+229 $
+# scaffold_44
+-230 $
+# scaffold_108
+-231 $
+# scaffold_122
+232 $
+# scaffold_150
+-233 $
+# scaffold_138
+-234 $
+# scaffold_105
+-235 $
+# scaffold_0
+-236 $
+# scaffold_69
+237 $
+# scaffold_128
+238 $
+# scaffold_45
+252 239 -240 250 245 -246 -247 $
+# scaffold_5
+243 244 -241 -249 -248 253 $
+# scaffold_152
+-251 $
+# scaffold_101
+-254 $
+# scaffold_83
+-255 $
+# scaffold_172
+-256 $
+# scaffold_91
+-257 $
+# scaffold_98
+259 $
+# scaffold_8
+-268 271 273 $
+# scaffold_106
+269 $
+# scaffold_77
+-272 -270 $
+# scaffold_173
+-274 $
+# scaffold_146
+-275 $
+# scaffold_185
+276 $
+# scaffold_88
+-277 279 $
+# scaffold_6
+-285 -281 -280 -287 -286 -278 $
+# scaffold_117
+282 $
+# scaffold_87
+283 $
+# scaffold_107
+-284 $
+# scaffold_190
+288 $
+# scaffold_166
+289 $
+# scaffold_171
+-290 $
+# scaffold_163
+-291 $
+# scaffold_177
+-292 $
+# scaffold_94
+293 $
+# scaffold_39
+-294 $
+# scaffold_82
+-295 $
+# scaffold_134
+-296 $
+# scaffold_56
+-297 $
+# scaffold_149
+298 $
+# scaffold_85
+299 $
+# scaffold_24
+-302 -301 300 $
+# scaffold_78
+-303 $
+# scaffold_130
+-304 $
+# scaffold_32
+-305 $
+# scaffold_100
+306 $
+# scaffold_89
+-307 $
+# scaffold_81
+308 $
+# scaffold_111
+309 $
+# scaffold_120
+-310 $
+

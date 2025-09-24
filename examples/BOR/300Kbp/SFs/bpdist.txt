@@ -1,0 +1,21 @@
+#species	num_sf	num_tarscf
+panTro4	119
+ponAbe2	185
+rheMac3	276
+calJac3	232
+mm10	429
+rn5	816
+cavPor3	369
+ochPri3	231
+bosTau7	468
+capHir1	354
+susScr3	536
+cerSim1	201
+equCab2	238
+canFam3	251
+sorAra2	240
+loxAfr3	225
+triMan1	171
+echTel2	231
+monDom5	644
+galGal4	561

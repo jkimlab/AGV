@@ -1,0 +1,456 @@
+>1
+APCF.1:0-110200768 +
+loxAfr3.scaffold_26:0-22556902 -
+loxAfr3.scaffold_34:7242-26798961 +
+loxAfr3.scaffold_17:195658-50266228 -
+loxAfr3.scaffold_60:370332-13031628 -
+loxAfr3.scaffold_11:43180423-54599266 +
+
+>2
+APCF.1:110200768-121339282 +
+loxAfr3.scaffold_11:54599266-66632758 +
+
+>3
+APCF.1:121339282-122236643 +
+loxAfr3.scaffold_11:66757026-67191459 +
+loxAfr3.scaffold_127:1194750-1664313 -
+
+>5
+APCF.1:122626001-123410660 +
+loxAfr3.scaffold_127:75453-1172648 +
+
+>8
+APCF.1:124358078-224662374 +
+loxAfr3.scaffold_11:39157545-42758653 -
+loxAfr3.scaffold_33:91747-19186461 +
+loxAfr3.scaffold_33:20726490-27469956 -
+loxAfr3.scaffold_16:500656-28604226 -
+loxAfr3.scaffold_13:27660-18946768 +
+loxAfr3.scaffold_74:813-10327816 +
+loxAfr3.scaffold_16:46620438-51904694 -
+loxAfr3.scaffold_16:28645025-46616234 +
+
+>9
+APCF.2:0-197898355 +
+loxAfr3.scaffold_25:11721-16261246 -
+loxAfr3.scaffold_42:1936-20140993 +
+loxAfr3.scaffold_41:13039-20237584 +
+loxAfr3.scaffold_76:14723-9792394 +
+loxAfr3.scaffold_25:18582467-35414692 +
+loxAfr3.scaffold_66:335116-12366151 -
+loxAfr3.scaffold_13:41905289-62508217 -
+loxAfr3.scaffold_12:48467767-59102388 +
+loxAfr3.scaffold_12:28241-26938178 +
+loxAfr3.scaffold_36:359-24103742 +
+loxAfr3.scaffold_12:33740386-48529462 +
+
+>10
+APCF.3:0-44800125 +
+loxAfr3.scaffold_18:1160612-5352498 -
+loxAfr3.scaffold_18:5386150-7177135 -
+loxAfr3.scaffold_167:60-969469 +
+loxAfr3.scaffold_18:7177313-48419457 +
+
+>11
+APCF.3:44800125-69670198 +
+loxAfr3.scaffold_18:48429059-50670000 +
+loxAfr3.scaffold_38:720-22496173 +
+
+>12
+APCF.3:69670198-70350214 +
+loxAfr3.scaffold_38:22496173-22832538 +
+loxAfr3.scaffold_30:28892264-29034531 -
+
+>13
+APCF.3:70350214-85949108 +
+loxAfr3.scaffold_30:10685749-28892264 -
+
+>14
+APCF.3:85949108-191011309 +
+loxAfr3.scaffold_30:469-10685749 -
+loxAfr3.scaffold_14:5498-56459248 +
+loxAfr3.scaffold_51:8731-16989184 -
+loxAfr3.scaffold_61:499298-13338049 -
+loxAfr3.scaffold_37:189278-23242191 +
+loxAfr3.scaffold_22:38855877-43337001 -
+
+>15
+APCF.4:0-18538808 +
+loxAfr3.scaffold_169:122044-783784 -
+loxAfr3.scaffold_7:58398-11348365 -
+loxAfr3.scaffold_7:11477371-20886176 +
+
+>16
+APCF.4:18538808-68875638 +
+loxAfr3.scaffold_7:20887508-23822179 +
+loxAfr3.scaffold_7:24074064-38018135 +
+loxAfr3.scaffold_7:38018584-73410044 +
+
+>20
+APCF.4:70270212-80208250 +
+loxAfr3.scaffold_7:73519095-84763684 +
+
+>21
+APCF.4:80208250-95537675 +
+loxAfr3.scaffold_7:84763690-93792576 +
+loxAfr3.scaffold_1:580-8559683 +
+
+>22
+APCF.4:95537675-98510168 +
+loxAfr3.scaffold_1:8559683-12054002 +
+
+>23
+APCF.4:98510168-98827385 +
+loxAfr3.scaffold_1:12053365-12400645 -
+
+>24
+APCF.4:98827385-180337321 +
+loxAfr3.scaffold_1:12807760-27774563 +
+loxAfr3.scaffold_1:45923514-50743601 -
+loxAfr3.scaffold_1:27804363-45646589 -
+loxAfr3.scaffold_1:50766365-102365042 +
+loxAfr3.scaffold_1:105163949-107445784 +
+
+>25
+APCF.5:0-170937777 +
+loxAfr3.scaffold_69:35412-11262579 -
+loxAfr3.scaffold_0:25-129706910 +
+loxAfr3.scaffold_44:46516-18955740 +
+loxAfr3.scaffold_54:49373-15662477 -
+
+>26
+APCF.6:0-155182051 +
+loxAfr3.scaffold_111:3418-3476598 -
+loxAfr3.scaffold_81:180991-7717431 -
+loxAfr3.scaffold_89:136906-5809533 +
+loxAfr3.scaffold_100:128-4940203 -
+loxAfr3.scaffold_32:867-28517315 +
+loxAfr3.scaffold_78:6432-8653747 +
+loxAfr3.scaffold_24:20155-5314107 +
+loxAfr3.scaffold_24:7735380-38027126 +
+loxAfr3.scaffold_24:38593711-42330107 -
+loxAfr3.scaffold_85:75686-6070197 -
+loxAfr3.scaffold_56:15583-15670401 +
+loxAfr3.scaffold_82:1019691-7147493 +
+loxAfr3.scaffold_39:155421-21936640 +
+loxAfr3.scaffold_94:307317-5156905 -
+
+>27
+APCF.7:0-6027083 +
+loxAfr3.scaffold_45:2151830-8042753 +
+loxAfr3.scaffold_45:8832928-9024577 -
+
+>28
+APCF.7:6027083-6458036 +
+loxAfr3.scaffold_45:8437531-8832902 -
+
+>29
+APCF.7:6458036-39476610 +
+loxAfr3.scaffold_5:17831886-51785366 -
+
+>30
+APCF.7:39476610-43683940 +
+loxAfr3.scaffold_5:13105967-17829075 -
+
+>31
+APCF.7:43683940-52937177 +
+loxAfr3.scaffold_63:11744809-13443192 +
+loxAfr3.scaffold_5:146662-10179551 +
+
+>32
+APCF.7:52937177-53612621 +
+loxAfr3.scaffold_5:10363722-11015487 -
+loxAfr3.scaffold_5:10285133-10352727 +
+
+>33
+APCF.7:53612621-57266599 +
+loxAfr3.scaffold_5:11018795-13015527 +
+loxAfr3.scaffold_45:10446038-10707594 +
+
+>36
+APCF.7:58176416-66133499 +
+loxAfr3.scaffold_45:10641696-11503503 +
+loxAfr3.scaffold_45:12177942-16179511 -
+
+>37
+APCF.7:66133499-67802713 +
+loxAfr3.scaffold_45:16353634-17904282 -
+
+>38
+APCF.7:67802713-151914121 +
+loxAfr3.scaffold_5:60877036-72753983 -
+loxAfr3.scaffold_5:51787342-60840084 -
+loxAfr3.scaffold_5:72670571-99875478 +
+loxAfr3.scaffold_101:281-4657411 -
+loxAfr3.scaffold_83:87-7293337 -
+loxAfr3.scaffold_91:166041-5699447 -
+loxAfr3.scaffold_12:59166437-65937421 +
+loxAfr3.scaffold_98:12-5036902 +
+
+>39
+APCF.8:0-133786734 +
+loxAfr3.scaffold_8:3556268-85639801 -
+loxAfr3.scaffold_77:990286-6649685 +
+loxAfr3.scaffold_106:346-3456410 -
+loxAfr3.scaffold_22:19194540-32621085 +
+loxAfr3.scaffold_22:4795218-17279564 +
+loxAfr3.scaffold_22:34094785-38848310 -
+
+>40
+APCF.8:133786734-134368278 +
+loxAfr3.scaffold_22:664631-895483 +
+
+>41
+APCF.8:134368278-134725144 +
+loxAfr3.scaffold_22:173143-482482 +
+
+>42
+APCF.8:134725144-141835799 +
+loxAfr3.scaffold_20:60044-1178144 +
+loxAfr3.scaffold_20:1183402-1513120 -
+loxAfr3.scaffold_20:1515449-7692479 +
+
+>43
+APCF.9:0-40927602 +
+loxAfr3.scaffold_88:576062-5370060 -
+loxAfr3.scaffold_6:46942362-93648305 -
+
+>46
+APCF.9:67073259-137334653 +
+loxAfr3.scaffold_6:3650039-24930263 -
+loxAfr3.scaffold_117:3134-3046726 +
+loxAfr3.scaffold_87:1400856-3855396 +
+loxAfr3.scaffold_107:137624-2756054 -
+loxAfr3.scaffold_6:277701-3625285 -
+loxAfr3.scaffold_6:24941966-61884970 -
+
+>47
+APCF.10:0-135440243 +
+loxAfr3.scaffold_72:12-10481291 -
+loxAfr3.scaffold_10:385-31609398 +
+loxAfr3.scaffold_63:1794813-11332489 -
+loxAfr3.scaffold_10:32091289-62156909 -
+loxAfr3.scaffold_10:62635777-65546924 -
+loxAfr3.scaffold_97:1209-4854165 +
+loxAfr3.scaffold_15:16429125-41794654 +
+loxAfr3.scaffold_15:60575-8868472 +
+
+>48
+APCF.11:0-134875160 +
+loxAfr3.scaffold_116:32004-3225500 +
+loxAfr3.scaffold_21:560850-44993429 -
+loxAfr3.scaffold_71:447-10705231 -
+loxAfr3.scaffold_79:207712-7851092 -
+loxAfr3.scaffold_62:68247-13173273 +
+loxAfr3.scaffold_35:54035-24456037 +
+loxAfr3.scaffold_58:16743-13394802 +
+loxAfr3.scaffold_50:3226877-17237450 -
+
+>49
+APCF.12:0-20903564 +
+loxAfr3.scaffold_15:43812413-46847857 -
+loxAfr3.scaffold_15:46810596-52436246 +
+loxAfr3.scaffold_15:53589238-55574742 +
+loxAfr3.scaffold_2:3781-10760387 +
+
+>50
+APCF.12:20903564-68235745 +
+loxAfr3.scaffold_2:10769746-20635452 +
+loxAfr3.scaffold_15:46857923-47835672 -
+loxAfr3.scaffold_2:20638075-58041361 +
+
+>51
+APCF.12:68235745-133658055 +
+loxAfr3.scaffold_2:58048506-104203540 +
+loxAfr3.scaffold_70:1215902-3309810 -
+loxAfr3.scaffold_84:4879539-6925661 +
+loxAfr3.scaffold_70:3344323-10966741 -
+loxAfr3.scaffold_84:1604-4920321 -
+loxAfr3.scaffold_113:395-3401850 +
+
+>52
+APCF.13:0-128722222 +
+loxAfr3.scaffold_55:926-14090955 +
+loxAfr3.scaffold_3:1607789-98296144 +
+loxAfr3.scaffold_46:4670389-16771689 +
+loxAfr3.scaffold_46:193-4495906 -
+loxAfr3.scaffold_3:98324565-102905067 -
+
+>53
+APCF.14:0-109144655 +
+loxAfr3.scaffold_27:130-12047982 -
+loxAfr3.scaffold_86:1511258-6679784 +
+loxAfr3.scaffold_27:13580094-34870040 -
+loxAfr3.scaffold_52:15711-16099882 +
+loxAfr3.scaffold_40:19175-21088809 -
+loxAfr3.scaffold_20:13928296-46394598 -
+
+>54
+APCF.14:109144655-110584131 +
+loxAfr3.scaffold_20:12421462-13923284 -
+
+>55
+APCF.14:110584131-111057830 +
+loxAfr3.scaffold_20:11822742-12402506 -
+
+>56
+APCF.14:111057830-114102052 +
+loxAfr3.scaffold_20:7760867-11822742 -
+
+>57
+APCF.15:0-96078122 +
+loxAfr3.scaffold_29:17530343-33496860 -
+loxAfr3.scaffold_11:6027187-39153846 +
+loxAfr3.scaffold_23:14895-15120513 +
+loxAfr3.scaffold_23:16004978-19632154 +
+loxAfr3.scaffold_23:26855030-34952348 -
+loxAfr3.scaffold_23:38492394-42105561 +
+loxAfr3.scaffold_11:105491-5897365 +
+loxAfr3.scaffold_29:9785714-17528386 -
+loxAfr3.scaffold_29:2398752-9308674 -
+
+>58
+APCF.16:0-87559075 +
+loxAfr3.scaffold_118:136885-3096028 -
+loxAfr3.scaffold_104:99715-3987589 +
+loxAfr3.scaffold_9:738-73163245 +
+loxAfr3.scaffold_9:73194258-80767940 -
+loxAfr3.scaffold_9:80781863-83129272 +
+
+>59
+APCF.17:0-70770429 +
+loxAfr3.scaffold_28:31671490-34713212 -
+loxAfr3.scaffold_28:22224670-31059938 -
+loxAfr3.scaffold_28:16672046-22233186 +
+loxAfr3.scaffold_28:13635675-15239764 +
+loxAfr3.scaffold_28:9864924-13740548 -
+loxAfr3.scaffold_28:7606413-9099182 +
+loxAfr3.scaffold_28:405-6916874 -
+loxAfr3.scaffold_59:9270-14386227 -
+loxAfr3.scaffold_90:275-5389976 -
+loxAfr3.scaffold_80:426545-8190852 +
+loxAfr3.scaffold_64:3704990-13306436 -
+loxAfr3.scaffold_64:1659034-3659099 +
+
+>60
+APCF.17:70770429-72516249 +
+loxAfr3.scaffold_93:325625-1999266 +
+
+>61
+APCF.17:72516249-81388157 +
+loxAfr3.scaffold_95:214865-4682413 -
+loxAfr3.scaffold_93:4435525-5361625 -
+loxAfr3.scaffold_95:4786678-5244265 +
+
+>62
+APCF.18:0-7930994 +
+loxAfr3.scaffold_47:3409624-4556904 -
+loxAfr3.scaffold_47:4576843-8244556 +
+loxAfr3.scaffold_47:9639434-10595296 -
+loxAfr3.scaffold_47:8437665-9600292 -
+loxAfr3.scaffold_47:10723833-12077518 +
+
+>63
+APCF.18:7930994-15658516 +
+loxAfr3.scaffold_47:12081098-18300046 +
+loxAfr3.scaffold_92:232275-4050665 +
+
+>64
+APCF.18:15658516-47620503 +
+loxAfr3.scaffold_96:1247933-3072142 +
+loxAfr3.scaffold_96:3187184-4722652 +
+loxAfr3.scaffold_47:617730-3407700 +
+loxAfr3.scaffold_31:626318-5518507 +
+loxAfr3.scaffold_31:5733314-7019280 -
+loxAfr3.scaffold_31:20766881-26511612 +
+loxAfr3.scaffold_31:18861944-20657449 -
+
+>65
+APCF.18:47620503-81062279 +
+loxAfr3.scaffold_31:9006216-18861581 -
+loxAfr3.scaffold_31:7018578-9046504 +
+loxAfr3.scaffold_31:28298774-29745944 +
+loxAfr3.scaffold_49:16745331-17732174 -
+loxAfr3.scaffold_49:14147051-16592011 +
+loxAfr3.scaffold_49:104560-14202465 -
+
+>66
+APCF.19:0-33894056 +
+loxAfr3.scaffold_53:264272-15768224 -
+loxAfr3.scaffold_124:1043053-2075153 -
+loxAfr3.scaffold_124:1-1221406 +
+loxAfr3.scaffold_65:1141499-10985900 +
+loxAfr3.scaffold_65:11522529-12789884 +
+
+>68
+APCF.19:34298669-78107834 +
+loxAfr3.scaffold_43:15224156-19080357 +
+loxAfr3.scaffold_43:0-8147365 -
+loxAfr3.scaffold_48:0-11199748 +
+loxAfr3.scaffold_48:11203311-15411312 -
+loxAfr3.scaffold_48:15238116-17893937 +
+loxAfr3.scaffold_57:3350520-15500407 -
+
+>69
+APCF.20:0-15352977 +
+loxAfr3.scaffold_4:81505252-82187107 +
+loxAfr3.scaffold_4:82485674-90743446 -
+loxAfr3.scaffold_4:90990764-100624117 +
+
+>70
+APCF.20:15352977-74848285 +
+loxAfr3.scaffold_4:21168961-81522103 -
+
+>71
+APCF.21:0-62898754 +
+loxAfr3.scaffold_19:54015-30630701 -
+loxAfr3.scaffold_19:30635570-48869408 +
+loxAfr3.scaffold_75:1241-10295012 +
+loxAfr3.scaffold_137:0-1829345 -
+loxAfr3.scaffold_121:35302-2714951 -
+
+>72
+APCF.22:0-36748974 +
+loxAfr3.scaffold_153:84722-1506712 +
+loxAfr3.scaffold_132:151481-2069343 -
+loxAfr3.scaffold_125:1075541-2613846 +
+loxAfr3.scaffold_119:1193820-3018517 -
+loxAfr3.scaffold_114:1046969-2803441 +
+loxAfr3.scaffold_26:22647587-34150517 -
+loxAfr3.scaffold_43:8151729-14374896 -
+loxAfr3.scaffold_99:12023-960896 -
+
+>73
+APCF.22:36748974-37225008 +
+loxAfr3.scaffold_141:716724-1033559 +
+
+>74
+APCF.22:37225008-37565637 +
+loxAfr3.scaffold_141:161024-204484 +
+
+>75
+APCF.22:37565637-59035586 +
+loxAfr3.scaffold_99:998393-5049822 +
+loxAfr3.scaffold_4:3719-992195 +
+loxAfr3.scaffold_4:1721272-7741902 +
+loxAfr3.scaffold_4:8817688-9614460 -
+loxAfr3.scaffold_4:7851740-8817688 -
+loxAfr3.scaffold_4:9852681-21014682 +
+
+>76
+APCF.23:0-35169623 +
+loxAfr3.scaffold_176:4-707783 +
+loxAfr3.scaffold_151:41802-1402284 -
+loxAfr3.scaffold_102:4-4561920 -
+loxAfr3.scaffold_73:2991-10670213 +
+loxAfr3.scaffold_2:104223460-107953011 -
+loxAfr3.scaffold_68:2083376-10030096 +
+loxAfr3.scaffold_68:10674215-11803424 -
+loxAfr3.scaffold_15:42739693-43804250 +
+
+>77
+APCF.24:0-33195837 +
+loxAfr3.scaffold_126:3300-2395680 +
+loxAfr3.scaffold_67:188356-12166535 -
+loxAfr3.scaffold_13:19616172-41896740 +
+

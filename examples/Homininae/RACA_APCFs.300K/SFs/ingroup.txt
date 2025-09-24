@@ -1,0 +1,3 @@
+hg19
+panTro3
+gorGor3

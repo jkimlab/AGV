@@ -1,0 +1,41 @@
+# netdir/species1/species2/net/chr?.net
+>netdir
+/home/data/chainNet
+
+# chaindir/species1/species2/chain/chr?.chain
+>chaindir
+/home/data/chainNet
+
+# species-name tag (0: ref-species, 1: descendents, 2: outgroup)
+>species
+hg19 0 1
+#panTro3 1 2 
+#gorGor3 1 3 
+#ponAbe2 1 4 
+#rheMac3 1 5 
+#calJac3 1 6 
+#mm10	2 7 
+#rn4 2 7 
+#cavPor3 2 7 
+#oryCun2 2 7 
+#ochPri3 2 7 
+#bosTau7 2 7 
+#capHir1 2 7 
+#susScr2 2 7 
+#equCab2 2 7 
+#canFam2 2 7 
+#eriEur2 2 7 
+#sorAra2 2 7 
+#loxAfr3 2 7 
+#echTel2 2 7 
+#monDom5	2 7 
+galGal3 1 7 
+
+# block resolution (bp)
+>resolution
+300000
+
+# number of chromosomes in a ref-species (up to the X chromosome, excluding the Y chromosome)
+>numchr
+23
+
