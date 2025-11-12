@@ -1,0 +1,220 @@
+hs1	Human
+hg38	Human
+hg19	Human
+hg18	Human
+hg17	Human
+hg16	Human
+panTro6	Chimp
+panTro5	Chimp
+panTro4	Chimp
+panTro3	Chimp
+panTro2	Chimp
+panTro1	Chimp
+panPan3	Bonobo
+panPan2	Bonobo
+panPan1	Bonobo
+gorGor6	Gorilla
+gorGor5	Gorilla
+gorGor4	Gorilla
+gorGor3	Gorilla
+ponAbe3	Orangutan
+ponAbe2	Orangutan
+nomLeu3	Gibbon
+nomLeu2	Gibbon
+nomLeu1	Gibbon
+chlSab2	Green monkey
+macFas5	Crab-eating macaque
+rheMac10	Rhesus
+rheMac8	Rhesus
+rheMac3	Rhesus
+rheMac2	Rhesus
+papAnu4	Baboon (anubis)
+papAnu2	Baboon (anubis)
+papHam1	Baboon (hamadryas)
+nasLar1	Proboscis monkey
+rhiRox1	Golden snub-nosed monkey
+calJac4	Marmoset
+calJac3	Marmoset
+calJac1	Marmoset
+saiBol1	Squirrel monkey 
+tarSyr2	Tarsier
+tarSyr1	Tarsier
+micMur2	Mouse lemur
+micMur1	Mouse lemur
+otoGar3	Bushbaby
+mm39	Mouse
+mm10	Mouse
+mm9	Mouse
+mm8	Mouse
+mm7	Mouse
+rn7	Rat
+rn6	Rat
+rn5	Rat
+rn4	Rat
+rn3	Rat
+criGriChoV2	Chinese hamster
+criGriChoV1	Chinese hamster
+criGri1	Chinese hamster
+dipOrd1	Kangaroo rat
+hetGla2	Naked mole-rat
+hetGla1	Naked mole-rat
+cavPor3	Guinea pig
+speTri2	Squirrel
+oryCun2	Rabbit
+ochPri3	Pika
+ochPri2	Pika
+galVar1	Malayan flying lemur
+tupBel1	Tree shrew
+eriEur2	Hedgehog 
+eriEur1	Hedgehog 
+sorAra2	Shrew
+sorAra1	Shrew
+susScr11	Pig
+susScr3	Pig
+susScr2	Pig
+bosTau9	Cow
+bosTau8	Cow
+bosTau7	Cow
+bosTau6	Cow
+bosTau4	Cow
+bosTau3	Cow
+bosTau2	Cow
+bisBis1	Bison
+oviAri4	Sheep
+oviAri3	Sheep
+oviAri1	Sheep
+turTru2	Dolphin
+balAcu1	Minke whale
+vicPac2	Alpaca
+vicPac1	Alpaca
+equCab3	Horse
+equCab2	Horse
+equCab1	Horse
+cerSim1	White rhinoceros
+canFam6	Dog
+canFam5	Dog
+canFam4	Dog
+canFam3	Dog
+canFam2	Dog
+canFam1	Dog
+enhLutNer1	Southern sea otter
+musFur1	Ferret
+neoSch1	Hawaiian monk seal
+ailMel1	Panda
+felCat9	Cat
+felCat8	Cat
+felCat5	Cat
+felCat4	Cat
+felCat3	Cat
+pteVam1	Megabat
+manPen1	Chinese pangolin
+loxAfr3	Elephant
+triMan1	Manatee
+proCap1	Rock hyrax
+echTel2	Tenrec
+echTel1	Tenrec
+dasNov3	Armadillo
+choHof1	Sloth
+macEug2	Wallaby
+sarHar1	Tasmanian devil
+monDom5	Opossum
+monDom4	Opossum
+monDom1	Opossum
+ormAna2	Platypus
+ormAna1	Platypus
+galGal6	Chicken
+galGal5	Chicken
+galGal4	Chicken
+galGal3	Chicken
+galGal2	Chicken
+melGal5	Turkey
+melGal1	Turkey
+aquChr2	Golden eagle 
+taeGut2	Zebra finch
+taeGut1	Zebra finch
+geoFor1	Medium ground finch
+melUnd1	Budgerigar
+aptMan1	Brown kiwi
+allMis1	American alligator
+chrPic1	Painted turtle
+anoCar2	Lizard
+anoCar1	Lizard
+thaSir1	Garter snake
+xenTro10	X. tropicalis
+xenTro9	X. tropicalis
+xenTro7	X. tropicalis
+xenTro3	X. tropicalis
+xenTro2	X. tropicalis
+xenTro1	X. tropicalis
+xenLae2	African clawed frog
+nanPar1	Tibetan frog
+latCha1	Coelacanth
+danRer11	Zebrafish
+danRer10	Zebrafish
+danRer7	Zebrafish
+danRer6	Zebrafish
+danRer5	Zebrafish
+danRer4	Zebrafish
+danRer3	Zebrafish
+gasAcu1	Stickleback
+fr3	Fugu
+fr2	Fugu
+fr1	Fugu
+tetNig2	Tetraodon
+tetNig1	Tetraodon
+oryLat2	Medaka
+oreNil2	Nile tilapia
+gadMor1	Atlantic cod
+calMil1	Elephant shark
+petMar3	Lamprey
+petMar2	Lamprey
+petMar1	Lamprey
+braFlo1	Lancelet
+ci3	C. intestinalis
+ci2	C. intestinalis
+ci1	C. intestinalis
+strPur2	S. purpuratus
+strPur1	S. purpuratus
+dm6	D. melanogaster
+dm3	D. melanogaster
+dm2	D. melanogaster
+dm1	D. melanogaster
+droEre1	D. erecta 
+droSec1	D. sechellia
+droSim1	D. simulans
+droYak2	D. yakuba
+droYak1	D. yakuba
+droAna2	D. ananassae
+droAna1	D. ananassae
+droPer1	D. persimilis
+dp3	D. pseudoobscura 
+dp2	D. pseudoobscura 
+droMoj2	D. mojavensis
+droMoj1	D. mojavensis
+droVir2	D. virilis
+droVir1	D. virilis
+droGri1	D. grimshawi
+anoGam3	A. gambiae
+anoGam1	A. gambiae
+apiMel2	A. mellifera
+apiMel1	A. mellifera
+ce11	C. elegans
+ce10	C. elegans
+ce6	C. elegans
+ce4	C. elegans
+ce2	C. elegans
+caePb2	C. brenneri
+caePb1	C. brenneri
+cb3	C. briggsae
+cb1	C. briggsae
+caeJap1	C. japonica
+caeRem3	C. remanei
+caeRem2	C. remanei
+priPac1	P. pacificus
+aplCal1	Sea hare
+sacCer3	S. cerevisiae
+sacCer2	S. cerevisiae
+sacCer1	S. cerevisiae
+eboVir3	Ebola virus
+NC_045512.2	SARS-CoV-2
+GCF_014621545.1	Monkeypox virus
