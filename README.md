@@ -28,6 +28,30 @@ The path specified in the OUTPUT_DIR parameter must be located inside the “dat
 
 ## Output
 
+- spc_list.txt : List of all used species 
+- outg_spc_list.txt : List of species used as outgroup 
+- {Ancestor}.{Chrom}.info.txt : Information table for each ancestral chromosome mapping
+  
+| Column                                     | Description                                  |
+| ------------------------------------------ | -------------------------------------------- |
+| **Ancestor**                               | Name of ancestral genome                     |
+| **Chrom**                                  | Chromosome/scaffold ID in the ancestor       |
+| **Start**                                  | Start coordinate                             |
+| **End**                                    | End coordinate                               |
+| **Strand**                                 | Strand orientation (`+` or `-`)              |
+| **target_species**                         | Target species name                          |
+| **target_chrom (scaffold_mapping_number)** | Target chromosome/scaffold mapping index     |
+| **target_chrom (scaffold)**                | Actual scaffold/chrom name in target species |
+ 
+- {Ancestor}.{Chrom}.adjS.txt : Adjacency score table for ancestral chromosome segments
+  
+| Column              | Description                   |
+| ------------------- | ----------------------------- |
+| **Ancestor**        | Name of ancestral genome      |
+| **Chrom**           | Chromosome/scaffold ID        |
+| **Position**        | Genomic position of adjacency |
+| **adjacency_score** | Calculated adjacency score    |
+
 
 ## Example
 
