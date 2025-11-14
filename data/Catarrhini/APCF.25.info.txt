@@ -1,0 +1,6 @@
+Catarrhini	25	0	778790	1	Orangutan	13	chr13
+Catarrhini	25	0	778790	1	Human	13	chr13
+Catarrhini	25	0	778790	1	Chimpanzee	13	chr13
+Catarrhini	25	0	778790	1	Rhesus macaque	10	chr10
+Catarrhini	25	0	778790	-1	Shrew	s2507	scaffold00013
+Catarrhini	25	0	778790	1	Gorilla	13	chr13

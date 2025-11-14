@@ -1,0 +1,25 @@
+Human
+Chimpanzee
+Gorilla
+Orangutan
+Rhesus macaque
+Marmoset
+Mouse
+Rat
+Guinea pig
+Rabbit
+Pika
+Cow
+Goat
+Pig
+White rhinoceros
+Horse
+Dog
+Hedgehog
+Shrew
+Elephant
+Bottlenose dolphin
+Tenrec
+Nine-banded armadillo
+Opossum
+Chicken

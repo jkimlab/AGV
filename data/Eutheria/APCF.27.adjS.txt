@@ -1,0 +1,6 @@
+Eutheria	27	26340843	1.0
+Eutheria	27	27954776	1.0
+Eutheria	27	29457765	1.0
+Eutheria	27	29823301	1.0
+Eutheria	27	30710539	1.0
+Eutheria	27	31183177	1.0

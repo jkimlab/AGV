@@ -1,0 +1,8 @@
+Catarrhini	26	0	373931	-1	Shrew	s2509	scaffold00036
+Catarrhini	26	0	373931	1	Pig	3	chr3
+Catarrhini	26	0	373931	1	Chimpanzee	2A	chr2A
+Catarrhini	26	0	373931	1	Gorilla	2A	chr2A
+Catarrhini	26	0	373931	1	Human	2	chr2
+Catarrhini	26	0	373931	1	Orangutan	2a	chr2a
+Catarrhini	26	0	373931	-1	Hedgehog	s2508	scaffold00447
+Catarrhini	26	0	373931	1	Rhesus macaque	14	chr14

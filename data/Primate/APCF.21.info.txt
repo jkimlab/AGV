@@ -1,0 +1,82 @@
+Primate	21	0	43825204	-1	Rhesus macaque	20	chr20
+Primate	21	6952018	13346653	1	Hedgehog	s2374	scaffold00056
+Primate	21	15932614	20250965	1	Gorilla	16	chr16
+Primate	21	29805490	33832432	1	Hedgehog	s2381	scaffold00117
+Primate	21	20250965	43825204	-1	Human	16	chr16
+Primate	21	0	31536955	1	Dog	5	chr5
+Primate	21	0	43825204	-1	Orangutan	16	chr16
+Primate	21	32693513	33504120	1	Cow	18	chr18
+Primate	21	9539642	12493317	1	Opossum	1	chr1
+Primate	21	19868229	20250965	-1	Pig	6	chr6
+Primate	21	13346653	15932614	1	Hedgehog	s2375	scaffold00340
+Primate	21	27875182	43825204	1	Chicken	11	chr11
+Primate	21	5891202	12433596	1	Guinea pig	s2365	scaffold_118
+Primate	21	12493317	15036394	1	Opossum	6	chr6
+Primate	21	17235645	21192890	-1	Opossum	1	chr1
+Primate	21	15932614	20250965	1	Chimpanzee	16	chr16
+Primate	21	17566726	17998688	-1	Shrew	s2394	scaffold00002
+Primate	21	0	19997065	1	Tenrec	s2369	scaffold00020
+Primate	21	0	13074655	1	Elephant	s2386	scaffold_57
+Primate	21	15932614	17107866	-1	Chicken	11	chr11
+Primate	21	36736266	42324930	-1	Guinea pig	s2367	scaffold_5
+Primate	21	1795585	4252510	1	Guinea pig	s2362	scaffold_159
+Primate	21	15388742	17235645	1	Opossum	1	chr1
+Primate	21	20250965	43825204	1	Tenrec	s2371	scaffold00020
+Primate	21	33504120	43825204	-1	Cow	18	chr18
+Primate	21	0	3144215	-1	Chicken	11	chr11
+Primate	21	0	19868229	1	Pig	6	chr6
+Primate	21	33832432	34958854	1	Hedgehog	s2382	scaffold00613
+Primate	21	3144215	5033730	1	Chicken	11	chr11
+Primate	21	0	43825204	-1	Horse	3	chr3
+Primate	21	21243085	26466854	1	Hedgehog	s2378	scaffold00078
+Primate	21	33120455	34132767	1	Opossum	1	chr1
+Primate	21	5033730	15932614	-1	Chicken	11	chr11
+Primate	21	0	16604699	-1	Cow	18	chr18
+Primate	21	15932614	20250965	1	Human	16	chr16
+Primate	21	21192890	33120455	-1	Opossum	1	chr1
+Primate	21	34958854	42176267	1	Hedgehog	s2383	scaffold00028
+Primate	21	15932614	18358682	-1	Hedgehog	s2376	scaffold00306
+Primate	21	15036394	15388742	1	Opossum	1	chr1
+Primate	21	0	17566726	1	Shrew	s2393	scaffold00002
+Primate	21	20250965	43825204	-1	Chimpanzee	16	chr16
+Primate	21	18358682	21243085	1	Hedgehog	s2377	scaffold00245
+Primate	21	0	18223302	-1	Pika	s2390	scaffold00018
+Primate	21	19997065	20250965	-1	Tenrec	s2370	scaffold00020
+Primate	21	17107866	20250965	-1	Chicken	11	chr11
+Primate	21	39907357	43825204	-1	Elephant	s2389	scaffold_43
+Primate	21	7255684	9539642	-1	Opossum	1	chr1
+Primate	21	17998688	43825204	1	Shrew	s2395	scaffold00002
+Primate	21	22889907	35170231	1	Rat	19	chr19
+Primate	21	4726133	6952018	1	Hedgehog	s2373	scaffold00376
+Primate	21	0	43825204	-1	Mouse	8	chr8
+Primate	21	0	43825204	-1	Marmoset	20	chr20
+Primate	21	31629750	39907357	1	Elephant	s2388	scaffold_43
+Primate	21	0	15932614	-1	Human	16	chr16
+Primate	21	26466854	27853129	-1	Hedgehog	s2379	scaffold00599
+Primate	21	16604699	32693513	-1	Cow	18	chr18
+Primate	21	0	4726133	1	Hedgehog	s2372	scaffold00020
+Primate	21	4252510	5174910	-1	Guinea pig	s2363	scaffold_245
+Primate	21	0	16619155	-1	Goat	18	chr18
+Primate	21	1156234	1795585	-1	Guinea pig	s2361	scaffold_309
+Primate	21	0	15932614	-1	Gorilla	16	chr16
+Primate	21	13074655	31629750	-1	Elephant	s2387	scaffold_48
+Primate	21	31536955	43825204	1	Dog	2	chr2
+Primate	21	12433596	36736266	1	Guinea pig	s2366	scaffold_22
+Primate	21	20250965	43825204	1	Pig	6	chr6
+Primate	21	0	22889907	-1	Rat	19	chr19
+Primate	21	20250965	27875182	1	Chicken	11	chr11
+Primate	21	5174910	5891202	-1	Guinea pig	s2364	scaffold_159
+Primate	21	35170231	43825204	1	Rat	19	chr19
+Primate	21	16619155	43825204	-1	Goat	18	chr18
+Primate	21	42176267	43324432	1	Hedgehog	s2384	scaffold00668
+Primate	21	0	7255684	-1	Opossum	1	chr1
+Primate	21	27853129	29805490	-1	Hedgehog	s2380	scaffold00391
+Primate	21	43324432	43825204	1	Hedgehog	s2385	scaffold00964
+Primate	21	18408329	43825204	-1	Pika	s2392	scaffold00018
+Primate	21	20250965	43825204	-1	Gorilla	16	chr16
+Primate	21	34132767	43825204	-1	Opossum	1	chr1
+Primate	21	0	15932614	-1	Chimpanzee	16	chr16
+Primate	21	42324930	43825204	1	Guinea pig	s2368	scaffold_33
+Primate	21	0	43825204	-1	Rabbit	5	chr5
+Primate	21	0	1156234	-1	Guinea pig	s2360	scaffold_232
+Primate	21	18223302	18408329	1	Pika	s2391	scaffold00018

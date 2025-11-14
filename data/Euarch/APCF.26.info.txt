@@ -1,0 +1,127 @@
+Euarch	26	6376726	9177138	-1	Rat	8	chr8
+Euarch	26	16046000	16838078	-1	Guinea pig	s2909	scaffold_356
+Euarch	26	10955940	13740192	-1	Opossum	3	chr3
+Euarch	26	12188189	13439302	1	Chicken	28	chr28
+Euarch	26	16046000	16838078	1	Pika	s2941	scaffold00078
+Euarch	26	13740192	16838078	-1	Shrew	s2946	scaffold00080
+Euarch	26	10955940	13740192	-1	Mouse	17	chr17
+Euarch	26	6636602	7358516	1	Pig	2	chr2
+Euarch	26	10200022	10912939	1	Horse	7	chr7
+Euarch	26	0	6672457	1	Cow	7	chr7
+Euarch	26	9611576	10200022	-1	Horse	7	chr7
+Euarch	26	4032401	6376726	1	Mouse	8	chr8
+Euarch	26	14386529	16838078	-1	Mouse	10	chr10
+Euarch	26	10955940	16838078	-1	Hedgehog	s2925	scaffold00255
+Euarch	26	7358516	7571669	-1	Pig	2	chr2
+Euarch	26	0	9826010	-1	Rhesus macaque	19	chr19
+Euarch	26	10955940	16838078	1	Dog	20	chr20
+Euarch	26	0	3308988	1	Hedgehog	s2918	scaffold00646
+Euarch	26	14769965	15670109	1	Chicken	28	chr28
+Euarch	26	0	977228	1	Tenrec	s2910	scaffold00021
+Euarch	26	0	16838078	-1	Orangutan	19	chr19
+Euarch	26	9826010	10955940	-1	Hedgehog	s2924	scaffold00625
+Euarch	26	1468428	4032401	-1	Opossum	3	chr3
+Euarch	26	2207958	3308988	1	Rat	16	chr16
+Euarch	26	0	49780	-1	Opossum	3	chr3
+Euarch	26	0	16838078	-1	Marmoset	22	chr22
+Euarch	26	3308988	4032401	-1	Rat	7	chr7
+Euarch	26	9177138	10200022	-1	Guinea pig	s2901	scaffold_195
+Euarch	26	15670109	16838078	-1	Chicken	28	chr28
+Euarch	26	10955940	15134324	1	Cow	7	chr7
+Euarch	26	7571669	9177138	1	Pig	2	chr2
+Euarch	26	0	3308988	1	Pika	s2934	scaffold00078
+Euarch	26	13740192	13861635	1	Opossum	3	chr3
+Euarch	26	6376726	9177138	-1	Pika	s2937	scaffold00078
+Euarch	26	4032401	9177138	-1	Shrew	s2943	scaffold00100
+Euarch	26	4032401	6376726	1	Opossum	3	chr3
+Euarch	26	9826010	10955940	1	Rat	12	chr12
+Euarch	26	0	3308988	1	Chicken	28	chr28
+Euarch	26	6609842	8840065	-1	Goat	7	chr7
+Euarch	26	14955887	15554957	1	Tenrec	s2916	scaffold00138
+Euarch	26	14324430	15366487	1	Elephant	s2932	scaffold_132
+Euarch	26	49780	1214875	-1	Opossum	3	chr3
+Euarch	26	9177138	9826010	1	Chicken	28	chr28
+Euarch	26	9222087	10904006	-1	Goat	7	chr7
+Euarch	26	0	16838078	-1	Chimpanzee	19	chr19
+Euarch	26	4734328	6376726	1	Guinea pig	s2898	scaffold_42
+Euarch	26	13439302	13740192	1	Guinea pig	s2905	scaffold_304
+Euarch	26	9826010	10200022	1	Rhesus macaque	19	chr19
+Euarch	26	15427976	16838078	-1	Cow	7	chr7
+Euarch	26	15554957	16838078	1	Tenrec	s2917	scaffold00138
+Euarch	26	9056971	9177138	-1	Opossum	3	chr3
+Euarch	26	0	6609842	1	Goat	7	chr7
+Euarch	26	10200022	16838078	-1	Rhesus macaque	19	chr19
+Euarch	26	15134324	15427976	-1	Cow	7	chr7
+Euarch	26	0	9177138	1	Dog	20	chr20
+Euarch	26	0	16838078	-1	Gorilla	19	chr19
+Euarch	26	15554310	16046000	1	Opossum	3	chr3
+Euarch	26	4032401	6376726	1	Pika	s2936	scaffold00078
+Euarch	26	5281742	6376726	-1	Hedgehog	s2921	scaffold00594
+Euarch	26	9177138	10955940	-1	Tenrec	s2914	scaffold00147
+Euarch	26	6376726	9177138	-1	Hedgehog	s2922	scaffold00287
+Euarch	26	6376726	7985675	-1	Guinea pig	s2899	scaffold_226
+Euarch	26	12188189	13439302	1	Guinea pig	s2904	scaffold_334
+Euarch	26	8897764	9177138	1	Cow	7	chr7
+Euarch	26	10955940	14955887	1	Tenrec	s2915	scaffold00089
+Euarch	26	11343023	11740380	-1	Elephant	s2929	scaffold_119
+Euarch	26	7985675	9177138	-1	Guinea pig	s2900	scaffold_368
+Euarch	26	1450079	3308988	-1	Guinea pig	s2896	scaffold_86
+Euarch	26	4032401	6376726	-1	Rat	19	chr19
+Euarch	26	9177138	10955940	-1	Cow	7	chr7
+Euarch	26	13413938	14324430	-1	Elephant	s2931	scaffold_125
+Euarch	26	13740192	16046000	-1	Pika	s2940	scaffold00078
+Euarch	26	10955940	12188189	1	Guinea pig	s2903	scaffold_250
+Euarch	26	9177138	10955940	1	Shrew	s2944	scaffold00080
+Euarch	26	10955940	13740192	1	Pika	s2939	scaffold00078
+Euarch	26	0	1450079	1	Mouse	8	chr8
+Euarch	26	13861635	14222946	-1	Opossum	3	chr3
+Euarch	26	6376726	9177138	1	Tenrec	s2913	scaffold00134
+Euarch	26	16046000	16838078	1	Opossum	3	chr3
+Euarch	26	9177138	10955940	1	Pika	s2938	scaffold00078
+Euarch	26	3308988	4032401	-1	Mouse	17	chr17
+Euarch	26	10955940	13740192	1	Shrew	s2945	scaffold00141
+Euarch	26	6376726	9056971	1	Opossum	3	chr3
+Euarch	26	9177138	10955940	-1	Elephant	s2927	scaffold_114
+Euarch	26	1450079	2207958	-1	Mouse	8	chr8
+Euarch	26	0	4032401	-1	Horse	21	chr21
+Euarch	26	6672457	8897764	-1	Cow	7	chr7
+Euarch	26	0	4032401	1	Shrew	s2942	scaffold00100
+Euarch	26	0	6636602	-1	Pig	2	chr2
+Euarch	26	9177138	9826010	-1	Hedgehog	s2923	scaffold01028
+Euarch	26	2207958	3308988	-1	Mouse	8	chr8
+Euarch	26	977228	2207958	-1	Tenrec	s2911	scaffold00004
+Euarch	26	3308988	4032401	1	Pika	s2935	scaffold00078
+Euarch	26	3308988	4061234	1	Hedgehog	s2919	scaffold01098
+Euarch	26	15381329	16046000	-1	Guinea pig	s2908	scaffold_320
+Euarch	26	0	2207958	-1	Rat	16	chr16
+Euarch	26	13740192	14769965	-1	Guinea pig	s2906	scaffold_304
+Euarch	26	0	1450079	-1	Guinea pig	s2895	scaffold_72
+Euarch	26	14222946	15554310	-1	Opossum	3	chr3
+Euarch	26	2207958	6376726	1	Tenrec	s2912	scaffold00105
+Euarch	26	15366487	16838078	-1	Elephant	s2933	scaffold_153
+Euarch	26	4061234	5281742	1	Hedgehog	s2920	scaffold00594
+Euarch	26	10200022	10955940	-1	Guinea pig	s2902	scaffold_42
+Euarch	26	10904006	15126557	1	Goat	7	chr7
+Euarch	26	9177138	16838078	-1	Pig	2	chr2
+Euarch	26	9177138	10955940	-1	Dog	20	chr20
+Euarch	26	0	16838078	-1	Human	19	chr19
+Euarch	26	0	9177138	1	Elephant	s2926	scaffold_26
+Euarch	26	9177138	9826010	1	Mouse	17	chr17
+Euarch	26	11740380	13413938	1	Elephant	s2930	scaffold_119
+Euarch	26	10955940	16838078	-1	Horse	7	chr7
+Euarch	26	9177138	9826010	1	Rat	7	chr7
+Euarch	26	9177138	9222087	1	Goat	7	chr7
+Euarch	26	8840065	9177138	1	Goat	7	chr7
+Euarch	26	9177138	10955940	1	Opossum	3	chr3
+Euarch	26	13740192	14386529	1	Mouse	10	chr10
+Euarch	26	14769965	15381329	-1	Guinea pig	s2907	scaffold_369
+Euarch	26	15126557	16838078	-1	Goat	7	chr7
+Euarch	26	14386529	16838078	1	Rat	7	chr7
+Euarch	26	13740192	14386529	-1	Rat	7	chr7
+Euarch	26	1214875	1468428	-1	Opossum	3	chr3
+Euarch	26	9826010	10955940	-1	Mouse	8	chr8
+Euarch	26	10912939	10955940	-1	Horse	7	chr7
+Euarch	26	6376726	9177138	-1	Mouse	9	chr9
+Euarch	26	3308988	4734328	-1	Guinea pig	s2897	scaffold_168
+Euarch	26	4032401	9611576	1	Horse	7	chr7
+Euarch	26	10955940	11343023	1	Elephant	s2928	scaffold_119

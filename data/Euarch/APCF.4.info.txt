@@ -1,0 +1,366 @@
+Euarch	4	74952649	75153600	-1	Cow	7	chr7
+Euarch	4	2048482	6416764	1	Hedgehog	s719	scaffold00237
+Euarch	4	134566907	164182808	1	Tenrec	s715	scaffold00004
+Euarch	4	2842689	32168764	1	Dog	4	chr4
+Euarch	4	64834233	66327800	-1	Shrew	s823	scaffold00058
+Euarch	4	32168764	42430610	-1	Opossum	1	chr1
+Euarch	4	49149429	49614585	1	Dog	11	chr11
+Euarch	4	47466482	63843510	1	Cow	7	chr7
+Euarch	4	107555187	107935096	-1	Hedgehog	s759	scaffold01197
+Euarch	4	52561904	54984761	-1	Opossum	3	chr3
+Euarch	4	63843510	66450009	-1	Cow	10	chr10
+Euarch	4	47252252	49149429	-1	Chicken	13	chr13
+Euarch	4	49824564	60435126	-1	Hedgehog	s739	scaffold00015
+Euarch	4	222186	475215	-1	Tenrec	s709	scaffold00002
+Euarch	4	27309835	27884114	1	Hedgehog	s730	scaffold01068
+Euarch	4	0	49149429	1	Horse	14	chr14
+Euarch	4	25127990	25535345	-1	Hedgehog	s726	scaffold00390
+Euarch	4	29525428	42430610	-1	Guinea pig	s683	scaffold_6
+Euarch	4	7954198	21141898	1	Chicken	13	chr13
+Euarch	4	70758446	71914984	-1	Guinea pig	s691	scaffold_123
+Euarch	4	27491332	29525428	1	Shrew	s817	scaffold00048
+Euarch	4	168653323	170502634	1	Shrew	s833	scaffold00012
+Euarch	4	2048482	2842689	-1	Marmoset	2	chr2
+Euarch	4	80179919	82392531	1	Mouse	17	chr17
+Euarch	4	98707411	104045148	-1	Goat	10	chr10
+Euarch	4	102546749	107610671	-1	Opossum	3	chr3
+Euarch	4	5620533	6156851	1	Mouse	13	chr13
+Euarch	4	77679625	98918275	1	Guinea pig	s693	scaffold_1
+Euarch	4	82392531	90730552	1	Rat	2	chr2
+Euarch	4	59755648	60278435	1	Mouse	18	chr18
+Euarch	4	44218838	47279827	1	Opossum	1	chr1
+Euarch	4	58723722	59755648	-1	Guinea pig	s687	scaffold_17
+Euarch	4	29525428	66282101	-1	Pig	2	chr2
+Euarch	4	11973373	15701800	-1	Cow	7	chr7
+Euarch	4	31126781	32168764	1	Opossum	1	chr1
+Euarch	4	68648907	79423469	1	Pika	s798	scaffold00024
+Euarch	4	93041047	103977091	-1	Shrew	s830	scaffold00064
+Euarch	4	140289367	141280476	1	Hedgehog	s769	scaffold00862
+Euarch	4	85947194	86460499	-1	Hedgehog	s754	scaffold01057
+Euarch	4	15701800	32168764	-1	Cow	7	chr7
+Euarch	4	4381344	10844503	1	Marmoset	2	chr2
+Euarch	4	79672716	81184283	-1	Hedgehog	s750	scaffold00477
+Euarch	4	107610671	127787678	-1	Opossum	3	chr3
+Euarch	4	77366526	80179919	-1	Mouse	1	chr1
+Euarch	4	80294960	82392531	-1	Opossum	3	chr3
+Euarch	4	62361247	66360089	-1	Hedgehog	s741	scaffold00164
+Euarch	4	49824564	64834233	-1	Rabbit	s807	chr3
+Euarch	4	90730552	91188563	-1	Rat	2	chr2
+Euarch	4	475215	1423843	-1	Marmoset	2	chr2
+Euarch	4	66956867	69067253	-1	Rat	18	chr18
+Euarch	4	81956789	93041047	-1	Shrew	s829	scaffold00063
+Euarch	4	66386742	66956867	-1	Dog	4	chr4
+Euarch	4	104045148	174039671	1	Cow	20	chr20
+Euarch	4	121988280	159553911	1	Dog	4	chr4
+Euarch	4	159553911	174039671	1	Dog	34	chr34
+Euarch	4	2048482	4258766	-1	Goat	7	chr7
+Euarch	4	6156851	25535345	1	Rat	10	chr10
+Euarch	4	86460499	91372947	1	Hedgehog	s755	scaffold00095
+Euarch	4	79423469	79672716	1	Hedgehog	s749	scaffold00477
+Euarch	4	150361077	151132911	1	Hedgehog	s777	scaffold00736
+Euarch	4	59347129	60278435	1	Dog	11	chr11
+Euarch	4	0	475215	-1	Guinea pig	s677	scaffold_21
+Euarch	4	49149429	58723722	1	Guinea pig	s686	scaffold_6
+Euarch	4	112538989	115957995	1	Guinea pig	s702	scaffold_124
+Euarch	4	82392531	98918275	1	Chicken	Z	chrZ
+Euarch	4	158329162	162414477	1	Hedgehog	s781	scaffold00230
+Euarch	4	172946913	174039671	-1	Goat	20	chr20
+Euarch	4	107935096	111209827	-1	Guinea pig	s700	scaffold_127
+Euarch	4	111678467	112827785	-1	Hedgehog	s762	scaffold00701
+Euarch	4	102018065	103235066	-1	Guinea pig	s695	scaffold_29
+Euarch	4	29525428	32168764	1	Rat	18	chr18
+Euarch	4	62038450	81874973	1	Tenrec	s712	scaffold00025
+Euarch	4	47432561	63838554	1	Goat	7	chr7
+Euarch	4	32168764	42430610	-1	Rat	18	chr18
+Euarch	4	107555187	107935096	1	Guinea pig	s699	scaffold_325
+Euarch	4	49614585	59347129	-1	Dog	11	chr11
+Euarch	4	82392531	132484271	1	Mouse	13	chr13
+Euarch	4	27491332	29089300	-1	Guinea pig	s681	scaffold_81
+Euarch	4	71475303	79423469	-1	Opossum	3	chr3
+Euarch	4	49149429	59755648	-1	Rat	18	chr18
+Euarch	4	475215	5223256	1	Pig	2	chr2
+Euarch	4	56974890	58723722	-1	Chicken	Z	chrZ
+Euarch	4	142996261	168135605	1	Chicken	2	chr2
+Euarch	4	84508280	85947194	-1	Hedgehog	s753	scaffold00544
+Euarch	4	0	559488	-1	Goat	7	chr7
+Euarch	4	66956867	69067253	-1	Mouse	18	chr18
+Euarch	4	46330482	61869271	1	Elephant	s787	scaffold_1
+Euarch	4	42430610	45518996	-1	Guinea pig	s684	scaffold_17
+Euarch	4	51072566	147323003	-1	Rhesus macaque	6	chr6
+Euarch	4	147323003	153443571	-1	Guinea pig	s704	scaffold_97
+Euarch	4	2842689	5620533	-1	Mouse	13	chr13
+Euarch	4	66360089	67228134	-1	Hedgehog	s742	scaffold00883
+Euarch	4	46639781	47107773	-1	Cow	7	chr7
+Euarch	4	2048482	46330482	-1	Elephant	s786	scaffold_1
+Euarch	4	66956867	104045148	1	Dog	3	chr3
+Euarch	4	26834463	26884234	-1	Hedgehog	s728	scaffold01068
+Euarch	4	7157696	7954198	-1	Mouse	17	chr17
+Euarch	4	0	475215	-1	Rabbit	s804	chr11
+Euarch	4	32168764	41131284	-1	Dog	2	chr2
+Euarch	4	2842689	5620533	1	Rat	17	chr17
+Euarch	4	79740686	98707411	-1	Goat	7	chr7
+Euarch	4	2842689	27491332	-1	Guinea pig	s680	scaffold_17
+Euarch	4	123254648	124085284	1	Rat	2	chr2
+Euarch	4	48362015	49824564	-1	Hedgehog	s738	scaffold00597
+Euarch	4	77679625	79423469	1	Hedgehog	s748	scaffold00930
+Euarch	4	25535345	29525428	-1	Mouse	11	chr11
+Euarch	4	61869271	62092276	-1	Elephant	s788	scaffold_1
+Euarch	4	142660676	143100101	-1	Opossum	3	chr3
+Euarch	4	41131284	49149429	-1	Dog	11	chr11
+Euarch	4	145688360	147323003	1	Hedgehog	s774	scaffold00623
+Euarch	4	103977091	132484271	-1	Shrew	s831	scaffold00033
+Euarch	4	475215	2048482	1	Cow	7	chr7
+Euarch	4	128377353	136434761	-1	Hedgehog	s766	scaffold00076
+Euarch	4	4245772	5620533	1	Cow	10	chr10
+Euarch	4	120323205	120908889	1	Hedgehog	s764	scaffold00783
+Euarch	4	120908889	128377353	1	Hedgehog	s765	scaffold00093
+Euarch	4	39023955	43438114	1	Hedgehog	s735	scaffold00075
+Euarch	4	107555187	164182808	-1	Rabbit	s809	chr11
+Euarch	4	2048482	4245772	-1	Cow	7	chr7
+Euarch	4	51996253	52561904	1	Opossum	3	chr3
+Euarch	4	5223256	29525428	1	Pig	16	chr16
+Euarch	4	79740686	104045148	1	Pika	s800	scaffold00024
+Euarch	4	141280476	142162475	1	Hedgehog	s770	scaffold00853
+Euarch	4	475215	1070546	-1	Guinea pig	s678	scaffold_255
+Euarch	4	7954198	25535345	1	Mouse	11	chr11
+Euarch	4	67228134	69067253	-1	Hedgehog	s743	scaffold00558
+Euarch	4	41063112	41965816	1	Rhesus macaque	5	chr5
+Euarch	4	0	174039671	-1	Orangutan	5	chr5
+Euarch	4	112827785	120323205	-1	Hedgehog	s763	scaffold00063
+Euarch	4	108892477	111678467	-1	Hedgehog	s761	scaffold00205
+Euarch	4	475215	1377806	1	Opossum	1	chr1
+Euarch	4	2842689	3218969	-1	Chicken	13	chr13
+Euarch	4	9234263	11973373	1	Cow	20	chr20
+Euarch	4	72921962	74622935	-1	Hedgehog	s746	scaffold00566
+Euarch	4	145285607	145688360	-1	Hedgehog	s773	scaffold01213
+Euarch	4	75051893	79423469	1	Shrew	s826	scaffold00122
+Euarch	4	60278435	64358534	1	Chicken	Z	chrZ
+Euarch	4	156161639	174039671	-1	Chimpanzee	5	chr5
+Euarch	4	0	2048482	-1	Hedgehog	s718	scaffold00328
+Euarch	4	107818081	174039671	1	Horse	21	chr21
+Euarch	4	68648907	100165900	-1	Rabbit	s808	chr11
+Euarch	4	43438114	44368529	1	Hedgehog	s736	scaffold00635
+Euarch	4	138165786	140289367	-1	Hedgehog	s768	scaffold00497
+Euarch	4	107935096	108892477	1	Hedgehog	s760	scaffold00721
+Euarch	4	171550291	174039671	1	Shrew	s834	scaffold00191
+Euarch	4	103235066	104045148	1	Guinea pig	s696	scaffold_212
+Euarch	4	41063112	41965816	1	Chicken	13	chr13
+Euarch	4	164182808	174039671	-1	Hedgehog	s783	scaffold00125
+Euarch	4	5620533	11932187	-1	Goat	20	chr20
+Euarch	4	165958657	172459759	-1	Rat	17	chr17
+Euarch	4	151132911	153443571	-1	Hedgehog	s778	scaffold00402
+Euarch	4	1955564	2048482	-1	Opossum	2	chr2
+Euarch	4	32168764	36611855	-1	Chicken	13	chr13
+Euarch	4	66282101	67198401	1	Pig	2	chr2
+Euarch	4	71914984	77679625	1	Guinea pig	s692	scaffold_99
+Euarch	4	156161639	158329162	-1	Hedgehog	s780	scaffold00236
+Euarch	4	76494964	77366526	1	Mouse	1	chr1
+Euarch	4	149634187	150361077	1	Hedgehog	s776	scaffold01012
+Euarch	4	42430610	45518996	-1	Mouse	13	chr13
+Euarch	4	3218969	4510275	1	Chicken	13	chr13
+Euarch	4	62092276	66305574	1	Elephant	s789	scaffold_1
+Euarch	4	0	2842689	1	Mouse	11	chr11
+Euarch	4	18603410	21636629	1	Hedgehog	s723	scaffold00392
+Euarch	4	60278435	66956867	-1	Rat	18	chr18
+Euarch	4	41965816	47252252	1	Chicken	13	chr13
+Euarch	4	475215	2048482	1	Tenrec	s710	scaffold00002
+Euarch	4	45931219	174039671	1	Marmoset	2	chr2
+Euarch	4	4656546	19561411	-1	Opossum	1	chr1
+Euarch	4	26884234	27309835	-1	Hedgehog	s729	scaffold01068
+Euarch	4	0	475215	1	Shrew	s811	scaffold00082
+Euarch	4	54984761	61881633	1	Opossum	6	chr6
+Euarch	4	32168764	32194531	-1	Cow	7	chr7
+Euarch	4	60278435	66956867	-1	Mouse	18	chr18
+Euarch	4	1070546	2048482	-1	Pika	s795	scaffold00159
+Euarch	4	61881633	62177973	-1	Opossum	6	chr6
+Euarch	4	41965816	51072566	-1	Rhesus macaque	6	chr6
+Euarch	4	21052412	23383604	-1	Shrew	s816	scaffold00048
+Euarch	4	25535345	26834463	-1	Hedgehog	s727	scaffold00719
+Euarch	4	1070546	2048482	1	Chicken	13	chr13
+Euarch	4	71485834	72921962	1	Hedgehog	s745	scaffold00606
+Euarch	4	66956867	70758446	-1	Guinea pig	s690	scaffold_1
+Euarch	4	104045148	109938681	-1	Pika	s801	scaffold00024
+Euarch	4	107935096	142996261	-1	Chicken	Z	chrZ
+Euarch	4	65484074	82392531	1	Chicken	Z	chrZ
+Euarch	4	91188563	123254648	1	Rat	2	chr2
+Euarch	4	66450009	68648907	1	Cow	10	chr10
+Euarch	4	2842689	4381344	1	Marmoset	2	chr2
+Euarch	4	66327800	67417432	1	Shrew	s824	scaffold00063
+Euarch	4	2842689	3175509	1	Opossum	1	chr1
+Euarch	4	2048482	2842689	1	Chicken	13	chr13
+Euarch	4	582334	1070546	1	Chicken	13	chr13
+Euarch	4	34800552	39023955	-1	Hedgehog	s734	scaffold00096
+Euarch	4	153443571	167123222	-1	Guinea pig	s705	scaffold_55
+Euarch	4	51072566	53364179	-1	Chicken	Z	chrZ
+Euarch	4	79423469	79740686	1	Goat	7	chr7
+Euarch	4	136434761	138165786	1	Hedgehog	s767	scaffold00569
+Euarch	4	19845101	29525428	-1	Opossum	1	chr1
+Euarch	4	49149429	49606931	-1	Horse	14	chr14
+Euarch	4	142162475	144457627	1	Hedgehog	s771	scaffold00480
+Euarch	4	132484271	134566907	-1	Tenrec	s714	scaffold00136
+Euarch	4	124085284	124655812	1	Rat	2	chr2
+Euarch	4	67198401	67337614	-1	Pig	2	chr2
+Euarch	4	79423469	79740686	1	Opossum	3	chr3
+Euarch	4	164182808	173034293	1	Pig	16	chr16
+Euarch	4	74622935	77366526	-1	Hedgehog	s747	scaffold00316
+Euarch	4	105122082	106294309	-1	Hedgehog	s757	scaffold00674
+Euarch	4	475215	582334	1	Chicken	13	chr13
+Euarch	4	90029800	164182808	-1	Elephant	s791	scaffold_7
+Euarch	4	475215	1070546	1	Pika	s794	scaffold00141
+Euarch	4	475215	2842689	1	Dog	11	chr11
+Euarch	4	0	79423469	-1	Human	5	chr5
+Euarch	4	104045148	106294309	-1	Guinea pig	s697	scaffold_163
+Euarch	4	173034293	174039671	1	Elephant	s793	scaffold_169
+Euarch	4	63838554	66397754	-1	Goat	10	chr10
+Euarch	4	132484271	168135605	1	Shrew	s832	scaffold00016
+Euarch	4	61256402	64834233	-1	Shrew	s822	scaffold00118
+Euarch	4	98768926	102139165	1	Opossum	3	chr3
+Euarch	4	168653323	172913478	-1	Chicken	2	chr2
+Euarch	4	79423469	79740686	-1	Pika	s799	scaffold00024
+Euarch	4	167123222	170502634	-1	Guinea pig	s706	scaffold_144
+Euarch	4	66051983	66956867	1	Opossum	3	chr3
+Euarch	4	98918275	107555187	1	Chicken	Z	chrZ
+Euarch	4	106294309	107555187	1	Guinea pig	s698	scaffold_181
+Euarch	4	33928385	34800552	-1	Hedgehog	s733	scaffold00690
+Euarch	4	68347546	106194181	-1	Pig	2	chr2
+Euarch	4	1423843	2048482	-1	Marmoset	2	chr2
+Euarch	4	81184283	83008593	1	Hedgehog	s751	scaffold00448
+Euarch	4	91372947	105122082	-1	Hedgehog	s756	scaffold00007
+Euarch	4	98918275	102018065	-1	Guinea pig	s694	scaffold_83
+Euarch	4	5620533	9234263	-1	Cow	20	chr20
+Euarch	4	68648907	73620533	-1	Cow	7	chr7
+Euarch	4	67417432	75051893	1	Shrew	s825	scaffold00087
+Euarch	4	25535345	29525428	-1	Rat	10	chr10
+Euarch	4	111209827	112538989	1	Guinea pig	s701	scaffold_183
+Euarch	4	170502634	174039671	1	Guinea pig	s707	scaffold_150
+Euarch	4	42430610	45518996	1	Rat	17	chr17
+Euarch	4	10844503	23383604	-1	Marmoset	2	chr2
+Euarch	4	23383604	45931219	-1	Marmoset	2	chr2
+Euarch	4	475215	2048482	-1	Elephant	s785	scaffold_1
+Euarch	4	18116651	18603410	1	Hedgehog	s722	scaffold00149
+Euarch	4	142243938	142660676	1	Opossum	3	chr3
+Euarch	4	32168764	34035934	1	Shrew	s819	scaffold00118
+Euarch	4	45518996	49149429	-1	Guinea pig	s685	scaffold_81
+Euarch	4	33490386	46639781	-1	Cow	7	chr7
+Euarch	4	79423469	79740686	1	Human	5	chr5
+Euarch	4	3175509	4656546	-1	Opossum	1	chr1
+Euarch	4	30323256	32168764	-1	Chicken	13	chr13
+Euarch	4	172459759	173034293	1	Rhesus macaque	14	chr14
+Euarch	4	53364179	56974890	1	Chicken	Z	chrZ
+Euarch	4	173034293	174039671	-1	Rhesus macaque	6	chr6
+Euarch	4	79740686	97721956	-1	Gorilla	5	chr5
+Euarch	4	164182808	165958657	1	Rabbit	s810	chr11
+Euarch	4	80179919	82392531	1	Rat	1	chr1
+Euarch	4	5620533	6156851	-1	Rat	17	chr17
+Euarch	4	68338554	79423469	-1	Goat	7	chr7
+Euarch	4	29525428	31126781	-1	Opossum	1	chr1
+Euarch	4	6156851	7157696	-1	Mouse	11	chr11
+Euarch	4	82392531	98768926	1	Opossum	3	chr3
+Euarch	4	124655812	165958657	1	Rat	2	chr2
+Euarch	4	162414477	164182808	1	Hedgehog	s782	scaffold00236
+Euarch	4	44368529	48362015	1	Hedgehog	s737	scaffold00111
+Euarch	4	81874973	132484271	1	Tenrec	s713	scaffold00016
+Euarch	4	0	41063112	-1	Rhesus macaque	6	chr6
+Euarch	4	27884114	29525428	1	Hedgehog	s731	scaffold00398
+Euarch	4	49149429	59755648	-1	Mouse	18	chr18
+Euarch	4	79740686	80456392	1	Shrew	s827	scaffold00128
+Euarch	4	10700553	21052412	1	Shrew	s815	scaffold00048
+Euarch	4	172459759	174039671	-1	Rat	1	chr1
+Euarch	4	79740686	80294960	-1	Opossum	3	chr3
+Euarch	4	67849564	69067253	-1	Opossum	3	chr3
+Euarch	4	79423469	79740686	1	Gorilla	5	chr5
+Euarch	4	109938681	165958657	-1	Pika	s802	scaffold00017
+Euarch	4	69067253	76494964	-1	Mouse	17	chr17
+Euarch	4	0	475215	-1	Cow	7	chr7
+Euarch	4	83008593	84508280	-1	Hedgehog	s752	scaffold00525
+Euarch	4	115957995	147323003	1	Guinea pig	s703	scaffold_29
+Euarch	4	147323003	149634187	1	Hedgehog	s775	scaffold00490
+Euarch	4	29525428	32168764	1	Mouse	18	chr18
+Euarch	4	42430610	44218838	-1	Opossum	1	chr1
+Euarch	4	69067253	71475303	1	Opossum	3	chr3
+Euarch	4	0	475215	1	Elephant	s784	scaffold_1
+Euarch	4	102139165	102546749	-1	Opossum	3	chr3
+Euarch	4	32194531	33490386	1	Cow	7	chr7
+Euarch	4	66956867	67849564	1	Opossum	6	chr6
+Euarch	4	64358534	64834233	-1	Chicken	Z	chrZ
+Euarch	4	0	222186	1	Tenrec	s708	scaffold00002
+Euarch	4	60435126	62361247	-1	Hedgehog	s740	scaffold00352
+Euarch	4	144457627	145285607	-1	Hedgehog	s772	scaffold00957
+Euarch	4	51072566	51996253	1	Opossum	6	chr6
+Euarch	4	49606931	107818081	1	Horse	14	chr14
+Euarch	4	143100101	174039671	-1	Opossum	3	chr3
+Euarch	4	0	475215	-1	Dog	11	chr11
+Euarch	4	59755648	60278435	1	Guinea pig	s688	scaffold_17
+Euarch	4	1377806	1955564	1	Opossum	1	chr1
+Euarch	4	1070546	2842689	1	Guinea pig	s679	scaffold_176
+Euarch	4	67337614	68347546	1	Pig	2	chr2
+Euarch	4	2048482	2842689	-1	Opossum	1	chr1
+Euarch	4	32844435	68648907	-1	Pika	s797	scaffold00025
+Euarch	4	82392531	156161639	1	Chimpanzee	5	chr5
+Euarch	4	106194181	163811526	-1	Pig	16	chr16
+Euarch	4	167123222	172951256	-1	Tenrec	s716	scaffold00004
+Euarch	4	11932187	47432561	-1	Goat	7	chr7
+Euarch	4	62177973	64513541	1	Opossum	6	chr6
+Euarch	4	29525428	32168764	-1	Shrew	s818	scaffold00166
+Euarch	4	47107773	47466482	-1	Cow	7	chr7
+Euarch	4	104045148	121988280	-1	Dog	2	chr2
+Euarch	4	69067253	80179919	-1	Rat	9	chr9
+Euarch	4	6416764	12566659	1	Hedgehog	s720	scaffold00133
+Euarch	4	47279827	49149429	-1	Opossum	1	chr1
+Euarch	4	49149429	49824564	1	Rabbit	s806	chr3
+Euarch	4	172913478	174039671	1	Chicken	2	chr2
+Euarch	4	559488	2048482	1	Goat	7	chr7
+Euarch	4	0	79423469	-1	Gorilla	5	chr5
+Euarch	4	104045148	172258932	1	Goat	20	chr20
+Euarch	4	60278435	66386742	-1	Dog	11	chr11
+Euarch	4	77307893	98722082	-1	Cow	7	chr7
+Euarch	4	32168764	42430610	-1	Mouse	18	chr18
+Euarch	4	141779723	142243938	-1	Opossum	3	chr3
+Euarch	4	36611855	38184161	1	Chicken	13	chr13
+Euarch	4	69067253	71485834	-1	Hedgehog	s744	scaffold00420
+Euarch	4	39606743	61256402	-1	Shrew	s821	scaffold00039
+Euarch	4	475215	2842689	-1	Shrew	s812	scaffold00082
+Euarch	4	12566659	18116651	-1	Hedgehog	s721	scaffold00149
+Euarch	4	79740686	174039671	-1	Human	5	chr5
+Euarch	4	4258766	5620533	1	Goat	10	chr10
+Euarch	4	163811526	164182808	1	Pig	16	chr16
+Euarch	4	106294309	107555187	1	Hedgehog	s758	scaffold00514
+Euarch	4	64513541	66051983	-1	Opossum	3	chr3
+Euarch	4	29089300	29525428	1	Guinea pig	s682	scaffold_81
+Euarch	4	73620533	74952649	1	Cow	7	chr7
+Euarch	4	0	2842689	1	Rat	10	chr10
+Euarch	4	0	475215	1	Marmoset	2	chr2
+Euarch	4	66305574	90029800	-1	Elephant	s790	scaffold_1
+Euarch	4	21141898	30323256	1	Chicken	13	chr13
+Euarch	4	59755648	60278435	1	Rat	18	chr18
+Euarch	4	60278435	66956867	-1	Guinea pig	s689	scaffold_17
+Euarch	4	97721956	174039671	1	Gorilla	17	chr17
+Euarch	4	34035934	39606743	1	Shrew	s820	scaffold00046
+Euarch	4	153443571	156161639	1	Hedgehog	s779	scaffold00611
+Euarch	4	2048482	49149429	-1	Rabbit	s805	chr3
+Euarch	4	19561411	19845101	1	Opossum	1	chr1
+Euarch	4	2842689	5620533	1	Shrew	s813	scaffold00048
+Euarch	4	127787678	141779723	1	Opossum	3	chr3
+Euarch	4	45518996	49149429	1	Rat	10	chr10
+Euarch	4	165958657	174039671	1	Pika	s803	scaffold00104
+Euarch	4	66397754	68338554	1	Goat	10	chr10
+Euarch	4	21636629	22747865	-1	Hedgehog	s724	scaffold00828
+Euarch	4	172258932	172946913	1	Goat	20	chr20
+Euarch	4	49824564	51072566	1	Chicken	Z	chrZ
+Euarch	4	29525428	33928385	-1	Hedgehog	s732	scaffold00053
+Euarch	4	38184161	41063112	-1	Chicken	13	chr13
+Euarch	4	147323003	172459759	-1	Rhesus macaque	6	chr6
+Euarch	4	2048482	62038450	-1	Tenrec	s711	scaffold00002
+Euarch	4	22747865	25127990	1	Hedgehog	s725	scaffold00390
+Euarch	4	5620533	10700553	-1	Shrew	s814	scaffold00048
+Euarch	4	75153600	77307893	1	Cow	7	chr7
+Euarch	4	165958657	174039671	1	Mouse	13	chr13
+Euarch	4	80456392	81956789	-1	Shrew	s828	scaffold00184
+Euarch	4	164182808	173034293	1	Elephant	s792	scaffold_7
+Euarch	4	132484271	165958657	1	Mouse	15	chr15
+Euarch	4	98722082	104045148	-1	Cow	10	chr10
+Euarch	4	0	82392531	-1	Chimpanzee	5	chr5
+Euarch	4	45518996	49149429	1	Mouse	11	chr11
+Euarch	4	2048482	32844435	1	Pika	s796	scaffold00028
+Euarch	4	172951256	174039671	-1	Tenrec	s717	scaffold00004
+Euarch	4	4510275	7954198	-1	Chicken	13	chr13

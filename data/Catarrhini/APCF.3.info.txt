@@ -1,0 +1,284 @@
+Catarrhini	3	90523066	102929396	1	Pika	s507	scaffold00043
+Catarrhini	3	105036159	108083072	1	Rhesus macaque	5	chr5
+Catarrhini	3	175310261	185342611	-1	Shrew	s531	scaffold00106
+Catarrhini	3	184615790	185342611	1	Dog	3	chr3
+Catarrhini	3	170818424	179632472	-1	Guinea pig	s404	scaffold_85
+Catarrhini	3	35118178	37999797	1	Hedgehog	s437	scaffold00471
+Catarrhini	3	20626101	23982466	-1	Hedgehog	s433	scaffold00330
+Catarrhini	3	111707753	132477835	-1	Pig	8	chr8
+Catarrhini	3	178874371	179233669	1	Elephant	s495	scaffold_183
+Catarrhini	3	0	4805089	-1	Chicken	4	chr4
+Catarrhini	3	82703971	84730451	-1	Hedgehog	s449	scaffold00617
+Catarrhini	3	14861137	21861383	-1	Cow	8	chr8
+Catarrhini	3	159090505	159993707	-1	Hedgehog	s474	scaffold00772
+Catarrhini	3	14249897	86205810	1	Horse	2	chr2
+Catarrhini	3	158149524	159090505	1	Hedgehog	s473	scaffold00878
+Catarrhini	3	181199801	185342611	-1	Chimpanzee	4	chr4
+Catarrhini	3	21951402	23509151	-1	Tenrec	s410	scaffold00148
+Catarrhini	3	11697615	12104707	-1	Horse	27	chr27
+Catarrhini	3	70104409	115255927	-1	Dog	32	chr32
+Catarrhini	3	72418369	74264451	-1	Tenrec	s415	scaffold00112
+Catarrhini	3	0	177031326	-1	Gorilla	4	chr4
+Catarrhini	3	185249994	185342611	-1	Opossum	4	chr4
+Catarrhini	3	181199801	185342611	1	Rhesus macaque	1	chr1
+Catarrhini	3	0	21356753	1	Guinea pig	s385	scaffold_36
+Catarrhini	3	60597867	79399840	1	Chicken	4	chr4
+Catarrhini	3	177031326	179352156	-1	Tenrec	s422	scaffold00097
+Catarrhini	3	121176926	124540207	-1	Shrew	s526	scaffold00157
+Catarrhini	3	148629887	168828970	1	Tenrec	s420	scaffold00023
+Catarrhini	3	177031326	181199801	1	Gorilla	4	chr4
+Catarrhini	3	4102468	24357565	-1	Elephant	s488	scaffold_37
+Catarrhini	3	2122042	22195095	1	Pika	s500	scaffold00005
+Catarrhini	3	7029887	10312094	1	Hedgehog	s427	scaffold00242
+Catarrhini	3	181199801	185342611	-1	Pig	8	chr8
+Catarrhini	3	12631514	14902041	-1	Hedgehog	s431	scaffold00369
+Catarrhini	3	60498245	66178118	-1	Hedgehog	s441	scaffold00213
+Catarrhini	3	178034369	179863700	-1	Cow	6	chr6
+Catarrhini	3	177031326	178086987	1	Hedgehog	s482	scaffold00422
+Catarrhini	3	107395831	109718749	-1	Opossum	5	chr5
+Catarrhini	3	168935991	179567999	-1	Goat	6	chr6
+Catarrhini	3	102504517	184455514	1	Rat	14	chr14
+Catarrhini	3	122937597	126064394	1	Hedgehog	s462	scaffold00363
+Catarrhini	3	44605157	51014567	1	Guinea pig	s390	scaffold_7
+Catarrhini	3	42080899	52038279	1	Mouse	8	chr8
+Catarrhini	3	134007926	174848035	-1	Pig	8	chr8
+Catarrhini	3	94790155	102504517	-1	Rat	4	chr4
+Catarrhini	3	165479563	168536591	-1	Hedgehog	s478	scaffold00296
+Catarrhini	3	120635053	137525977	1	Pika	s513	scaffold00045
+Catarrhini	3	0	6235719	1	Shrew	s515	scaffold00042
+Catarrhini	3	169250231	177509699	-1	Cow	6	chr6
+Catarrhini	3	160833526	161771295	-1	Hedgehog	s476	scaffold00777
+Catarrhini	3	86205810	185342611	1	Horse	3	chr3
+Catarrhini	3	34937085	48929493	1	Elephant	s490	scaffold_51
+Catarrhini	3	115118909	116620334	-1	Guinea pig	s398	scaffold_1
+Catarrhini	3	182330013	183869877	-1	Guinea pig	s406	scaffold_24
+Catarrhini	3	63724630	64987940	-1	Opossum	5	chr5
+Catarrhini	3	14959443	24217475	1	Pig	14	chr14
+Catarrhini	3	71736348	73844071	-1	Hedgehog	s443	scaffold00588
+Catarrhini	3	33784397	60597867	-1	Chicken	4	chr4
+Catarrhini	3	105871617	106183504	1	Pika	s509	scaffold00043
+Catarrhini	3	179567999	185342611	1	Goat	6	chr6
+Catarrhini	3	120635053	123783201	-1	Chicken	4	chr4
+Catarrhini	3	0	20577351	-1	Tenrec	s408	scaffold00001
+Catarrhini	3	95365535	97074894	-1	Hedgehog	s453	scaffold00241
+Catarrhini	3	123783201	130343744	-1	Chicken	4	chr4
+Catarrhini	3	72097533	80742404	-1	Opossum	5	chr5
+Catarrhini	3	130343744	185342611	1	Chicken	4	chr4
+Catarrhini	3	128581512	129255809	-1	Hedgehog	s464	scaffold00335
+Catarrhini	3	22399958	46931784	-1	Dog	15	chr15
+Catarrhini	3	112299842	120635053	1	Pika	s512	scaffold00080
+Catarrhini	3	0	105036159	-1	Chimpanzee	4	chr4
+Catarrhini	3	33252435	68210432	1	Pika	s503	scaffold00032
+Catarrhini	3	71566521	94957573	1	Mouse	3	chr3
+Catarrhini	3	51033436	70423091	-1	Rat	2	chr2
+Catarrhini	3	24357565	34937085	1	Elephant	s489	scaffold_61
+Catarrhini	3	86819216	97369111	-1	Chicken	4	chr4
+Catarrhini	3	0	185342611	1	Marmoset	3	chr3
+Catarrhini	3	168852370	179185332	1	Dog	3	chr3
+Catarrhini	3	51014567	72569322	-1	Guinea pig	s391	scaffold_7
+Catarrhini	3	79399840	81297217	-1	Hedgehog	s447	scaffold00512
+Catarrhini	3	0	29575422	-1	Rat	16	chr16
+Catarrhini	3	37687828	44605157	-1	Guinea pig	s389	scaffold_7
+Catarrhini	3	137525977	185342611	-1	Orangutan	4	chr4
+Catarrhini	3	182048917	183640344	-1	Hedgehog	s485	scaffold01114
+Catarrhini	3	120635053	126556612	-1	Guinea pig	s400	scaffold_94
+Catarrhini	3	174372861	177031326	-1	Hedgehog	s481	scaffold00357
+Catarrhini	3	73844071	76686004	-1	Hedgehog	s444	scaffold00270
+Catarrhini	3	98867001	113325522	1	Shrew	s523	scaffold00074
+Catarrhini	3	97749384	102005242	-1	Guinea pig	s394	scaffold_48
+Catarrhini	3	27102650	68483677	1	Shrew	s518	scaffold00020
+Catarrhini	3	72569322	89986823	-1	Guinea pig	s392	scaffold_43
+Catarrhini	3	114096979	115328351	1	Opossum	5	chr5
+Catarrhini	3	78921704	79399840	1	Rhesus macaque	5	chr5
+Catarrhini	3	26594318	34776183	1	Cow	17	chr17
+Catarrhini	3	93938765	95365535	1	Hedgehog	s452	scaffold00241
+Catarrhini	3	179879783	182048917	-1	Hedgehog	s484	scaffold00977
+Catarrhini	3	0	177031326	-1	Human	4	chr4
+Catarrhini	3	106183504	106626450	-1	Pika	s510	scaffold00043
+Catarrhini	3	0	14861137	-1	Cow	27	chr27
+Catarrhini	3	14744953	22030920	-1	Goat	8	chr8
+Catarrhini	3	76686004	78921704	-1	Hedgehog	s445	scaffold00500
+Catarrhini	3	179233669	179591964	-1	Elephant	s496	scaffold_220
+Catarrhini	3	168828970	177031326	-1	Tenrec	s421	scaffold00029
+Catarrhini	3	102388171	184610234	-1	Mouse	5	chr5
+Catarrhini	3	0	120635053	-1	Orangutan	4	chr4
+Catarrhini	3	22491377	26863492	1	Rabbit	15	chr15
+Catarrhini	3	36848429	111707753	1	Pig	8	chr8
+Catarrhini	3	115255927	115792843	1	Dog	15	chr15
+Catarrhini	3	179632472	182330013	1	Guinea pig	s405	scaffold_166
+Catarrhini	3	129255809	133267713	-1	Hedgehog	s465	scaffold00218
+Catarrhini	3	132477835	134007926	1	Pig	8	chr8
+Catarrhini	3	71855463	94790155	1	Rat	2	chr2
+Catarrhini	3	115402733	120635053	-1	Chicken	4	chr4
+Catarrhini	3	141807576	177031326	-1	Chimpanzee	4	chr4
+Catarrhini	3	184610234	185342611	-1	Mouse	5	chr5
+Catarrhini	3	0	28804960	1	Mouse	8	chr8
+Catarrhini	3	52860334	70737716	-1	Rabbit	15	chr15
+Catarrhini	3	157080268	158149524	-1	Hedgehog	s472	scaffold00755
+Catarrhini	3	181199801	185342611	-1	Cow	6	chr6
+Catarrhini	3	14989630	27102650	-1	Shrew	s517	scaffold00042
+Catarrhini	3	66178118	71736348	-1	Hedgehog	s442	scaffold00196
+Catarrhini	3	115328351	115913188	-1	Opossum	5	chr5
+Catarrhini	3	34150532	37687828	1	Guinea pig	s388	scaffold_7
+Catarrhini	3	107124893	114759910	-1	Guinea pig	s396	scaffold_5
+Catarrhini	3	102150800	169250231	-1	Cow	6	chr6
+Catarrhini	3	0	11697615	1	Horse	27	chr27
+Catarrhini	3	69881428	72418369	-1	Tenrec	s414	scaffold00127
+Catarrhini	3	107125684	107395831	1	Opossum	5	chr5
+Catarrhini	3	115913188	120254439	-1	Opossum	5	chr5
+Catarrhini	3	0	22491377	-1	Rabbit	2	chr2
+Catarrhini	3	64987940	72097533	1	Opossum	5	chr5
+Catarrhini	3	73612489	80645264	1	Pika	s505	scaffold00070
+Catarrhini	3	109718749	114096979	1	Opossum	5	chr5
+Catarrhini	3	10312094	11288088	1	Hedgehog	s428	scaffold00779
+Catarrhini	3	183640344	185342611	1	Hedgehog	s486	scaffold01128
+Catarrhini	3	111408962	116992940	-1	Hedgehog	s458	scaffold00109
+Catarrhini	3	5648892	6023820	1	Hedgehog	s425	scaffold00240
+Catarrhini	3	177031326	181199801	1	Chimpanzee	4	chr4
+Catarrhini	3	81297217	82703971	-1	Hedgehog	s448	scaffold00731
+Catarrhini	3	28804960	42080899	1	Mouse	3	chr3
+Catarrhini	3	102005242	107124893	1	Guinea pig	s395	scaffold_33
+Catarrhini	3	133105900	141807576	-1	Tenrec	s418	scaffold00023
+Catarrhini	3	113423792	115402733	1	Chicken	4	chr4
+Catarrhini	3	95711491	103436756	1	Opossum	5	chr5
+Catarrhini	3	141807576	148629887	1	Tenrec	s419	scaffold00015
+Catarrhini	3	178303685	181199801	1	Pig	8	chr8
+Catarrhini	3	56334679	69881428	-1	Tenrec	s413	scaffold00057
+Catarrhini	3	105036159	107125684	-1	Opossum	5	chr5
+Catarrhini	3	11959033	12631514	1	Hedgehog	s430	scaffold00856
+Catarrhini	3	0	63724630	1	Opossum	5	chr5
+Catarrhini	3	11288088	11959033	1	Hedgehog	s429	scaffold00950
+Catarrhini	3	26214185	36848429	-1	Pig	8	chr8
+Catarrhini	3	108083072	111747538	-1	Chicken	4	chr4
+Catarrhini	3	178086987	179879783	1	Hedgehog	s483	scaffold01105
+Catarrhini	3	31957703	35118178	-1	Hedgehog	s436	scaffold00435
+Catarrhini	3	183869877	185342611	1	Guinea pig	s407	scaffold_73
+Catarrhini	3	95990695	120635053	1	Elephant	s492	scaffold_30
+Catarrhini	3	0	14744953	-1	Goat	27	chr27
+Catarrhini	3	102849460	106683270	-1	Rabbit	15	chr15
+Catarrhini	3	126556612	150299556	-1	Guinea pig	s401	scaffold_24
+Catarrhini	3	133267713	134497754	1	Hedgehog	s466	scaffold00741
+Catarrhini	3	94957573	102388171	-1	Mouse	6	chr6
+Catarrhini	3	106683270	137525977	1	Rabbit	15	chr15
+Catarrhini	3	86790185	88174964	-1	Shrew	s520	scaffold00108
+Catarrhini	3	184938905	185249994	1	Opossum	5	chr5
+Catarrhini	3	170649443	174372861	1	Hedgehog	s480	scaffold00081
+Catarrhini	3	68696706	102237892	1	Goat	6	chr6
+Catarrhini	3	133346084	162798600	1	Shrew	s528	scaffold00030
+Catarrhini	3	80645264	90523066	1	Pika	s506	scaffold00068
+Catarrhini	3	97074894	98693191	1	Hedgehog	s454	scaffold00468
+Catarrhini	3	179185332	184615790	1	Dog	3	chr3
+Catarrhini	3	143237855	144408297	1	Hedgehog	s468	scaffold00757
+Catarrhini	3	177031326	181199801	1	Human	4	chr4
+Catarrhini	3	139982096	178874371	-1	Elephant	s494	scaffold_18
+Catarrhini	3	29575422	42228998	1	Rat	2	chr2
+Catarrhini	3	181199801	185342611	-1	Human	4	chr4
+Catarrhini	3	26863492	29017722	-1	Rabbit	15	chr15
+Catarrhini	3	25415287	34150532	-1	Guinea pig	s387	scaffold_7
+Catarrhini	3	134497754	143237855	-1	Hedgehog	s467	scaffold00037
+Catarrhini	3	48929493	95990695	-1	Elephant	s491	scaffold_14
+Catarrhini	3	108083072	137525977	1	Rhesus macaque	5	chr5
+Catarrhini	3	14902041	20626101	1	Hedgehog	s432	scaffold00192
+Catarrhini	3	161771295	165479563	1	Hedgehog	s477	scaffold00219
+Catarrhini	3	137525977	185342611	1	Pika	s514	scaffold00005
+Catarrhini	3	102237892	168935991	-1	Goat	6	chr6
+Catarrhini	3	21356753	25415287	1	Guinea pig	s386	scaffold_1
+Catarrhini	3	68483677	86790185	-1	Shrew	s519	scaffold00058
+Catarrhini	3	20577351	21951402	1	Tenrec	s409	scaffold00022
+Catarrhini	3	89986823	97749384	1	Guinea pig	s393	scaffold_22
+Catarrhini	3	34776183	67243646	1	Cow	17	chr17
+Catarrhini	3	121392059	122937597	-1	Hedgehog	s461	scaffold00089
+Catarrhini	3	98693191	101951048	-1	Hedgehog	s455	scaffold00521
+Catarrhini	3	145004882	168852370	1	Dog	3	chr3
+Catarrhini	3	22030920	23874599	-1	Goat	17	chr17
+Catarrhini	3	165534545	170818424	-1	Guinea pig	s403	scaffold_73
+Catarrhini	3	74264451	120635053	-1	Tenrec	s416	scaffold00015
+Catarrhini	3	88174964	90253049	-1	Shrew	s521	scaffold00013
+Catarrhini	3	120635053	137525977	1	Orangutan	4	chr4
+Catarrhini	3	103436756	105036159	1	Opossum	5	chr5
+Catarrhini	3	29517688	33252435	-1	Pika	s502	scaffold00119
+Catarrhini	3	23982466	28972953	-1	Hedgehog	s434	scaffold00240
+Catarrhini	3	21861383	23592594	-1	Cow	17	chr17
+Catarrhini	3	70423091	71855463	1	Rat	4	chr4
+Catarrhini	3	116992940	120635053	-1	Hedgehog	s459	scaffold00206
+Catarrhini	3	120635053	121392059	1	Hedgehog	s460	scaffold00468
+Catarrhini	3	16701501	33784397	-1	Chicken	4	chr4
+Catarrhini	3	43595184	60498245	1	Hedgehog	s440	scaffold00016
+Catarrhini	3	84730451	87846766	1	Hedgehog	s450	scaffold00617
+Catarrhini	3	40428941	43595184	-1	Hedgehog	s439	scaffold00428
+Catarrhini	3	70737716	102849460	1	Rabbit	15	chr15
+Catarrhini	3	90253049	98867001	1	Shrew	s522	scaffold00114
+Catarrhini	3	6023820	7029887	1	Hedgehog	s426	scaffold00696
+Catarrhini	3	0	2122042	-1	Pika	s499	scaffold00102
+Catarrhini	3	87846766	93938765	1	Hedgehog	s451	scaffold00241
+Catarrhini	3	120635053	184938905	1	Opossum	5	chr5
+Catarrhini	3	67243646	102150800	1	Cow	6	chr6
+Catarrhini	3	170783811	175310261	-1	Shrew	s530	scaffold00133
+Catarrhini	3	97369111	105036159	-1	Chicken	4	chr4
+Catarrhini	3	179863700	181199801	1	Cow	6	chr6
+Catarrhini	3	45011658	56334679	-1	Tenrec	s412	scaffold00061
+Catarrhini	3	79399840	86819216	1	Chicken	4	chr4
+Catarrhini	3	0	3208114	1	Pig	17	chr17
+Catarrhini	3	28972953	31957703	1	Hedgehog	s435	scaffold00470
+Catarrhini	3	0	14544137	1	Dog	16	chr16
+Catarrhini	3	144408297	147033824	-1	Hedgehog	s469	scaffold00325
+Catarrhini	3	12104707	14249897	1	Horse	27	chr27
+Catarrhini	3	111747538	113423792	1	Chicken	4	chr4
+Catarrhini	3	78921704	79399840	1	Hedgehog	s446	scaffold00491
+Catarrhini	3	181199801	185342611	-1	Gorilla	4	chr4
+Catarrhini	3	52038279	71566521	-1	Mouse	3	chr3
+Catarrhini	3	174848035	177031326	1	Pig	8	chr8
+Catarrhini	3	162798600	170783811	-1	Shrew	s529	scaffold00099
+Catarrhini	3	105036159	141807576	1	Chimpanzee	4	chr4
+Catarrhini	3	180589551	185342611	1	Elephant	s498	scaffold_18
+Catarrhini	3	120635053	133105900	1	Tenrec	s417	scaffold00023
+Catarrhini	3	105036159	106918765	-1	Chicken	4	chr4
+Catarrhini	3	80742404	95711491	1	Opossum	5	chr5
+Catarrhini	3	34381694	68696706	1	Goat	17	chr17
+Catarrhini	3	116620334	120635053	1	Guinea pig	s399	scaffold_47
+Catarrhini	3	177509699	178034369	1	Cow	6	chr6
+Catarrhini	3	120635053	139982096	-1	Elephant	s493	scaffold_38
+Catarrhini	3	22195095	29517688	-1	Pika	s501	scaffold00048
+Catarrhini	3	0	5648892	-1	Hedgehog	s424	scaffold00077
+Catarrhini	3	126064394	128581512	1	Hedgehog	s463	scaffold00335
+Catarrhini	3	151093763	157080268	-1	Hedgehog	s471	scaffold00102
+Catarrhini	3	168536591	170649443	1	Hedgehog	s479	scaffold00081
+Catarrhini	3	150299556	165534545	1	Guinea pig	s402	scaffold_50
+Catarrhini	3	37999797	40428941	1	Hedgehog	s438	scaffold00572
+Catarrhini	3	29017722	52860334	1	Rabbit	15	chr15
+Catarrhini	3	16701501	78921704	-1	Rhesus macaque	5	chr5
+Catarrhini	3	101951048	106652492	-1	Hedgehog	s456	scaffold00259
+Catarrhini	3	113325522	120635053	1	Shrew	s524	scaffold00112
+Catarrhini	3	120635053	121176926	1	Shrew	s525	scaffold00157
+Catarrhini	3	23874599	26465222	1	Goat	6	chr6
+Catarrhini	3	102929396	105871617	-1	Pika	s508	scaffold00043
+Catarrhini	3	6235719	14989630	-1	Shrew	s516	scaffold00079
+Catarrhini	3	106626450	112299842	1	Pika	s511	scaffold00043
+Catarrhini	3	26465222	34381694	1	Goat	17	chr17
+Catarrhini	3	4805089	13293057	1	Chicken	4	chr4
+Catarrhini	3	184455514	185342611	1	Rat	14	chr14
+Catarrhini	3	147033824	151093763	1	Hedgehog	s470	scaffold00187
+Catarrhini	3	114759910	115118909	-1	Guinea pig	s397	scaffold_33
+Catarrhini	3	179352156	185342611	1	Tenrec	s423	scaffold00097
+Catarrhini	3	179591964	180589551	1	Elephant	s497	scaffold_167
+Catarrhini	3	120254439	120635053	-1	Opossum	5	chr5
+Catarrhini	3	79399840	105036159	-1	Rhesus macaque	5	chr5
+Catarrhini	3	3208114	14959443	-1	Pig	15	chr15
+Catarrhini	3	46931784	70104409	1	Dog	19	chr19
+Catarrhini	3	23509151	45011658	-1	Tenrec	s411	scaffold00034
+Catarrhini	3	13293057	16701501	-1	Chicken	4	chr4
+Catarrhini	3	68210432	73612489	-1	Pika	s504	scaffold00070
+Catarrhini	3	0	16701501	-1	Rhesus macaque	5	chr5
+Catarrhini	3	42228998	51033436	-1	Rat	19	chr19
+Catarrhini	3	137525977	181199801	-1	Rhesus macaque	5	chr5
+Catarrhini	3	115792843	145004882	-1	Dog	13	chr13
+Catarrhini	3	177031326	178303685	-1	Pig	8	chr8
+Catarrhini	3	14544137	22399958	-1	Dog	25	chr25
+Catarrhini	3	159993707	160833526	1	Hedgehog	s475	scaffold00150
+Catarrhini	3	23592594	26594318	1	Cow	6	chr6
+Catarrhini	3	137525977	181199801	-1	Rabbit	2	chr2
+Catarrhini	3	106652492	111408962	1	Hedgehog	s457	scaffold00089
+Catarrhini	3	124540207	133346084	-1	Shrew	s527	scaffold00096
+Catarrhini	3	0	4102468	1	Elephant	s487	scaffold_22
+Catarrhini	3	24217475	26214185	1	Pig	8	chr8
+Catarrhini	3	106918765	108083072	1	Chicken	4	chr4

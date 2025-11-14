@@ -1,0 +1,90 @@
+Boreo	25	9962881	14291605	1	Chimp	7	chr7
+Boreo	25	14291605	14818379	1	Opossum	2	chr2
+Boreo	25	5838156	9962881	1	Tenrec	s2809	scaffold00022
+Boreo	25	8368467	9962881	-1	Orangutan	7	chr7
+Boreo	25	5838156	14818379	-1	Mouse	5	chr5
+Boreo	25	6746762	7027788	-1	Opossum	2	chr2
+Boreo	25	5838156	6746762	-1	Opossum	2	chr2
+Boreo	25	5838156	6511229	-1	Rabbit	6	chr6
+Boreo	25	0	4414676	-1	Hedgehog	s2811	scaffold00260
+Boreo	25	0	1210330	-1	Marmoset	2	chr2
+Boreo	25	4414676	7959377	1	Chimp	7	chr7
+Boreo	25	14291605	14818379	-1	Gorilla	7	chr7
+Boreo	25	9962881	14291605	1	Human	7	chr7
+Boreo	25	4414676	9510096	-1	Guinea pig	s2801	scaffold_30
+Boreo	25	4414676	5244103	1	Pika	s2823	scaffold00148
+Boreo	25	0	8368467	1	Orangutan	7	chr7
+Boreo	25	9510096	9962881	-1	Guinea pig	s2802	scaffold_234
+Boreo	25	1210330	1338634	-1	Opossum	6	chr6
+Boreo	25	9962881	14818379	-1	Guinea pig	s2803	scaffold_66
+Boreo	25	0	4414676	1	Chicken	14	chr14
+Boreo	25	0	14818379	-1	Cow	25	chr25
+Boreo	25	4414676	7959377	1	Gorilla	7	chr7
+Boreo	25	6511229	9962881	-1	White rhinoceros	s2806	JH767840
+Boreo	25	4414676	14818379	1	Rhesus	3	chr3
+Boreo	25	9962881	14818379	-1	Shrew	s2830	scaffold00089
+Boreo	25	5461744	5838156	1	Chicken	14	chr14
+Boreo	25	12703184	14818379	1	Rat	12	chr12
+Boreo	25	5838156	14818379	1	Horse	13	chr13
+Boreo	25	7027788	9611660	1	Opossum	2	chr2
+Boreo	25	5838156	6511229	-1	Rat	12	chr12
+Boreo	25	0	6511229	-1	Shrew	s2827	scaffold00105
+Boreo	25	6511229	9042998	-1	Shrew	s2828	scaffold00170
+Boreo	25	5244103	5838156	1	Hedgehog	s2813	scaffold00912
+Boreo	25	9962881	14291605	-1	Rabbit	6	chr6
+Boreo	25	4414676	7959377	1	Human	7	chr7
+Boreo	25	0	4414676	1	Chimp	7	chr7
+Boreo	25	4414676	5461744	1	Chicken	14	chr14
+Boreo	25	7959377	8368467	-1	Human	7	chr7
+Boreo	25	9611660	14291605	-1	Opossum	2	chr2
+Boreo	25	14291605	14818379	-1	Chicken	19	chr19
+Boreo	25	7959377	14818379	-1	Elephant	s2821	scaffold_45
+Boreo	25	14291605	14818379	-1	Chimp	7	chr7
+Boreo	25	9962881	14291605	1	Gorilla	7	chr7
+Boreo	25	9962881	14291605	-1	Tenrec	s2810	scaffold00022
+Boreo	25	1338634	4414676	1	Opossum	6	chr6
+Boreo	25	8368467	9962881	1	Human	7	chr7
+Boreo	25	0	5838156	-1	Rat	12	chr12
+Boreo	25	6511229	7959377	1	Chicken	19	chr19
+Boreo	25	0	5838156	-1	White rhinoceros	s2804	JH767821
+Boreo	25	6511229	7959377	1	Elephant	s2820	scaffold_45
+Boreo	25	0	14818379	-1	Dog	6	chr6
+Boreo	25	0	1210330	1	Opossum	6	chr6
+Boreo	25	12703184	14291605	1	Hedgehog	s2816	scaffold00209
+Boreo	25	7959377	8368467	-1	Gorilla	7	chr7
+Boreo	25	8368467	9962881	1	Gorilla	7	chr7
+Boreo	25	5838156	6511229	-1	Hedgehog	s2814	scaffold00759
+Boreo	25	3766710	4414676	-1	Rhesus	3	chr3
+Boreo	25	6511229	12114986	1	Rat	12	chr12
+Boreo	25	5838156	6511229	1	White rhinoceros	s2805	JH767858
+Boreo	25	9042998	14291605	-1	Chicken	19	chr19
+Boreo	25	0	4414676	1	Human	7	chr7
+Boreo	25	0	14291605	-1	capHir1	25	chr25
+Boreo	25	7959377	9962881	-1	Chimp	7	chr7
+Boreo	25	14291605	14818379	1	Pika	s2826	scaffold00153
+Boreo	25	0	5838156	1	Elephant	s2818	scaffold_45
+Boreo	25	1210330	14818379	-1	Marmoset	2	chr2
+Boreo	25	9962881	14818379	-1	White rhinoceros	s2807	JH767802
+Boreo	25	4414676	5400382	1	Opossum	6	chr6
+Boreo	25	0	3766710	1	Rhesus	3	chr3
+Boreo	25	0	4414676	1	Gorilla	7	chr7
+Boreo	25	14291605	14818379	-1	Human	7	chr7
+Boreo	25	9962881	14291605	-1	Orangutan	7	chr7
+Boreo	25	1210330	3766710	-1	Guinea pig	s2799	scaffold_30
+Boreo	25	14291605	14818379	-1	Hedgehog	s2817	scaffold00453
+Boreo	25	0	5838156	1	Mouse	5	chr5
+Boreo	25	0	1210330	-1	Guinea pig	s2798	scaffold_30
+Boreo	25	5400382	5838156	1	Opossum	6	chr6
+Boreo	25	4414676	5244103	1	Hedgehog	s2812	scaffold01100
+Boreo	25	6511229	12703184	1	Hedgehog	s2815	scaffold00083
+Boreo	25	0	4414676	-1	Pika	s2822	scaffold00109
+Boreo	25	9042998	9962881	1	Shrew	s2829	scaffold00218
+Boreo	25	0	5838156	1	Tenrec	s2808	scaffold00022
+Boreo	25	0	14818379	1	Pig	3	chr3
+Boreo	25	3766710	4414676	1	Guinea pig	s2800	scaffold_30
+Boreo	25	0	5838156	-1	Horse	13	chr13
+Boreo	25	5244103	5838156	1	Pika	s2824	scaffold00162
+Boreo	25	14291605	14818379	1	Orangutan	7	chr7
+Boreo	25	12114986	12703184	-1	Rat	12	chr12
+Boreo	25	5838156	14291605	1	Pika	s2825	scaffold00026
+Boreo	25	5838156	6511229	-1	Elephant	s2819	scaffold_152

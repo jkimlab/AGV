@@ -1,0 +1,22 @@
+Boreo	28	0	961284	-1	Gorilla	1	chr1
+Boreo	28	0	961284	1	Mouse	11	chr11
+Boreo	28	0	961284	-1	Elephant	s2901	scaffold_110
+Boreo	28	0	961284	1	Orangutan	1	chr1
+Boreo	28	0	961284	-1	Tenrec	s2899	scaffold00002
+Boreo	28	0	961284	-1	Chimp	1	chr1
+Boreo	28	0	961284	-1	Guinea pig	s2897	scaffold_6
+Boreo	28	0	961284	-1	Opossum	6	chr6
+Boreo	28	0	961284	1	Dog	14	chr14
+Boreo	28	0	961284	-1	Pig	2	chr2
+Boreo	28	0	961284	-1	Human	1	chr1
+Boreo	28	0	961284	-1	Pika	s2902	scaffold00025
+Boreo	28	0	961284	1	Rhesus	1	chr1
+Boreo	28	0	961284	1	Shrew	s2903	scaffold00048
+Boreo	28	0	961284	-1	Marmoset	19	chr19
+Boreo	28	0	961284	1	Horse	14	chr14
+Boreo	28	0	961284	-1	Hedgehog	s2900	scaffold00776
+Boreo	28	0	961284	1	capHir1	7	chr7
+Boreo	28	0	961284	1	White rhinoceros	s2898	JH767726
+Boreo	28	0	961284	1	Chicken	2	chr2
+Boreo	28	0	961284	1	Cow	7	chr7
+Boreo	28	0	961284	1	Rat	10	chr10

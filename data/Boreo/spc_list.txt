@@ -1,0 +1,23 @@
+Human
+Chimp
+Gorilla
+Orangutan
+Rhesus
+Marmoset
+Mouse
+Rat
+Guinea pig
+Rabbit
+Pika
+Cow
+capHir1
+Pig
+White rhinoceros
+Horse
+Dog
+Hedgehog
+Shrew
+Elephant
+Tenrec
+Opossum
+Chicken

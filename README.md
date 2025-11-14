@@ -1,0 +1,37 @@
+# AGV
+- Ancestor Genome Visualizing with DESCHRAMBLER
+
+## Download
+```
+git clone https://github.com/jkimlab/AGV.git
+```
+
+## Running (script)
+### Running Command 
+```
+
+usage: DesToAGV.py [-h] -p INPUT_DIR -o OUTPUT_DIR -n ANCESTOR_NAME -c CONFIG_FILE -t TREE_FILE [-r NAMING_OPT] [-R NAMING_TABLE_FILE]
+
+Make AGV data
+
+options:
+  -h, --help            show this help message and exit
+  -p INPUT_DIR          Input Data Path
+  -o OUTPUT_DIR         Output Data Path
+  -n ANCESTOR_NAME      Ancestor Name
+  -c CONFIG_FILE        DESCHRAMBLER Config File Path
+  -t TREE_FILE          Tree File path
+  -r NAMING_OPT         Renaming type option (on,off,custom) / (default=off)
+  -R NAMING_TABLE_FILE  If you select custom or on option, you have to put renaming table file path
+```
+The path specified in the OUTPUT_DIR parameter must be located inside the “data” directory after the git clone operation. 
+
+## Output
+
+
+## Example
+
+<a href="http://biweb.konkuk.ac.kr/AGV/">Example Page</a>
+ * Example data in "examples"
+    - DESCHRAMBLER Output Data
+ * Example Web page data in "data"

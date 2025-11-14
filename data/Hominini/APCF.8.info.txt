@@ -1,0 +1,177 @@
+Hominini	8	44435417	56459437	1	Tenrec	s696	scaffold00003
+Hominini	8	37310153	141814153	-1	Pig	4	chr4
+Hominini	8	26951871	41692091	-1	Elephant	s723	scaffold_22
+Hominini	8	51699426	141814153	1	Elephant	s726	scaffold_8
+Hominini	8	6283112	7445875	-1	Rat	16	chr16
+Hominini	8	24988395	40126068	1	Goat	27	chr27
+Hominini	8	0	5410650	-1	Horse	27	chr27
+Hominini	8	73185947	117978548	-1	Goat	14	chr14
+Hominini	8	114517835	120477210	-1	Hedgehog	s712	scaffold00292
+Hominini	8	0	7445875	-1	Chicken	3	chr3
+Hominini	8	118900871	135303910	-1	Guinea pig	s688	scaffold_51
+Hominini	8	120137538	141814153	-1	Cow	14	chr14
+Hominini	8	26934582	37310153	-1	Pig	15	chr15
+Hominini	8	106667219	118900871	-1	Guinea pig	s687	scaffold_0
+Hominini	8	41033056	48447171	1	Mouse	4	chr4
+Hominini	8	14039951	23968997	-1	Rat	15	chr15
+Hominini	8	77047667	89184472	-1	Mouse	4	chr4
+Hominini	8	8027419	13866631	1	Guinea pig	s678	scaffold_36
+Hominini	8	13246036	26951871	-1	Elephant	s722	scaffold_22
+Hominini	8	14534744	25828090	-1	Dog	25	chr25
+Hominini	8	39356237	51789155	-1	Guinea pig	s683	scaffold_64
+Hominini	8	85665539	141814153	1	Pika	s736	scaffold00009
+Hominini	8	11889869	15759205	-1	Opossum	1	chr1
+Hominini	8	7445875	8027419	-1	Marmoset	13	chr13
+Hominini	8	8027419	14161869	-1	Tenrec	s692	scaffold00001
+Hominini	8	5728955	6283112	1	Rat	16	chr16
+Hominini	8	77763788	89809460	-1	Rat	5	chr5
+Hominini	8	8027419	14192621	1	Mouse	8	chr8
+Hominini	8	6023504	7445875	1	Cow	27	chr27
+Hominini	8	0	5481632	-1	Guinea pig	s675	scaffold_1
+Hominini	8	19045142	28072310	-1	Rabbit	2	chr2
+Hominini	8	53197832	63438316	-1	Rat	5	chr5
+Hominini	8	23968997	36051247	1	Rat	16	chr16
+Hominini	8	13641314	18944263	1	Shrew	s739	scaffold00040
+Hominini	8	28072310	141814153	1	Rabbit	3	chr3
+Hominini	8	7445875	8027419	1	Tenrec	s691	scaffold00028
+Hominini	8	7155573	7445875	1	Elephant	s719	scaffold_22
+Hominini	8	26363610	42110811	-1	Opossum	3	chr3
+Hominini	8	108518641	114517835	-1	Hedgehog	s711	scaffold00057
+Hominini	8	8027419	11858431	-1	Pika	s729	scaffold00048
+Hominini	8	7445875	8027419	-1	Rhesus macaque	8	chr8
+Hominini	8	135303910	141814153	-1	Guinea pig	s689	scaffold_17
+Hominini	8	42110811	68591967	-1	Opossum	3	chr3
+Hominini	8	0	7445875	-1	Pika	s727	scaffold00045
+Hominini	8	23474610	42118288	-1	Shrew	s741	scaffold00024
+Hominini	8	42118288	47605795	1	Shrew	s742	scaffold00006
+Hominini	8	63438316	77763788	-1	Rat	2	chr2
+Hominini	8	61391388	67308194	1	Hedgehog	s706	scaffold00280
+Hominini	8	8027419	14820776	1	Pig	17	chr17
+Hominini	8	6106287	7155573	-1	Elephant	s718	scaffold_20
+Hominini	8	14192621	23452588	-1	Mouse	14	chr14
+Hominini	8	25091113	39072494	-1	Horse	27	chr27
+Hominini	8	1145131	5467865	1	Dog	16	chr16
+Hominini	8	7445875	8027419	-1	Goat	8	chr8
+Hominini	8	48447171	52855549	1	Mouse	3	chr3
+Hominini	8	5792075	6317457	-1	Mouse	8	chr8
+Hominini	8	43243837	70927653	1	Cow	14	chr14
+Hominini	8	5177364	5403401	-1	Opossum	1	chr1
+Hominini	8	25828090	40608087	-1	Dog	16	chr16
+Hominini	8	126450585	134098098	-1	Hedgehog	s714	scaffold00185
+Hominini	8	8027419	13246036	1	Elephant	s721	scaffold_22
+Hominini	8	68591967	137314750	1	Opossum	3	chr3
+Hominini	8	27037021	39362628	1	Tenrec	s694	scaffold00001
+Hominini	8	0	7445875	-1	Tenrec	s690	scaffold00028
+Hominini	8	5403401	7445875	1	Opossum	1	chr1
+Hominini	8	62875929	77047667	1	Mouse	3	chr3
+Hominini	8	40042881	92279437	1	Marmoset	16	chr16
+Hominini	8	0	5792075	1	Mouse	8	chr8
+Hominini	8	0	7445875	-1	Shrew	s737	scaffold00162
+Hominini	8	78949278	85665539	1	Pika	s735	scaffold00088
+Hominini	8	23452588	36079634	-1	Mouse	8	chr8
+Hominini	8	92279437	141814153	-1	Marmoset	16	chr16
+Hominini	8	93426405	141814153	1	Dog	13	chr13
+Hominini	8	0	7445875	1	Pig	15	chr15
+Hominini	8	7445875	8027419	-1	Cow	8	chr8
+Hominini	8	0	7445875	1	Chimpanzee	8	chr8
+Hominini	8	8027419	20089006	1	Hedgehog	s702	scaffold00051
+Hominini	8	8027419	13641314	1	Shrew	s738	scaffold00042
+Hominini	8	120477210	126450585	-1	Hedgehog	s713	scaffold00132
+Hominini	8	5796862	6106287	1	Elephant	s717	scaffold_20
+Hominini	8	8027419	14092909	1	Horse	27	chr27
+Hominini	8	40608087	93426405	1	Dog	29	chr29
+Hominini	8	28760722	41743081	-1	Pika	s732	scaffold00009
+Hominini	8	7445875	8027419	-1	Elephant	s720	scaffold_22
+Hominini	8	24607173	30553683	1	Guinea pig	s680	scaffold_12
+Hominini	8	0	5796862	-1	Elephant	s716	scaffold_20
+Hominini	8	7445875	8027419	-1	Chimpanzee	8	chr8
+Hominini	8	30553683	35494263	-1	Guinea pig	s681	scaffold_117
+Hominini	8	0	141814153	1	Human	8	chr8
+Hominini	8	26929511	43243837	1	Cow	27	chr27
+Hominini	8	5410650	5754206	1	Horse	27	chr27
+Hominini	8	6317457	7445875	1	Mouse	8	chr8
+Hominini	8	5563689	6023504	-1	Cow	27	chr27
+Hominini	8	40126068	73185947	1	Goat	14	chr14
+Hominini	8	94483449	125626739	-1	Shrew	s745	scaffold00028
+Hominini	8	41692091	45486302	1	Elephant	s724	scaffold_106
+Hominini	8	40859341	61391388	1	Hedgehog	s705	scaffold00014
+Hominini	8	1201896	6118517	-1	Hedgehog	s699	scaffold00020
+Hominini	8	102109834	108518641	-1	Hedgehog	s710	scaffold00231
+Hominini	8	67308194	77096713	-1	Hedgehog	s707	scaffold00118
+Hominini	8	5908598	7445875	1	Dog	16	chr16
+Hominini	8	8027419	14039951	-1	Rat	16	chr16
+Hominini	8	0	1201896	1	Hedgehog	s698	scaffold00020
+Hominini	8	39072494	83533645	-1	Horse	9	chr9
+Hominini	8	8027419	141814153	1	Rhesus macaque	8	chr8
+Hominini	8	0	1145131	1	Dog	37	chr37
+Hominini	8	8027419	14417234	-1	Goat	27	chr27
+Hominini	8	11858431	19186608	1	Pika	s730	scaffold00005
+Hominini	8	134098098	141814153	1	Hedgehog	s715	scaffold00160
+Hominini	8	56459437	141814153	-1	Tenrec	s697	scaffold00003
+Hominini	8	56229761	100401335	-1	Guinea pig	s685	scaffold_0
+Hominini	8	6118517	7445875	1	Hedgehog	s700	scaffold00069
+Hominini	8	74517075	78949278	1	Pika	s734	scaffold00108
+Hominini	8	88930665	102109834	1	Hedgehog	s709	scaffold00021
+Hominini	8	7445875	8027419	1	Horse	2	chr2
+Hominini	8	8027419	11889869	1	Opossum	1	chr1
+Hominini	8	89184472	141814153	1	Mouse	15	chr15
+Hominini	8	0	5177364	1	Opossum	1	chr1
+Hominini	8	18944263	23474610	-1	Shrew	s740	scaffold00134
+Hominini	8	39362628	44435417	1	Tenrec	s695	scaffold00028
+Hominini	8	19186608	28760722	1	Pika	s731	scaffold00055
+Hominini	8	8027419	15108167	-1	Cow	27	chr27
+Hominini	8	0	7192991	1	Rhesus macaque	8	chr8
+Hominini	8	8027419	14534744	1	Dog	16	chr16
+Hominini	8	0	7445875	1	Goat	27	chr27
+Hominini	8	117978548	141814153	-1	Goat	14	chr14
+Hominini	8	15108167	26929511	1	Cow	8	chr8
+Hominini	8	48652256	53197832	1	Rat	2	chr2
+Hominini	8	45486302	51699426	-1	Elephant	s725	scaffold_77
+Hominini	8	0	7445875	1	Marmoset	13	chr13
+Hominini	8	7192991	7445875	-1	Rhesus macaque	8	chr8
+Hominini	8	7445875	8027419	-1	Dog	25	chr25
+Hominini	8	51789155	56229761	-1	Guinea pig	s684	scaffold_83
+Hominini	8	14820776	26934582	1	Pig	14	chr14
+Hominini	8	130572816	141814153	-1	Shrew	s747	scaffold00006
+Hominini	8	70927653	120137538	-1	Cow	14	chr14
+Hominini	8	5467865	5908598	-1	Dog	16	chr16
+Hominini	8	14161869	27037021	1	Tenrec	s693	scaffold00028
+Hominini	8	20089006	32178310	1	Hedgehog	s703	scaffold00058
+Hominini	8	5481632	5970968	1	Guinea pig	s676	scaffold_1
+Hominini	8	32178310	40859341	1	Hedgehog	s704	scaffold00046
+Hominini	8	441001	5563689	1	Cow	27	chr27
+Hominini	8	7445875	8027419	1	Pika	s728	scaffold00005
+Hominini	8	7445875	8027419	-1	Rabbit	2	chr2
+Hominini	8	8027419	141814153	1	Orangutan	8	chr8
+Hominini	8	8027419	11519599	-1	Rabbit	2	chr2
+Hominini	8	11519599	19045142	-1	Rabbit	2	chr2
+Hominini	8	100401335	106667219	-1	Guinea pig	s686	scaffold_0
+Hominini	8	15759205	26363610	1	Opossum	1	chr1
+Hominini	8	7445875	8027419	-1	Mouse	14	chr14
+Hominini	8	137314750	141814153	1	Opossum	3	chr3
+Hominini	8	36079634	41033056	-1	Mouse	1	chr1
+Hominini	8	14417234	24988395	1	Goat	8	chr8
+Hominini	8	125626739	130572816	-1	Shrew	s746	scaffold00139
+Hominini	8	13866631	24607173	1	Guinea pig	s679	scaffold_1
+Hominini	8	90103895	94483449	-1	Shrew	s744	scaffold00147
+Hominini	8	5754206	7445875	-1	Horse	27	chr27
+Hominini	8	83533645	141814153	1	Horse	9	chr9
+Hominini	8	7445875	8027419	-1	Orangutan	8	chr8
+Hominini	8	14092909	25091113	1	Horse	2	chr2
+Hominini	8	5970968	8027419	-1	Guinea pig	s677	scaffold_1
+Hominini	8	25126624	40042881	1	Marmoset	13	chr13
+Hominini	8	0	141814153	1	Gorilla	8	chr8
+Hominini	8	36051247	48652256	1	Rat	5	chr5
+Hominini	8	41743081	74517075	1	Pika	s733	scaffold00031
+Hominini	8	8027419	25126624	-1	Marmoset	13	chr13
+Hominini	8	8027419	141814153	1	Chimpanzee	8	chr8
+Hominini	8	77096713	88930665	1	Hedgehog	s708	scaffold00071
+Hominini	8	35494263	39356237	-1	Guinea pig	s682	scaffold_80
+Hominini	8	7445875	8027419	-1	Hedgehog	s701	scaffold00069
+Hominini	8	52855549	62875929	1	Mouse	1	chr1
+Hominini	8	0	5728955	-1	Rat	16	chr16
+Hominini	8	89809460	141814153	1	Rat	7	chr7
+Hominini	8	8027419	141814153	1	Chicken	2	chr2
+Hominini	8	47605795	90103895	-1	Shrew	s743	scaffold00006
+Hominini	8	0	7445875	1	Orangutan	8	chr8
+Hominini	8	0	441001	-1	Cow	27	chr27

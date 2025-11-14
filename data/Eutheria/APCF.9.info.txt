@@ -1,0 +1,354 @@
+Eutheria	9	12410465	13761447	-1	Nine-banded armadillo	s2525	JH564587
+Eutheria	9	62182778	62901310	1	Bottlenose dolphin	s2717	JH594761
+Eutheria	9	29355814	30590356	1	Nine-banded armadillo	s2537	JH582365
+Eutheria	9	77661558	78463338	1	Nine-banded armadillo	s2566	JH561482
+Eutheria	9	21632229	39910134	1	White rhinoceros	s2511	JH767724
+Eutheria	9	90530167	95916259	1	White rhinoceros	s2518	JH767794
+Eutheria	9	9396607	12410465	-1	Hedgehog	s2589	scaffold00175
+Eutheria	9	82397171	85328410	1	Rat	8	chr8
+Eutheria	9	55615484	64573971	1	Mouse	6	chr6
+Eutheria	9	92324270	95916259	-1	Opossum	6	chr6
+Eutheria	9	34697303	83679659	1	Tenrec	s2584	scaffold00013
+Eutheria	9	0	615668	1	Mouse	12	chr12
+Eutheria	9	29355814	32193636	1	Hedgehog	s2599	scaffold00257
+Eutheria	9	14500511	15685962	1	Nine-banded armadillo	s2527	JH568658
+Eutheria	9	89529385	89886404	1	Nine-banded armadillo	s2574	JH582680
+Eutheria	9	33369702	39910134	1	Goat	4	chr4
+Eutheria	9	86686924	89529385	1	Opossum	6	chr6
+Eutheria	9	33369702	52856959	-1	Opossum	8	chr8
+Eutheria	9	82397171	85328410	1	Mouse	9	chr9
+Eutheria	9	47858078	64573971	1	Rat	4	chr4
+Eutheria	9	5801291	6211763	1	Hedgehog	s2587	scaffold00959
+Eutheria	9	0	5801291	-1	Chicken	2	chr2
+Eutheria	9	73812984	74263057	1	Mouse	5	chr5
+Eutheria	9	74263057	82397171	1	Rat	4	chr4
+Eutheria	9	53225761	75056169	1	Goat	4	chr4
+Eutheria	9	82136243	82606566	1	Opossum	6	chr6
+Eutheria	9	20665655	23119136	-1	Hedgehog	s2595	scaffold00229
+Eutheria	9	95323930	95916259	1	Hedgehog	s2644	scaffold00791
+Eutheria	9	82606566	84943202	1	Opossum	6	chr6
+Eutheria	9	46755259	53687320	1	Bottlenose dolphin	s2714	JH594691
+Eutheria	9	52457864	52856959	1	Hedgehog	s2611	scaffold01127
+Eutheria	9	25367312	27347242	-1	Hedgehog	s2597	scaffold00555
+Eutheria	9	23511498	24010231	1	Nine-banded armadillo	s2533	JH569570
+Eutheria	9	95323930	95916259	-1	Guinea pig	s2509	scaffold_66
+Eutheria	9	21632229	38487649	-1	Guinea pig	s2498	scaffold_11
+Eutheria	9	92752082	94719419	-1	Guinea pig	s2507	scaffold_102
+Eutheria	9	39910134	40227204	-1	Goat	4	chr4
+Eutheria	9	59894252	61075282	1	Nine-banded armadillo	s2553	JH570303
+Eutheria	9	33369702	35372477	1	Bottlenose dolphin	s2710	JH594857
+Eutheria	9	94719419	95323930	-1	Hedgehog	s2643	scaffold00791
+Eutheria	9	65738494	67118626	1	Nine-banded armadillo	s2558	JH568460
+Eutheria	9	51814491	95916259	-1	Rhesus macaque	3	chr3
+Eutheria	9	32816384	33369702	-1	Chicken	1	chr1
+Eutheria	9	84959573	86686924	-1	Nine-banded armadillo	s2572	JH565787
+Eutheria	9	79320226	80576869	-1	Nine-banded armadillo	s2568	JH567061
+Eutheria	9	21632229	23511498	-1	Nine-banded armadillo	s2532	JH568910
+Eutheria	9	73812984	74263057	-1	Rat	4	chr4
+Eutheria	9	11163432	11784461	1	Elephant	s2650	scaffold_172
+Eutheria	9	41623122	52856959	-1	Chicken	1	chr1
+Eutheria	9	95323930	95916259	-1	Bottlenose dolphin	s2726	JH594720
+Eutheria	9	18075987	21632229	1	Chicken	1	chr1
+Eutheria	9	4203392	6516177	1	Pika	s2658	scaffold00069
+Eutheria	9	72591711	74604887	1	Nine-banded armadillo	s2562	JH568473
+Eutheria	9	39910134	40227204	-1	Pig	s2697	chr18
+Eutheria	9	82040935	83377749	-1	Guinea pig	s2503	scaffold_30
+Eutheria	9	92324270	95916259	1	Elephant	s2655	scaffold_5
+Eutheria	9	95323930	95916259	-1	Pika	s2670	scaffold00013
+Eutheria	9	2576050	6211763	-1	Rabbit	s2672	chr13
+Eutheria	9	59113142	59894252	-1	Hedgehog	s2616	scaffold00602
+Eutheria	9	32496259	51814491	-1	Rhesus macaque	3	chr3
+Eutheria	9	68636918	69304681	1	Hedgehog	s2626	scaffold00729
+Eutheria	9	54540178	57793848	1	Hedgehog	s2614	scaffold00180
+Eutheria	9	86686924	91273630	1	Chicken	2	chr2
+Eutheria	9	47858078	49931883	1	Hedgehog	s2608	scaffold00351
+Eutheria	9	61427199	66057651	1	Opossum	8	chr8
+Eutheria	9	15685962	34697303	-1	Tenrec	s2583	scaffold00029
+Eutheria	9	80576869	81302512	-1	Hedgehog	s2635	scaffold00502
+Eutheria	9	80576869	82397171	-1	Shrew	s2687	scaffold00024
+Eutheria	9	41623122	42195747	1	Nine-banded armadillo	s2545	JH568175
+Eutheria	9	78463338	79320226	1	Nine-banded armadillo	s2567	JH575094
+Eutheria	9	59894252	95916259	1	Human	7	chr7
+Eutheria	9	77661558	79726597	-1	Hedgehog	s2633	scaffold00153
+Eutheria	9	85328410	91273630	-1	Mouse	13	chr13
+Eutheria	9	61879365	62901310	-1	Nine-banded armadillo	s2555	JH583827
+Eutheria	9	615668	3286568	1	Nine-banded armadillo	s2519	JH568072
+Eutheria	9	11163432	11784461	1	Chicken	1	chr1
+Eutheria	9	38487649	49931883	-1	Rabbit	s2677	chr7
+Eutheria	9	6516177	9396607	1	Hedgehog	s2588	scaffold00373
+Eutheria	9	85328410	87343099	1	Hedgehog	s2638	scaffold00025
+Eutheria	9	41217338	52856959	-1	Cow	4	chr4
+Eutheria	9	32496259	32816384	1	Chicken	1	chr1
+Eutheria	9	65386195	80576869	1	Bottlenose dolphin	s2719	JH594656
+Eutheria	9	86686924	91273630	-1	Dog	18	chr18
+Eutheria	9	92324270	93816330	-1	Bottlenose dolphin	s2723	JH594853
+Eutheria	9	615668	4203392	-1	Pika	s2657	scaffold00092
+Eutheria	9	35721037	41217338	-1	Hedgehog	s2601	scaffold00048
+Eutheria	9	75785194	77661558	-1	Hedgehog	s2632	scaffold00321
+Eutheria	9	43381519	44838745	1	Bottlenose dolphin	s2712	JH594932
+Eutheria	9	69304681	91273630	1	Rabbit	s2680	chr10
+Eutheria	9	33369702	41623122	1	Chicken	1	chr1
+Eutheria	9	615668	6211763	-1	Bottlenose dolphin	s2706	JH594626
+Eutheria	9	0	615668	1	Pika	s2656	scaffold00127
+Eutheria	9	0	615668	1	Elephant	s2645	scaffold_15
+Eutheria	9	52856959	53225761	1	Goat	4	chr4
+Eutheria	9	10623835	39910134	1	Pig	s2696	chr18
+Eutheria	9	30590356	32193636	-1	Nine-banded armadillo	s2538	JH567977
+Eutheria	9	18001049	21632229	1	Guinea pig	s2497	scaffold_44
+Eutheria	9	59894252	95916259	1	Gorilla	7	chr7
+Eutheria	9	76963103	77661558	1	Nine-banded armadillo	s2565	JH584099
+Eutheria	9	0	2576050	1	Rabbit	s2671	chr13
+Eutheria	9	17546147	18001049	-1	Pika	s2661	scaffold00163
+Eutheria	9	26232096	28688341	-1	Nine-banded armadillo	s2535	JH577179
+Eutheria	9	21632229	23119136	-1	Chicken	1	chr1
+Eutheria	9	86686924	95916259	1	Horse	4	chr4
+Eutheria	9	6516177	9396607	-1	Nine-banded armadillo	s2523	JH583620
+Eutheria	9	18001049	21632229	-1	Pika	s2662	scaffold00111
+Eutheria	9	0	21632229	1	White rhinoceros	s2510	JH767754
+Eutheria	9	49931883	51814491	-1	Hedgehog	s2609	scaffold00383
+Eutheria	9	83679659	84959573	-1	Nine-banded armadillo	s2571	JH567403
+Eutheria	9	66057651	80576869	-1	Opossum	8	chr8
+Eutheria	9	73812984	82040935	1	Guinea pig	s2502	scaffold_44
+Eutheria	9	40227204	41217338	1	Cow	4	chr4
+Eutheria	9	23119136	25367312	-1	Hedgehog	s2596	scaffold00294
+Eutheria	9	74263057	82397171	1	Mouse	6	chr6
+Eutheria	9	615668	6211763	1	Rat	4	chr4
+Eutheria	9	94719419	95916259	-1	Rabbit	s2682	chr10
+Eutheria	9	24010231	32193636	1	Chicken	1	chr1
+Eutheria	9	39910134	40663868	-1	Pika	s2664	scaffold00164
+Eutheria	9	11784461	17546147	1	Elephant	s2651	scaffold_83
+Eutheria	9	79726597	80576869	-1	Hedgehog	s2634	scaffold00808
+Eutheria	9	92752082	95323930	-1	Goat	4	chr4
+Eutheria	9	0	95916259	-1	Orangutan	7	chr7
+Eutheria	9	0	6516177	-1	Guinea pig	s2495	scaffold_32
+Eutheria	9	54540178	56287658	-1	Nine-banded armadillo	s2551	JH574710
+Eutheria	9	32798257	33369702	1	Opossum	8	chr8
+Eutheria	9	44838745	46391533	-1	Hedgehog	s2605	scaffold00493
+Eutheria	9	70974276	71930907	1	Nine-banded armadillo	s2560	JH569079
+Eutheria	9	39910134	40227204	-1	White rhinoceros	s2512	JH767724
+Eutheria	9	52856959	64573971	1	Guinea pig	s2500	scaffold_11
+Eutheria	9	6516177	18001049	1	Dog	16	chr16
+Eutheria	9	80576869	86686924	-1	Bottlenose dolphin	s2720	JH594743
+Eutheria	9	80576869	82136243	-1	Opossum	6	chr6
+Eutheria	9	49931883	50472838	-1	Rabbit	s2678	chr2
+Eutheria	9	17546147	18001049	1	Nine-banded armadillo	s2529	JH570459
+Eutheria	9	46391533	47457209	-1	Hedgehog	s2606	scaffold00750
+Eutheria	9	69608401	70607972	1	Hedgehog	s2628	scaffold00664
+Eutheria	9	52457864	53225761	-1	Nine-banded armadillo	s2549	JH576888
+Eutheria	9	54540178	74604887	1	Cow	4	chr4
+Eutheria	9	0	33369702	1	Marmoset	8	chr8
+Eutheria	9	32193636	32496259	1	Rhesus macaque	3	chr3
+Eutheria	9	6516177	10623835	1	Pig	s2695	chr9
+Eutheria	9	0	44838745	-1	Chimpanzee	7	chr7
+Eutheria	9	71930907	74604887	1	Hedgehog	s2630	scaffold00223
+Eutheria	9	0	44838745	-1	Human	7	chr7
+Eutheria	9	75056169	86686924	-1	Goat	4	chr4
+Eutheria	9	48736585	68636918	1	White rhinoceros	s2515	JH767758
+Eutheria	9	61075282	61427199	-1	Hedgehog	s2618	scaffold01169
+Eutheria	9	15685962	17546147	-1	Rabbit	s2674	chr7
+Eutheria	9	41217338	42631779	1	Hedgehog	s2602	scaffold00372
+Eutheria	9	40227204	41217338	-1	Horse	4	chr4
+Eutheria	9	64573971	70974276	-1	Rat	6	chr6
+Eutheria	9	6211763	28254473	1	Shrew	s2684	scaffold00032
+Eutheria	9	80576869	86686924	-1	Chicken	2	chr2
+Eutheria	9	64573971	91273630	-1	Pika	s2668	scaffold00013
+Eutheria	9	70607972	71930907	1	Hedgehog	s2629	scaffold00587
+Eutheria	9	40663868	42985099	1	Pika	s2665	scaffold00124
+Eutheria	9	40227204	41217338	1	Goat	4	chr4
+Eutheria	9	65386195	67527437	1	Hedgehog	s2624	scaffold00345
+Eutheria	9	92752082	95916259	1	Dog	18	chr18
+Eutheria	9	64573971	73812984	-1	Guinea pig	s2501	scaffold_31
+Eutheria	9	67527437	68636918	-1	Hedgehog	s2625	scaffold00567
+Eutheria	9	85328410	91273630	1	Rat	17	chr17
+Eutheria	9	91273630	95916259	-1	Tenrec	s2586	scaffold00031
+Eutheria	9	42985099	44838745	-1	Nine-banded armadillo	s2547	JH578111
+Eutheria	9	17546147	21632229	1	Elephant	s2652	scaffold_101
+Eutheria	9	6211763	38487649	-1	Rat	4	chr4
+Eutheria	9	41217338	52856959	-1	Goat	4	chr4
+Eutheria	9	91273630	95916259	1	Rat	14	chr14
+Eutheria	9	56287658	62182778	-1	Bottlenose dolphin	s2716	JH594762
+Eutheria	9	33369702	39910134	1	Cow	4	chr4
+Eutheria	9	84283714	91273630	1	Guinea pig	s2505	scaffold_30
+Eutheria	9	62901310	64573971	-1	Nine-banded armadillo	s2556	JH568170
+Eutheria	9	91273630	92324270	1	Bottlenose dolphin	s2722	JH594761
+Eutheria	9	92324270	93816330	-1	Hedgehog	s2641	scaffold00243
+Eutheria	9	93816330	94719419	-1	Nine-banded armadillo	s2579	JH568376
+Eutheria	9	56287658	59894252	1	Nine-banded armadillo	s2552	JH570391
+Eutheria	9	15685962	17546147	1	Nine-banded armadillo	s2528	JH568517
+Eutheria	9	64573971	70974276	-1	Mouse	12	chr12
+Eutheria	9	62901310	65386195	1	Bottlenose dolphin	s2718	JH594848
+Eutheria	9	74604887	75785194	1	Nine-banded armadillo	s2563	JH561954
+Eutheria	9	81302512	82397171	1	Hedgehog	s2636	scaffold00502
+Eutheria	9	52856959	56287658	1	Opossum	8	chr8
+Eutheria	9	59894252	61075282	-1	Hedgehog	s2617	scaffold00645
+Eutheria	9	94410046	94719419	1	Cow	4	chr4
+Eutheria	9	40227204	41217338	-1	Dog	14	chr14
+Eutheria	9	17225499	27347242	-1	Bottlenose dolphin	s2708	JH594703
+Eutheria	9	57793848	59113142	-1	Hedgehog	s2615	scaffold00571
+Eutheria	9	86686924	92752082	-1	Cow	4	chr4
+Eutheria	9	12410465	13761447	-1	Hedgehog	s2590	scaffold00575
+Eutheria	9	42631779	42985099	1	Nine-banded armadillo	s2546	JH569839
+Eutheria	9	6211763	11163432	1	Elephant	s2649	scaffold_91
+Eutheria	9	33369702	34095752	-1	Nine-banded armadillo	s2540	JH566298
+Eutheria	9	94719419	95323930	1	Guinea pig	s2508	scaffold_102
+Eutheria	9	92324270	92752082	-1	Dog	16	chr16
+Eutheria	9	16125188	17225499	-1	Hedgehog	s2592	scaffold00536
+Eutheria	9	0	6211763	-1	Tenrec	s2581	scaffold00012
+Eutheria	9	41217338	52457864	1	Dog	18	chr18
+Eutheria	9	33369702	35721037	-1	Hedgehog	s2600	scaffold00268
+Eutheria	9	6516177	15685962	1	Tenrec	s2582	scaffold00083
+Eutheria	9	41217338	48736585	1	White rhinoceros	s2514	JH767801
+Eutheria	9	17546147	19129251	-1	Hedgehog	s2593	scaffold00301
+Eutheria	9	4203392	5801291	-1	Nine-banded armadillo	s2520	JH575209
+Eutheria	9	28688341	39910134	-1	Dog	14	chr14
+Eutheria	9	615668	6211763	-1	Mouse	5	chr5
+Eutheria	9	91273630	94719419	-1	Pika	s2669	scaffold00013
+Eutheria	9	40227204	41217338	1	White rhinoceros	s2513	JH767724
+Eutheria	9	87343099	91273630	-1	Chimpanzee	7	chr7
+Eutheria	9	89886404	91273630	-1	Nine-banded armadillo	s2575	JH562801
+Eutheria	9	44838745	59894252	1	Chimpanzee	7	chr7
+Eutheria	9	2132288	2576050	1	Elephant	s2647	scaffold_178
+Eutheria	9	91273630	91861433	-1	Shrew	s2689	scaffold00083
+Eutheria	9	91861433	92324270	-1	Nine-banded armadillo	s2577	JH567499
+Eutheria	9	70974276	73812984	-1	Mouse	12	chr12
+Eutheria	9	6516177	11784461	1	Rabbit	s2673	chr7
+Eutheria	9	6211763	6516177	-1	Nine-banded armadillo	s2522	JH569347
+Eutheria	9	86686924	92752082	-1	Goat	4	chr4
+Eutheria	9	92752082	93816330	1	Nine-banded armadillo	s2578	JH570430
+Eutheria	9	87343099	91273630	-1	Hedgehog	s2639	scaffold00025
+Eutheria	9	40227204	41217338	1	Pig	s2698	chr18
+Eutheria	9	53225761	54540178	1	Hedgehog	s2613	scaffold00461
+Eutheria	9	92752082	94719419	1	Chicken	2	chr2
+Eutheria	9	42985099	47858078	1	Rat	4	chr4
+Eutheria	9	0	33369702	-1	Cow	4	chr4
+Eutheria	9	0	32193636	-1	Opossum	8	chr8
+Eutheria	9	86686924	90530167	-1	White rhinoceros	s2517	JH767829
+Eutheria	9	83377749	84283714	1	Guinea pig	s2504	scaffold_30
+Eutheria	9	93280787	93816330	-1	Shrew	s2691	scaffold00093
+Eutheria	9	91273630	92324270	1	Elephant	s2654	scaffold_63
+Eutheria	9	0	32193636	-1	Rhesus macaque	3	chr3
+Eutheria	9	615668	2132288	-1	Elephant	s2646	scaffold_98
+Eutheria	9	10623835	17546147	1	Pika	s2660	scaffold00069
+Eutheria	9	44838745	46755259	1	Bottlenose dolphin	s2713	JH594886
+Eutheria	9	91273630	92324270	-1	Hedgehog	s2640	scaffold00238
+Eutheria	9	48736585	86686924	1	Horse	4	chr4
+Eutheria	9	13761447	16125188	1	Hedgehog	s2591	scaffold00263
+Eutheria	9	39910134	40227204	1	Dog	14	chr14
+Eutheria	9	39910134	40227204	1	Horse	4	chr4
+Eutheria	9	21632229	39910134	-1	Pika	s2663	scaffold00053
+Eutheria	9	33369702	81302512	-1	Marmoset	8	chr8
+Eutheria	9	41217338	52856959	-1	Pig	s2699	chr9
+Eutheria	9	86686924	86997501	1	Pig	s2703	chr9
+Eutheria	9	64573971	65386195	-1	Hedgehog	s2623	scaffold00765
+Eutheria	9	19129251	20665655	-1	Hedgehog	s2594	scaffold00421
+Eutheria	9	94719419	95323930	1	Bottlenose dolphin	s2725	JH594720
+Eutheria	9	68636918	86686924	-1	White rhinoceros	s2516	JH767724
+Eutheria	9	92752082	95916259	1	Pig	s2705	chr9
+Eutheria	9	19129251	21632229	-1	Nine-banded armadillo	s2531	JH569928
+Eutheria	9	93280787	94410046	-1	Cow	4	chr4
+Eutheria	9	13761447	15685962	1	Chicken	1	chr1
+Eutheria	9	82397171	85328410	1	Hedgehog	s2637	scaffold00203
+Eutheria	9	17546147	18075987	-1	Chicken	1	chr1
+Eutheria	9	83679659	91273630	1	Tenrec	s2585	scaffold00031
+Eutheria	9	41623122	42985099	1	Mouse	12	chr12
+Eutheria	9	95323930	95916259	-1	Shrew	s2693	scaffold00004
+Eutheria	9	44838745	59894252	1	Human	7	chr7
+Eutheria	9	0	6516177	-1	Dog	16	chr16
+Eutheria	9	52856959	80112520	1	Chicken	2	chr2
+Eutheria	9	52856959	53225761	1	Cow	4	chr4
+Eutheria	9	80112520	80576869	-1	Chicken	2	chr2
+Eutheria	9	91273630	92324270	1	Opossum	1	chr1
+Eutheria	9	70974276	80576869	-1	Shrew	s2686	scaffold00012
+Eutheria	9	59894252	87343099	1	Chimpanzee	7	chr7
+Eutheria	9	21632229	38487649	1	Rabbit	s2676	chr7
+Eutheria	9	32496259	32798257	-1	Opossum	8	chr8
+Eutheria	9	41623122	42985099	1	Rat	6	chr6
+Eutheria	9	91273630	95916259	1	Mouse	11	chr11
+Eutheria	9	52856959	53225761	-1	Hedgehog	s2612	scaffold00562
+Eutheria	9	53687320	56287658	1	Bottlenose dolphin	s2715	JH594859
+Eutheria	9	69304681	69608401	1	Hedgehog	s2627	scaffold01138
+Eutheria	9	18001049	28688341	1	Dog	14	chr14
+Eutheria	9	24010231	26232096	1	Nine-banded armadillo	s2534	JH570472
+Eutheria	9	15685962	17225499	1	Chicken	1	chr1
+Eutheria	9	62182778	62901310	1	Hedgehog	s2620	scaffold00871
+Eutheria	9	38487649	41623122	1	Mouse	12	chr12
+Eutheria	9	65085984	65738494	1	Nine-banded armadillo	s2557	JH575428
+Eutheria	9	53225761	54540178	1	Nine-banded armadillo	s2550	JH567605
+Eutheria	9	43381519	44838745	1	Hedgehog	s2604	scaffold00610
+Eutheria	9	35372477	43381519	1	Bottlenose dolphin	s2711	JH594702
+Eutheria	9	86997501	92752082	-1	Pig	s2704	chr18
+Eutheria	9	75056169	75471867	-1	Cow	10	chr10
+Eutheria	9	67118626	70974276	1	Nine-banded armadillo	s2559	JH569938
+Eutheria	9	6211763	38487649	-1	Mouse	6	chr6
+Eutheria	9	62901310	63233995	1	Hedgehog	s2621	scaffold00871
+Eutheria	9	75785194	76963103	-1	Nine-banded armadillo	s2564	JH568260
+Eutheria	9	34095752	37840455	-1	Nine-banded armadillo	s2541	JH562876
+Eutheria	9	13761447	14500511	1	Nine-banded armadillo	s2526	JH574511
+Eutheria	9	92752082	93280787	1	Cow	4	chr4
+Eutheria	9	75471867	86686924	-1	Cow	4	chr4
+Eutheria	9	70974276	73812984	-1	Rat	6	chr6
+Eutheria	9	86686924	91273630	1	Bottlenose dolphin	s2721	JH594720
+Eutheria	9	41217338	48736585	-1	Horse	4	chr4
+Eutheria	9	52457864	86686924	1	Dog	14	chr14
+Eutheria	9	2576050	6211763	-1	Elephant	s2648	scaffold_12
+Eutheria	9	41217338	41623122	-1	Nine-banded armadillo	s2544	JH569001
+Eutheria	9	71930907	72591711	-1	Nine-banded armadillo	s2561	JH575071
+Eutheria	9	37840455	39292244	1	Nine-banded armadillo	s2542	JH568512
+Eutheria	9	50472838	64573971	1	Pika	s2667	scaffold00013
+Eutheria	9	10623835	11784461	-1	Nine-banded armadillo	s2524	JH573033
+Eutheria	9	84943202	86686924	1	Opossum	6	chr6
+Eutheria	9	82397171	83377749	1	Nine-banded armadillo	s2570	JH567896
+Eutheria	9	93816330	94719419	1	Hedgehog	s2642	scaffold00362
+Eutheria	9	0	6211763	-1	Shrew	s2683	scaffold00155
+Eutheria	9	91273630	95916259	1	Chimpanzee	7	chr7
+Eutheria	9	44838745	59894252	1	Gorilla	7	chr7
+Eutheria	9	12410465	13761447	-1	Chicken	1	chr1
+Eutheria	9	63233995	64140742	1	Hedgehog	s2622	scaffold00905
+Eutheria	9	91273630	92752082	-1	Guinea pig	s2506	scaffold_66
+Eutheria	9	53225761	54540178	-1	Cow	4	chr4
+Eutheria	9	61427199	61879365	-1	Hedgehog	s2619	scaffold00871
+Eutheria	9	91273630	91861433	1	Nine-banded armadillo	s2576	JH569859
+Eutheria	9	91861433	92324270	1	Shrew	s2690	scaffold00004
+Eutheria	9	5801291	6211763	-1	Nine-banded armadillo	s2521	JH567928
+Eutheria	9	74604887	75785194	1	Hedgehog	s2631	scaffold00415
+Eutheria	9	80576869	82397171	-1	Nine-banded armadillo	s2569	JH568921
+Eutheria	9	17546147	21632229	-1	Rabbit	s2675	chr7
+Eutheria	9	39910134	40227204	-1	Cow	4	chr4
+Eutheria	9	0	44838745	-1	Gorilla	7	chr7
+Eutheria	9	38487649	52856959	1	Guinea pig	s2499	scaffold_31
+Eutheria	9	52856959	74604887	1	Pig	s2700	chr9
+Eutheria	9	47457209	47858078	-1	Hedgehog	s2607	scaffold00919
+Eutheria	9	95323930	95916259	1	Nine-banded armadillo	s2580	JH562224
+Eutheria	9	0	6211763	1	Pig	s2694	chr18
+Eutheria	9	21632229	91273630	-1	Elephant	s2653	scaffold_5
+Eutheria	9	27347242	29355814	-1	Hedgehog	s2598	scaffold00545
+Eutheria	9	86686924	89529385	-1	Nine-banded armadillo	s2573	JH568752
+Eutheria	9	81302512	95916259	1	Marmoset	8	chr8
+Eutheria	9	94719419	95916259	-1	Cow	4	chr4
+Eutheria	9	0	615668	1	Rat	6	chr6
+Eutheria	9	32496259	33369702	-1	Nine-banded armadillo	s2539	JH582503
+Eutheria	9	6211763	17225499	1	Bottlenose dolphin	s2707	JH594699
+Eutheria	9	82397171	86686924	-1	Pig	s2702	chr18
+Eutheria	9	28688341	29355814	1	Nine-banded armadillo	s2536	JH566524
+Eutheria	9	91273630	92324270	1	Rabbit	s2681	chr10
+Eutheria	9	82397171	90530167	1	Shrew	s2688	scaffold00024
+Eutheria	9	6516177	18001049	1	Guinea pig	s2496	scaffold_10
+Eutheria	9	42985099	50472838	-1	Pika	s2666	scaffold00048
+Eutheria	9	61075282	61879365	1	Nine-banded armadillo	s2554	JH572736
+Eutheria	9	27347242	33369702	1	Bottlenose dolphin	s2709	JH594773
+Eutheria	9	74604887	82040935	-1	Pig	s2701	chr18
+Eutheria	9	28254473	70974276	1	Shrew	s2685	scaffold00005
+Eutheria	9	6516177	10623835	1	Pika	s2659	scaffold00101
+Eutheria	9	42631779	43381519	1	Hedgehog	s2603	scaffold00324
+Eutheria	9	51814491	52457864	1	Hedgehog	s2610	scaffold00462
+Eutheria	9	42985099	55615484	-1	Mouse	5	chr5
+Eutheria	9	50472838	64573971	-1	Rabbit	s2679	chr10
+Eutheria	9	39292244	41217338	1	Nine-banded armadillo	s2543	JH575272
+Eutheria	9	615668	39910134	-1	Horse	4	chr4
+Eutheria	9	18001049	19129251	-1	Nine-banded armadillo	s2530	JH569488
+Eutheria	9	93816330	94719419	1	Shrew	s2692	scaffold00093
+Eutheria	9	93816330	94719419	1	Bottlenose dolphin	s2724	JH594841
+Eutheria	9	0	33369702	-1	Goat	4	chr4
+Eutheria	9	38487649	41623122	1	Rat	6	chr6
+Eutheria	9	74604887	75056169	-1	Cow	4	chr4
+Eutheria	9	44838745	52457864	-1	Nine-banded armadillo	s2548	JH572107

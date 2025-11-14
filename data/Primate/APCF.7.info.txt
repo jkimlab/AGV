@@ -1,0 +1,179 @@
+Primate	7	9490641	21830692	1	Tenrec	s1084	scaffold00075
+Primate	7	53650131	58965601	-1	Pig	X	chrX
+Primate	7	152890469	153932146	-1	Rat	X	chrX
+Primate	7	40404097	59423705	1	Guinea pig	s1069	scaffold_46
+Primate	7	52374412	60601522	1	Elephant	s1125	scaffold_78
+Primate	7	82650640	153932146	-1	Rabbit	X	chrX
+Primate	7	22613952	44710652	-1	Opossum	X	chrX
+Primate	7	60601522	94457979	1	Elephant	s1126	scaffold_24
+Primate	7	89515188	100118713	-1	Pika	s1140	scaffold00075
+Primate	7	0	4012968	-1	Rhesus macaque	X	chrX
+Primate	7	63735938	77812754	-1	Cow	X	chrX
+Primate	7	6585669	6914404	-1	Goat	X	chrX
+Primate	7	3047811	4012968	1	Guinea pig	s1059	scaffold_197
+Primate	7	70862985	153932146	1	Chicken	1	chr1
+Primate	7	4989979	5858987	-1	Guinea pig	s1061	scaffold_174
+Primate	7	30901540	43588143	1	Rat	X	chrX
+Primate	7	109324235	117383770	-1	Tenrec	s1095	scaffold00091
+Primate	7	45001454	56436911	1	Shrew	s1147	scaffold00076
+Primate	7	9758722	10237519	1	Cow	X	chrX
+Primate	7	4012968	14684481	-1	Rhesus macaque	X	chrX
+Primate	7	103716024	118610116	1	Elephant	s1129	scaffold_56
+Primate	7	62927058	82650640	-1	Rabbit	X	chrX
+Primate	7	7552993	11821330	-1	Hedgehog	s1103	scaffold00341
+Primate	7	61949675	75365264	-1	Hedgehog	s1110	scaffold00234
+Primate	7	98570542	115509851	1	Guinea pig	s1073	scaffold_33
+Primate	7	131773524	152984479	1	Mouse	X	chrX
+Primate	7	57696081	63735938	1	Cow	X	chrX
+Primate	7	0	153932146	-1	Horse	X	chrX
+Primate	7	94457979	98012809	-1	Elephant	s1127	scaffold_24
+Primate	7	116794790	131773524	1	Rat	X	chrX
+Primate	7	124440145	147691669	1	Elephant	s1131	scaffold_39
+Primate	7	15146692	28261215	-1	Hedgehog	s1107	scaffold00244
+Primate	7	12877016	34851254	1	Chicken	4	chr4
+Primate	7	13694343	14684481	1	Hedgehog	s1105	scaffold00341
+Primate	7	41349553	47195058	1	Tenrec	s1087	scaffold00044
+Primate	7	59423705	91036430	1	Guinea pig	s1070	scaffold_26
+Primate	7	85052107	135603606	1	Opossum	4	chr4
+Primate	7	152562019	153932146	1	Shrew	s1155	scaffold00193
+Primate	7	58965601	63384074	-1	Pig	X	chrX
+Primate	7	15146692	53650131	-1	Pig	X	chrX
+Primate	7	43588143	51353612	1	Rat	X	chrX
+Primate	7	2533664	5280947	-1	Hedgehog	s1101	scaffold00474
+Primate	7	0	1571398	1	Pig	X	chrX
+Primate	7	70506762	81654470	-1	Shrew	s1149	scaffold00049
+Primate	7	144959860	153932146	-1	Hedgehog	s1117	scaffold00074
+Primate	7	14684481	15146692	-1	Guinea pig	s1064	scaffold_79
+Primate	7	131773524	152890469	-1	Rat	X	chrX
+Primate	7	117383770	127846158	-1	Tenrec	s1096	scaffold00081
+Primate	7	4012968	12877016	1	Chicken	4	chr4
+Primate	7	103120791	116794790	1	Rat	X	chrX
+Primate	7	98012809	103716024	-1	Elephant	s1128	scaffold_85
+Primate	7	10237519	47483309	-1	Cow	X	chrX
+Primate	7	140084060	153932146	1	Pika	s1143	scaffold00091
+Primate	7	14684481	15146692	1	Pig	X	chrX
+Primate	7	0	2898418	1	Elephant	s1118	scaffold_120
+Primate	7	23561550	45001454	-1	Shrew	s1146	scaffold00021
+Primate	7	15146692	20543665	1	Elephant	s1122	scaffold_89
+Primate	7	0	153932146	-1	Chimpanzee	X	chrX
+Primate	7	131773524	132804947	-1	Rhesus macaque	10	chr10
+Primate	7	9923655	22613952	-1	Opossum	X	chrX
+Primate	7	597539	23561550	1	Shrew	s1145	scaffold00022
+Primate	7	139433155	143628283	1	Guinea pig	s1076	scaffold_113
+Primate	7	56384527	66070072	-1	Opossum	X	chrX
+Primate	7	136827660	153932146	1	Opossum	7	chr7
+Primate	7	63384074	153932146	-1	Pig	X	chrX
+Primate	7	147691669	153292840	-1	Elephant	s1132	scaffold_94
+Primate	7	118610116	124440145	1	Elephant	s1130	scaffold_82
+Primate	7	0	1299336	-1	Opossum	X	chrX
+Primate	7	1299336	3096914	-1	Opossum	X	chrX
+Primate	7	111279353	131773524	1	Hedgehog	s1114	scaffold00091
+Primate	7	0	153932146	-1	Human	X	chrX
+Primate	7	116693044	131773524	1	Mouse	X	chrX
+Primate	7	150228763	153932146	-1	Guinea pig	s1080	scaffold_121
+Primate	7	15146692	153932146	-1	Marmoset	X	chrX
+Primate	7	22683814	28217544	1	Goat	X	chrX
+Primate	7	0	153932146	-1	Orangutan	X	chrX
+Primate	7	52584259	102541530	-1	Mouse	X	chrX
+Primate	7	0	30901540	-1	Rat	X	chrX
+Primate	7	42286153	53299019	-1	Goat	X	chrX
+Primate	7	3096914	9923655	-1	Opossum	X	chrX
+Primate	7	0	9758722	-1	Cow	X	chrX
+Primate	7	103727446	153932146	1	Goat	X	chrX
+Primate	7	152646767	153932146	-1	Cow	X	chrX
+Primate	7	77812754	152646767	1	Cow	X	chrX
+Primate	7	78221821	85544338	-1	Tenrec	s1090	scaffold00086
+Primate	7	101584326	111279353	-1	Hedgehog	s1113	scaffold00198
+Primate	7	14684481	15146692	1	Rhesus macaque	X	chrX
+Primate	7	93526933	98779516	-1	Goat	X	chrX
+Primate	7	0	597539	-1	Shrew	s1144	scaffold00194
+Primate	7	34851254	70862985	1	Chicken	4	chr4
+Primate	7	92819205	96647679	-1	Tenrec	s1093	scaffold00104
+Primate	7	153292840	153932146	1	Elephant	s1133	scaffold_177
+Primate	7	143628283	148041164	1	Guinea pig	s1077	scaffold_116
+Primate	7	0	153932146	-1	Dog	X	chrX
+Primate	7	53755981	62927058	1	Rabbit	X	chrX
+Primate	7	91036430	94611200	-1	Guinea pig	s1071	scaffold_122
+Primate	7	115509851	125508230	-1	Guinea pig	s1074	scaffold_78
+Primate	7	15146692	35051768	-1	Rabbit	X	chrX
+Primate	7	131773524	131941619	1	Hedgehog	s1115	scaffold00698
+Primate	7	114210877	131773524	1	Shrew	s1153	scaffold00056
+Primate	7	26103015	29070962	1	Guinea pig	s1067	scaffold_145
+Primate	7	98862812	103120791	1	Rat	X	chrX
+Primate	7	98779516	103727446	1	Goat	X	chrX
+Primate	7	29070962	40404097	-1	Guinea pig	s1068	scaffold_69
+Primate	7	73784661	79882075	-1	Opossum	X	chrX
+Primate	7	0	52584259	-1	Mouse	X	chrX
+Primate	7	149315365	150228763	-1	Guinea pig	s1079	scaffold_126
+Primate	7	28217544	42286153	-1	Goat	X	chrX
+Primate	7	44710652	56384527	1	Opossum	X	chrX
+Primate	7	0	3014181	-1	Pika	s1134	scaffold00135
+Primate	7	85768269	101584326	-1	Hedgehog	s1112	scaffold00139
+Primate	7	96647679	109324235	1	Tenrec	s1094	scaffold00073
+Primate	7	6914404	22683814	-1	Goat	X	chrX
+Primate	7	15146692	22174218	1	Guinea pig	s1065	scaffold_79
+Primate	7	14684481	15146692	1	Marmoset	X	chrX
+Primate	7	0	6585669	-1	Goat	X	chrX
+Primate	7	0	14684481	-1	Marmoset	X	chrX
+Primate	7	53299019	56609879	1	Goat	X	chrX
+Primate	7	0	3047811	1	Guinea pig	s1058	scaffold_148
+Primate	7	148041164	149315365	-1	Guinea pig	s1078	scaffold_126
+Primate	7	22174218	26103015	-1	Guinea pig	s1066	scaffold_128
+Primate	7	15146692	131773524	-1	Rhesus macaque	X	chrX
+Primate	7	98425275	114210877	1	Shrew	s1152	scaffold00060
+Primate	7	91004885	98425275	-1	Shrew	s1151	scaffold00022
+Primate	7	1490851	2861766	1	Tenrec	s1082	scaffold00157
+Primate	7	66070072	73784661	-1	Opossum	X	chrX
+Primate	7	28261215	52266021	1	Hedgehog	s1108	scaffold00065
+Primate	7	25243683	52374412	1	Elephant	s1124	scaffold_32
+Primate	7	14684481	15146692	1	Hedgehog	s1106	scaffold00368
+Primate	7	14684481	15146692	1	Elephant	s1121	scaffold_81
+Primate	7	81654470	91004885	-1	Shrew	s1150	scaffold00086
+Primate	7	103466263	140084060	-1	Pika	s1142	scaffold00030
+Primate	7	56609879	66631320	-1	Goat	X	chrX
+Primate	7	135603606	136443882	1	Opossum	7	chr7
+Primate	7	63667415	78221821	1	Tenrec	s1089	scaffold00051
+Primate	7	73926231	89515188	-1	Pika	s1139	scaffold00056
+Primate	7	13639792	14684481	1	Guinea pig	s1063	scaffold_79
+Primate	7	131773524	152562019	-1	Shrew	s1154	scaffold00054
+Primate	7	125508230	139433155	-1	Guinea pig	s1075	scaffold_59
+Primate	7	6621909	14684481	-1	Elephant	s1120	scaffold_81
+Primate	7	4012968	4989979	-1	Guinea pig	s1060	scaffold_213
+Primate	7	47195058	63667415	-1	Tenrec	s1088	scaffold00044
+Primate	7	6415157	42213220	-1	Pika	s1136	scaffold00029
+Primate	7	5858987	13639792	1	Guinea pig	s1062	scaffold_84
+Primate	7	100118713	103466263	1	Pika	s1141	scaffold00113
+Primate	7	28217069	41349553	-1	Tenrec	s1086	scaffold00071
+Primate	7	0	153932146	-1	Gorilla	X	chrX
+Primate	7	66631320	93526933	1	Goat	X	chrX
+Primate	7	136443882	136827660	-1	Opossum	7	chr7
+Primate	7	127846158	153932146	1	Tenrec	s1097	scaffold00043
+Primate	7	131941619	144959860	-1	Hedgehog	s1116	scaffold00029
+Primate	7	51353612	98862812	-1	Rat	X	chrX
+Primate	7	11821330	13694343	-1	Hedgehog	s1104	scaffold00341
+Primate	7	79882075	85052107	1	Opossum	X	chrX
+Primate	7	105311614	116693044	-1	Mouse	X	chrX
+Primate	7	5280947	7552993	1	Hedgehog	s1102	scaffold00478
+Primate	7	0	1490851	-1	Tenrec	s1081	scaffold00156
+Primate	7	21830692	28217069	1	Tenrec	s1085	scaffold00102
+Primate	7	3014181	6415157	1	Pika	s1135	scaffold00122
+Primate	7	102541530	105311614	1	Mouse	X	chrX
+Primate	7	65264135	73926231	-1	Pika	s1138	scaffold00082
+Primate	7	2898418	6621909	-1	Elephant	s1119	scaffold_111
+Primate	7	2861766	9490641	-1	Tenrec	s1083	scaffold00106
+Primate	7	52266021	61949675	1	Hedgehog	s1109	scaffold00343
+Primate	7	907259	1253707	-1	Hedgehog	s1099	scaffold01250
+Primate	7	132804947	153932146	-1	Rhesus macaque	X	chrX
+Primate	7	47483309	57696081	-1	Cow	X	chrX
+Primate	7	152984479	153932146	-1	Mouse	X	chrX
+Primate	7	94611200	98570542	-1	Guinea pig	s1072	scaffold_132
+Primate	7	85544338	89656053	-1	Tenrec	s1091	scaffold00109
+Primate	7	42213220	65264135	-1	Pika	s1137	scaffold00041
+Primate	7	1571398	14684481	-1	Pig	X	chrX
+Primate	7	0	907259	-1	Hedgehog	s1098	scaffold00962
+Primate	7	89656053	92819205	1	Tenrec	s1092	scaffold00130
+Primate	7	75365264	85768269	-1	Hedgehog	s1111	scaffold00288
+Primate	7	20543665	25243683	-1	Elephant	s1123	scaffold_100
+Primate	7	35051768	53755981	-1	Rabbit	X	chrX
+Primate	7	1253707	2533664	1	Hedgehog	s1100	scaffold00761
+Primate	7	56436911	70506762	1	Shrew	s1148	scaffold00021

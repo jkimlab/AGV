@@ -1,0 +1,17 @@
+Marmoset
+Mouse
+Rat
+Guinea pig
+Rabbit
+Pika
+Cow
+Goat
+Pig
+Horse
+Dog
+Hedgehog
+Shrew
+Elephant
+Tenrec
+Opossum
+Chicken

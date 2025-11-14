@@ -1,0 +1,125 @@
+Boreo	26	0	7477733	1	Dog	20	chr20
+Boreo	26	7477733	8793391	-1	Dog	20	chr20
+Boreo	26	8202888	8793391	1	Horse	7	chr7
+Boreo	26	4557044	6199442	1	Guinea pig	s2834	scaffold_42
+Boreo	26	7843651	8793391	1	White rhinoceros	s2850	JH767887
+Boreo	26	0	3193476	1	Chicken	28	chr28
+Boreo	26	6199442	7477733	-1	Mouse	9	chr9
+Boreo	26	12507350	12890786	-1	Guinea pig	s2842	scaffold_304
+Boreo	26	7843651	8202888	-1	Horse	7	chr7
+Boreo	26	8793391	13856094	-1	Horse	7	chr7
+Boreo	26	6199442	7477733	1	Pig	2	chr2
+Boreo	26	0	13856094	-1	Orangutan	19	chr19
+Boreo	26	7477733	8793391	1	Pika	s2880	scaffold00078
+Boreo	26	6811823	7477733	-1	Guinea pig	s2836	scaffold_368
+Boreo	26	13374617	13856094	1	Opossum	3	chr3
+Boreo	26	12187498	12507350	-1	Opossum	3	chr3
+Boreo	26	8202888	13856094	-1	Rhesus	19	chr19
+Boreo	26	11541246	12507350	1	Mouse	10	chr10
+Boreo	26	13233112	13856094	-1	Guinea pig	s2844	scaffold_320
+Boreo	26	7477733	7843651	1	Mouse	17	chr17
+Boreo	26	3193476	3916889	1	Pika	s2877	scaffold00078
+Boreo	26	3193476	3916889	-1	Rat	7	chr7
+Boreo	26	3193476	3916889	-1	White rhinoceros	s2846	JH767888
+Boreo	26	13233112	13856094	-1	Elephant	s2875	scaffold_153
+Boreo	26	6199442	7477733	-1	Hedgehog	s2864	scaffold00287
+Boreo	26	13233112	13856094	-1	capHir1	7	chr7
+Boreo	26	7477733	8793391	-1	capHir1	7	chr7
+Boreo	26	3916889	7843651	1	Horse	7	chr7
+Boreo	26	0	3193476	1	White rhinoceros	s2845	JH767731
+Boreo	26	7843651	8202888	1	Rhesus	19	chr19
+Boreo	26	7477733	7843651	1	White rhinoceros	s2849	JH767912
+Boreo	26	0	3193476	1	Hedgehog	s2860	scaffold00646
+Boreo	26	11541246	13856094	-1	Pika	s2882	scaffold00078
+Boreo	26	8793391	13856094	-1	Hedgehog	s2867	scaffold00255
+Boreo	26	7477733	8793391	1	Opossum	3	chr3
+Boreo	26	7843651	8793391	-1	Mouse	8	chr8
+Boreo	26	12995700	12999419	1	Opossum	3	chr3
+Boreo	26	12507350	13233112	1	Elephant	s2874	scaffold_132
+Boreo	26	6199442	7477733	-1	Rat	8	chr8
+Boreo	26	0	7477733	1	Elephant	s2868	scaffold_26
+Boreo	26	0	49780	-1	Opossum	3	chr3
+Boreo	26	3916889	6199442	1	Mouse	8	chr8
+Boreo	26	0	13856094	-1	Gorilla	19	chr19
+Boreo	26	8793391	11541246	1	Pika	s2881	scaffold00078
+Boreo	26	6199442	7477733	-1	capHir1	7	chr7
+Boreo	26	8793391	9989243	1	Guinea pig	s2839	scaffold_250
+Boreo	26	7477733	7843651	1	Rat	7	chr7
+Boreo	26	11776136	12187498	1	Opossum	3	chr3
+Boreo	26	6199442	7477733	-1	Pika	s2879	scaffold00078
+Boreo	26	11541246	13856094	-1	Shrew	s2887	scaffold00080
+Boreo	26	3193476	4557044	-1	Guinea pig	s2833	scaffold_168
+Boreo	26	1498830	3916889	-1	Opossum	3	chr3
+Boreo	26	8793391	13233112	1	Cow	7	chr7
+Boreo	26	9194817	9597563	-1	Elephant	s2871	scaffold_119
+Boreo	26	9989243	11240356	1	Guinea pig	s2840	scaffold_334
+Boreo	26	3193476	3916889	-1	Mouse	17	chr17
+Boreo	26	9597563	11214992	1	Elephant	s2872	scaffold_119
+Boreo	26	1450079	2207958	-1	Mouse	8	chr8
+Boreo	26	0	1450079	-1	Guinea pig	s2831	scaffold_72
+Boreo	26	0	6199442	1	Cow	7	chr7
+Boreo	26	0	977228	1	Tenrec	s2852	scaffold00021
+Boreo	26	977228	2207958	-1	Tenrec	s2853	scaffold00004
+Boreo	26	9989243	11240356	1	Chicken	28	chr28
+Boreo	26	7843651	8793391	1	Rat	12	chr12
+Boreo	26	7477733	7843651	1	Chicken	28	chr28
+Boreo	26	0	3193476	1	Pika	s2876	scaffold00078
+Boreo	26	7477733	13856094	-1	Pig	2	chr2
+Boreo	26	3916889	5131997	1	Hedgehog	s2862	scaffold00594
+Boreo	26	7477733	8202888	-1	Guinea pig	s2837	scaffold_195
+Boreo	26	49780	1214875	-1	Opossum	3	chr3
+Boreo	26	7477733	8793391	1	Shrew	s2885	scaffold00080
+Boreo	26	12999419	13374617	-1	Opossum	3	chr3
+Boreo	26	13469160	13856094	-1	Chicken	28	chr28
+Boreo	26	3193476	3916889	1	Hedgehog	s2861	scaffold01098
+Boreo	26	8793391	11776136	-1	Opossum	3	chr3
+Boreo	26	8793391	11541246	-1	Mouse	17	chr17
+Boreo	26	6199442	7477733	-1	White rhinoceros	s2848	JH767854
+Boreo	26	8793391	13856094	1	White rhinoceros	s2851	JH767828
+Boreo	26	3916889	6199442	1	Opossum	3	chr3
+Boreo	26	0	6199442	1	capHir1	7	chr7
+Boreo	26	8793391	13856094	1	Dog	20	chr20
+Boreo	26	8202888	8793391	-1	Guinea pig	s2838	scaffold_42
+Boreo	26	8793391	9194817	1	Elephant	s2870	scaffold_119
+Boreo	26	12507350	12995700	-1	Opossum	3	chr3
+Boreo	26	1450079	3193476	-1	Guinea pig	s2832	scaffold_86
+Boreo	26	7843651	8793391	-1	Hedgehog	s2866	scaffold00625
+Boreo	26	2207958	3193476	1	Rat	16	chr16
+Boreo	26	3916889	6199442	1	Pika	s2878	scaffold00078
+Boreo	26	7477733	8793391	-1	Cow	7	chr7
+Boreo	26	0	13856094	-1	Marmoset	22	chr22
+Boreo	26	5131997	6199442	-1	Hedgehog	s2863	scaffold00594
+Boreo	26	7477733	8793391	-1	Tenrec	s2856	scaffold00147
+Boreo	26	6199442	7477733	1	Tenrec	s2855	scaffold00134
+Boreo	26	0	3916889	1	Shrew	s2883	scaffold00100
+Boreo	26	0	6199442	-1	Pig	2	chr2
+Boreo	26	0	13856094	-1	Human	19	chr19
+Boreo	26	11541246	12507350	-1	Rat	7	chr7
+Boreo	26	11214992	12507350	-1	Elephant	s2873	scaffold_125
+Boreo	26	13303275	13856094	1	Tenrec	s2859	scaffold00138
+Boreo	26	0	7843651	-1	Rhesus	19	chr19
+Boreo	26	7477733	8793391	-1	Elephant	s2869	scaffold_114
+Boreo	26	11240356	11541246	1	Guinea pig	s2841	scaffold_304
+Boreo	26	6199442	6811823	-1	Guinea pig	s2835	scaffold_226
+Boreo	26	6199442	7477733	1	Opossum	3	chr3
+Boreo	26	12507350	13856094	1	Rat	7	chr7
+Boreo	26	2207958	3193476	-1	Mouse	8	chr8
+Boreo	26	8793391	13233112	1	capHir1	7	chr7
+Boreo	26	8793391	11541246	1	Shrew	s2886	scaffold00141
+Boreo	26	13211283	13303275	1	Tenrec	s2858	scaffold00138
+Boreo	26	0	3916889	-1	Horse	21	chr21
+Boreo	26	0	2207958	-1	Rat	16	chr16
+Boreo	26	0	13856094	-1	Chimp	19	chr19
+Boreo	26	6199442	7477733	-1	Cow	7	chr7
+Boreo	26	3916889	6199442	-1	Rat	19	chr19
+Boreo	26	12890786	13233112	-1	Guinea pig	s2843	scaffold_369
+Boreo	26	0	1450079	1	Mouse	8	chr8
+Boreo	26	13233112	13856094	-1	Cow	7	chr7
+Boreo	26	8793391	13211283	1	Tenrec	s2857	scaffold00089
+Boreo	26	3916889	6199442	-1	White rhinoceros	s2847	JH767853
+Boreo	26	12507350	13856094	-1	Mouse	10	chr10
+Boreo	26	3916889	7477733	-1	Shrew	s2884	scaffold00100
+Boreo	26	2207958	6199442	1	Tenrec	s2854	scaffold00105
+Boreo	26	1214875	1498830	-1	Opossum	3	chr3
+Boreo	26	7477733	7843651	-1	Hedgehog	s2865	scaffold01028
+Boreo	26	11541246	13469160	1	Chicken	28	chr28

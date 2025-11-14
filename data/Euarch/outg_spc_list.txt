@@ -1,0 +1,11 @@
+Cow
+Goat
+Pig
+Horse
+Dog
+Hedgehog
+Shrew
+Elephant
+Tenrec
+Opossum
+Chicken

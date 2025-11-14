@@ -1,0 +1,3 @@
+Catarrhini	21	38678015	0.999904
+Catarrhini	21	58926746	1.0
+Catarrhini	21	8041024	0.999998

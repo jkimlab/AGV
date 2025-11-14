@@ -122,6 +122,13 @@
     $inputF = "./data/".$s_prj."/spc_list.txt";
     $spc_arr = file($inputF, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     echo "\t\tvar arr_raw_spc = ". json_encode($spc_arr) .";\n";
+
+    echo "\t\tvar arr_outg_spc = new Array();";
+    $inputOutgF = "./data/".$s_prj."/outg_spc_list.txt";
+    if (file_exists($inputOutgF)) {
+        $outgspc_arr = file($inputOutgF, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        echo "\t\tarr_outg_spc = ". json_encode($outgspc_arr) .";\n";
+    }
 	if ($tar_spc == 1) {
     	$tar_spc_arr = file($inputtarF, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     	echo "\t\tvar arr_chr_spc = ". json_encode($tar_spc_arr) .";\n";
@@ -345,6 +352,23 @@
 				}
 			}
 		}
+
+        function getTooltip() {
+            var tip = d3.select('#chr-tooltip');
+            if (tip.empty()) {
+                tip = d3.select('body')
+                    .append('div')
+                    .attr('id', 'chr-tooltip')
+                    .style('position', 'absolute')
+                    .style('padding', '4px 8px')
+                    .style('background', 'rgba(0,0,0,0.8)')
+                    .style('color', '#fff')
+                    .style('border-radius', '4px')
+                    .style('pointer-events', 'none')
+                    .style('display', 'none');
+            }
+            return tip;
+        }
 		
 		function draw_main()
 		{
@@ -369,6 +393,7 @@
 					.style("stroke","black")
 					.style("stroke-width",1)
 					.style("fill","none");
+            var tooltip = getTooltip();
 			
 			for(var i = 0; i < arr_spc.length; i++)
 			{
@@ -399,21 +424,47 @@
 					var len_px = e_px - s_px;
 					var dir = arr_chr_info[4];
 					var tChr = arr_chr_info[6];
+                    const tChr_n = (arr_chr_info.length === 8) ? arr_chr_info[7] : "";
 					var text_y = s_px + (len_px/2) + 0.5;
 					var con_rect = figG.append("rect")
 							.attr("x",x_rect_pos)
 							.attr("y",s_px+0.5)
 							.attr("width",rectW)
 							.attr("height",len_px)
-							.style("stroke","none");
-					if (dir == "1")
-					{
-						con_rect.style("fill","rgb(173,216,229)");
-					}
-					else if (dir == "-1")
-					{
-						con_rect.style("fill","rgb(254,182,193)");
-					}
+							.style("stroke","none")
+                            .on('mouseenter', function() {
+                                if (!tChr_n) return;
+                                tooltip.style('display', 'block')
+                                    .text(tChr_n);
+                            })
+                            .on('mousemove', function() {
+                                const [mx, my] = d3.mouse(document.body);
+                                tooltip.style('left', (mx + 12) + 'px')
+                                    .style('top', (my + 12) + 'px');
+                            })
+                            .on('mouseleave', function() {
+                                tooltip.style('display', 'none');
+                            });
+
+                    if (arr_outg_spc.indexOf(spc) >= 0) {
+					    if (dir == "1")
+					    {
+						    con_rect.style("fill","rgb(227,240,244)");
+					    }
+					    else if (dir == "-1")
+					    {
+						    con_rect.style("fill","rgb(255,226,231)");
+					    }
+                    } else {
+					    if (dir == "1")
+					    {
+						    con_rect.style("fill","rgb(173,216,229)");
+					    }
+					    else if (dir == "-1")
+					    {
+						    con_rect.style("fill","rgb(254,182,193)");
+					    }
+                    }
 					var con_text = figG.append("text")
 							.attr("x",text_x)
 							.attr("y",0)
@@ -421,7 +472,9 @@
 							.style("font-family","Arial")
 							.style("fill","black")
 							.style("text-anchor","middle")
+                            .style("pointer-events", "none")
 							.text(tChr);
+
 					if (len_px > 10)
 					{
 						con_text.attr("y",text_y + 11 * 0.4)

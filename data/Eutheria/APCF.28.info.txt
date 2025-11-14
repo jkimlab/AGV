@@ -1,0 +1,24 @@
+Eutheria	28	0	605332	1	Hedgehog	s4991	scaffold00776
+Eutheria	28	0	605332	-1	Dog	14	chr14
+Eutheria	28	0	605332	1	Elephant	s4992	scaffold_110
+Eutheria	28	0	605332	-1	Orangutan	1	chr1
+Eutheria	28	0	605332	1	Pig	s4995	chr2
+Eutheria	28	0	605332	-1	Nine-banded armadillo	s4989	JH569647
+Eutheria	28	0	605332	-1	Chicken	2	chr2
+Eutheria	28	0	605332	-1	White rhinoceros	s4988	JH767726
+Eutheria	28	0	605332	1	Human	1	chr1
+Eutheria	28	0	605332	1	Chimpanzee	1	chr1
+Eutheria	28	0	605332	-1	Mouse	11	chr11
+Eutheria	28	0	605332	1	Guinea pig	s4987	scaffold_6
+Eutheria	28	0	605332	-1	Rhesus macaque	1	chr1
+Eutheria	28	0	605332	1	Opossum	6	chr6
+Eutheria	28	0	605332	1	Pika	s4993	scaffold00025
+Eutheria	28	0	605332	-1	Horse	14	chr14
+Eutheria	28	0	605332	-1	Cow	7	chr7
+Eutheria	28	0	605332	1	Tenrec	s4990	scaffold00002
+Eutheria	28	0	605332	-1	Rat	10	chr10
+Eutheria	28	0	605332	-1	Goat	7	chr7
+Eutheria	28	0	605332	-1	Shrew	s4994	scaffold00048
+Eutheria	28	0	605332	1	Bottlenose dolphin	s4996	JH594734
+Eutheria	28	0	605332	1	Marmoset	19	chr19
+Eutheria	28	0	605332	1	Gorilla	1	chr1
