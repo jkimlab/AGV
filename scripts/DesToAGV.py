@@ -121,6 +121,7 @@ if naming_opt=="on":
                 f.write(line)
                 f.write('\n')
 elif naming_opt=="off":
+    naming={}
     os.system(f"mv {OutputPos}/{AncestorName}/spc_list_temp.txt {OutputPos}/{AncestorName}/spc_list.txt")
     os.system(f"mv {OutputPos}/{AncestorName}/outg_spc_list_temp.txt {OutputPos}/{AncestorName}/outg_spc_list.txt")
 elif naming_opt=="custom":
