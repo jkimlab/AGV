@@ -6,7 +6,6 @@ import argparse
 
 parser=argparse.ArgumentParser(description="Make AGV data")
 parser.add_argument('-p',metavar='INPUT_DIR', help='Input Data Path',required=True)
-parser.add_argument('-o',metavar='OUTPUT_DIR',help='Output Data Path',required=True)
 parser.add_argument('-n',metavar='ANCESTOR_NAME',help='Ancestor Name',required=True)
 parser.add_argument('-c',metavar='CONFIG_FILE',help='DESCHRAMBLER Config File Path',required=True)
 parser.add_argument('-t',metavar='TREE_FILE',help='Tree File path',required=True)
@@ -18,7 +17,7 @@ if args.r in ('on', 'custom') and args.R is None:
     parser.error("option -R/--rename-table is required when -r is 'on' or 'custom'")
 #Parameter
 dirPos=args.p #Program_path(DESC_Output)
-OutputPos=args.o #Output_path
+OutputPos="data" #Output_path -> data fix 
 AncestorName=args.n #Project_Name,Ancestor_Name
 Config=args.c
 Tree=args.t
@@ -227,36 +226,5 @@ for chr_name,listing in map_files.items():
     with open(f"{OutputPos}/{AncestorName}/APCF.{chr_name}.info.txt", "w") as mf:
         for i in listing:
             mf.writelines(i)
-
-'''
-#Tree - order
-tree=open(Tree).read().rstrip()
-import tempfile, subprocess
-
-anchor = genomes[0]
-targets = list(dict.fromkeys(genomes + Outgroup))  
-pair_lines = [f"{anchor} {t}" for t in targets if t != anchor]
-
-with tempfile.NamedTemporaryFile('w+', delete=False) as pf:
-    pf.write("\n".join(pair_lines) + "\n")
-    pair_file = pf.name
-
-proc = subprocess.run(["./tree_distance.py", Tree, pair_file],
-                      text=True, capture_output=True)
-dvals = proc.stdout.strip().splitlines()
-dist = {anchor: 0.0}
-for line, pair in zip(dvals, pair_lines):
-    _, t = pair.split()
-    try:
-        dist[t] = float(line.strip())
-    except:
-        dist[t] = float("inf")
-
-BIG = float("inf")
-genomes  = sorted(genomes,  key=lambda x: dist.get(x, BIG))
-Outgroup = sorted(Outgroup, key=lambda x: dist.get(x, BIG))
-
-'''
-
 #APCF.size.txt
 os.system(f"cp {dirPos}/APCF_size.txt {OutputPos}/{AncestorName}/APCF.sizes.txt")
