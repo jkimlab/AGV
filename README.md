@@ -7,7 +7,7 @@ cd {Web root path} (example: /var/www/html)
 git clone https://github.com/jkimlab/AGV.git
 ```
 **To access web interfaces, You have to git the "AGV" in the web root directory.**
-**If you use Apache, The Web root path will be "/var/www/html".
+If you use Apache, The Web root path will be "/var/www/html".
 
 ## Running (script)
 ### Running Command 
