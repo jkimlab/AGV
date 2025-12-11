@@ -3,16 +3,15 @@
 
 ## Download
 ```
-cd {Web root path} (example: /var/www/html)
 git clone https://github.com/jkimlab/AGV.git
+cp browser {Web root path} (example: /var/www/html)
 ```
-**To access web interfaces, You have to git the "AGV" in the web root directory.**
-**If you use Apache, The Web root path will be "/var/www/html".
+**To access web interfaces, You have to copy the browser directory to your web root path.**
+**If you use Apache, The Web root path will be "/var/www/html".**
 
 ## Running (script)
 ### Running Command 
 ```
-
 usage: DesToAGV.py [-h] -p INPUT_DIR -n ANCESTOR_NAME -c CONFIG_FILE -t TREE_FILE [-r NAMING_OPT] [-R NAMING_TABLE_FILE]
 
 Make AGV data
@@ -27,13 +26,11 @@ options:
   -R NAMING_TABLE_FILE  If you select custom or on option, you have to put renaming table file path
 ```
 
-## Result
-- Default
-```
-http://your.host/AGV
-```
-
 ## Output
+
+The result will be made the "result" directory in your current path.
+The "ANCESTOR_NAME" option creates a result file with that name within the "result" directory.
+**Ultimately, the result/{ANCESTOR_NAME} data must be copied to browser/data to enable access to the web interface.**
 
 - spc_list.txt : List of all used species 
 - outg_spc_list.txt : List of species used as outgroup 
@@ -59,6 +56,11 @@ http://your.host/AGV
 | **Position**        | Genomic position of adjacency |
 | **Adjacency_score** | Calculated adjacency score    |
 
+## Result
+- Default
+```
+http://your.host/AGV
+```
 
 ## Example
 
