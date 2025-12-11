@@ -6,7 +6,7 @@
 git clone https://github.com/jkimlab/AGV.git
 cp browser {Web root path} (example: /var/www/html)
 ```
-**To access web interfaces, You have to copy the browser directory to your web root path.**
+**To access web interfaces, You have to copy the browser directory to your web root path.**   
 **If you use Apache, The Web root path will be "/var/www/html".**
 
 ## Running (script)
@@ -28,8 +28,8 @@ options:
 
 ## Output
 
-The result will be made the "result" directory in your current path.
-The "ANCESTOR_NAME" option creates a result file with that name within the "result" directory.
+The result will be made the "result" directory in your current path.  
+The "ANCESTOR_NAME" option creates a result file with that name within the "result" directory.  
 **Ultimately, the result/{ANCESTOR_NAME} data must be copied to browser/data to enable access to the web interface.**
 
 - spc_list.txt : List of all used species 
