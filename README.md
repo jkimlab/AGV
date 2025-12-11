@@ -1,6 +1,9 @@
 # AGV
 - Ancestor Genome Visualization with DESCHRAMBLER
 
+## Requirements
+* Python 3.7.4
+
 ## Download
 ```
 git clone https://github.com/jkimlab/AGV.git
