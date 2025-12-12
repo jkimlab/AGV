@@ -17,7 +17,8 @@ if args.r in ('on', 'custom') and args.R is None:
     parser.error("option -R/--rename-table is required when -r is 'on' or 'custom'")
 #Parameter
 dirPos=args.p #Program_path(DESC_Output)
-OutputPos="data" #Output_path -> data fix 
+os.system("mkdir -p result")
+OutputPos="result" #Output_path -> data fix 
 AncestorName=args.n #Project_Name,Ancestor_Name
 Config=args.c
 Tree=args.t
