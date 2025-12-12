@@ -2,7 +2,7 @@
 - Ancestor Genome Visualization with DESCHRAMBLER
 
 ## Requirements
-* Python 3.x.x
+* Python >= 3
 * PHP 7.4.3-4ubuntu2.18
 
 ## Download
