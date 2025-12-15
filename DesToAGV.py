@@ -8,7 +8,6 @@ parser=argparse.ArgumentParser(description="Make AGV data")
 parser.add_argument('-p',metavar='INPUT_DIR', help='Input Data Path',required=True)
 parser.add_argument('-n',metavar='ANCESTOR_NAME',help='Ancestor Name',required=True)
 parser.add_argument('-c',metavar='CONFIG_FILE',help='DESCHRAMBLER Config File Path',required=True)
-parser.add_argument('-t',metavar='TREE_FILE',help='Tree File path',required=True)
 parser.add_argument('-r',metavar='NAMING_OPT',default='off',choices=['on','off','custom'],help='Renaming type option (on,off,custom) / (default=off)')
 parser.add_argument('-R',metavar='NAMING_TABLE_FILE',help='If you select custom or on option, you have to put renaming table file path')
 
@@ -17,11 +16,9 @@ if args.r in ('on', 'custom') and args.R is None:
     parser.error("option -R/--rename-table is required when -r is 'on' or 'custom'")
 #Parameter
 dirPos=args.p #Program_path(DESC_Output)
-os.system("mkdir -p result")
-OutputPos="result" #Output_path -> data fix 
+OutputPos="." #Output_path -> data fix (Current Path)
 AncestorName=args.n #Project_Name,Ancestor_Name
 Config=args.c
-Tree=args.t
 naming_opt=args.r #on,off,custom
 rename_table=args.R
 os.makedirs(f"{OutputPos}/{AncestorName}", exist_ok=True)
