@@ -95,14 +95,14 @@ Running `DesToAGV.py` generates the following files inside the <ANCESTOR_NAME> d
 * `outg_spc_list.txt`: List of outgroup species used in the ancestral genome reconstruction.
 * `<ANCESTOR_NAME>.<CHR>.info.txt`: Table describing the mapping of syntenic fragments for each reconstructed ancestral chromosome.</br>
     **Columns (in order) :**</br>
-            1. Name of the ancestral genome</br>
-            2. Chromosome or scaffold ID in the ancestral genome</br>
-            3. Start coordinate of the ancestral genomic segment</br>
-            4. End coordinate of the ancestral genomic segment</br>
-            5. Strand orientation (+ or -)</br>
-            6. Name of the target species</br>
-            7. Mapping index of the target chromosome or scaffold</br>
-            6. Name of the target chromosome or scaffold</br>
+    &ensp;1. Name of the ancestral genome</br>
+    &ensp;2. Chromosome or scaffold ID in the ancestral genome</br>
+    &ensp;3. Start coordinate of the ancestral genomic segment</br>
+    &ensp;4. End coordinate of the ancestral genomic segment</br>
+    &ensp;5. Strand orientation (+ or -)</br>
+    &ensp;6. Name of the target species</br>
+    &ensp;7. Mapping index of the target chromosome or scaffold</br>
+    &ensp;8. Name of the target chromosome or scaffold</br>
 * `<ANCESTOR_NAME>.<CHR>.adjS.txt`: Adjacency score table for reconstructed ancestral chromosomes.</br>
     **Columns (in order) :**</br>
             1. Name of the ancestral genome</br>
