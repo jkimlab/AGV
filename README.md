@@ -6,7 +6,6 @@ AGV allows users to intuitively explore reconstructed ancestral genomes directly
 ## Requirements
 * Python >= 3.x
 * PHP >= 7.4 (tested with 7.4.3-4ubuntu2.18)
-</br>
 
 ## Installation
 ```
@@ -38,7 +37,7 @@ Optional arguments:
   -h, --help            Show this help message and exit
 
 ```
-
+</br>
 ### Command-line option details
 | Column                                     | Description                                  |
 | ------------------------------------------ | -------------------------------------------- |
@@ -49,6 +48,7 @@ Optional arguments:
 | `-r RENAME_MODE`                           | Option for controlling how species or assembly names are displayed in the AGV web interface.|
 | `-R RENAME_TABLE`                          | Path to a renaming table file used for name conversion in the AGV web interface.</br>This option is required when `-r` is set to `custom`. Please refer to the example file `examples/naming_table_ex.txt` for the expected format.|
 
+</br>
 ### Example commands using the example dataset
 #### Basic usage
 ```
@@ -97,20 +97,20 @@ Running `DesToAGV.py` generates the following files inside the <ANCESTOR_NAME> d
 * `outg_spc_list.txt`: List of outgroup species used in the ancestral genome reconstruction.
 * `<ANCESTOR_NAME>.<CHR>.info.txt`: Table describing the mapping of syntenic fragments for each reconstructed ancestral chromosome.</br>
     **Columns (in order) :**</br>
-        1. Name of the ancestral genome</br>
-        2. Chromosome or scaffold ID in the ancestral genome</br>
-        3. Start coordinate of the ancestral genomic segment</br>
-        4. End coordinate of the ancestral genomic segment</br>
-        5. Strand orientation (+ or -)</br>
-        6. Name of the target species</br>
-        7. Mapping index of the target chromosome or scaffold</br>
-        6. Name of the target chromosome or scaffold</br>
+            1. Name of the ancestral genome</br>
+            2. Chromosome or scaffold ID in the ancestral genome</br>
+            3. Start coordinate of the ancestral genomic segment</br>
+            4. End coordinate of the ancestral genomic segment</br>
+            5. Strand orientation (+ or -)</br>
+            6. Name of the target species</br>
+            7. Mapping index of the target chromosome or scaffold</br>
+            6. Name of the target chromosome or scaffold</br>
 * `<ANCESTOR_NAME>.<CHR>.adjS.txt`: Adjacency score table for reconstructed ancestral chromosomes.</br>
     **Columns (in order) :**</br>
-        1. Name of the ancestral genome</br>
-        2. Chromosome or scaffold ID</br>
-        3. Genomic position of the adjacency</br>
-        4. Adjacency score for the corresponding position</br>
+            1. Name of the ancestral genome</br>
+            2. Chromosome or scaffold ID</br>
+            3. Genomic position of the adjacency</br>
+            4. Adjacency score for the corresponding position</br>
 
 ## Example data and demo webpage
 ### Example data
