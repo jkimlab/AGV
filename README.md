@@ -1,98 +1,120 @@
-# AGV
-- Ancestor Genome Visualization with DESCHRAMBLER
-AGV is a visualization toolkit designed to convert DESCHRAMBLER output into an interactive web interface.  
-It enables intuitive exploration of reconstructed ancestral genomes through visualization.
+# AGV (Ancestral Genome Visualization with DESCHRAMBLER)
+AGV (Ancestral Genome Visualization with DESCHRAMBLER) is a web-based tool for visualization of the results of [DESCHRAMBLER](https://github.com/jkimlab/DESCHRAMBLER), an algorithm that reconstructs ancestral chromosomes by inferring the order and orientation of syntenic genomic fragments from genome assemblies.
+AGV allows users to intuitively explore reconstructed ancestral genomes directly in a web browser.
+
 
 ## Requirements
-* Python >= 3
-* PHP 7.4.3-4ubuntu2.18
+* Python >= 3.x
+* PHP >= 7.4 (tested with 7.4.3-4ubuntu2.18)
 
-## Download
+## Installation
 ```
 git clone https://github.com/jkimlab/AGV.git
-cp browser {Web root path}/{Website name}
-# Example: /var/www/html
+cp -r AGV/browser <web_root_path>
+mv <web_root_path>/browser <web_root_path>/<your_webpage_name>
 ```
-**To access web interfaces, You have to copy the browser directory to your web root path.**   
-**If you use Apache, The Web root path will be "/var/www/html".**
+Replace `<web_root_path>` with the root directory of your web server (e.g., `/var/www/html` for Apache).
+You may rename the `browser` directory to any name you prefer. This name will be used as the web page URL.
 
-## Running
-### Command Usage
+## Usage: Preparing AGV data
+AGV requires preprocessed input files generated from DESCHRAMBLER outputs.
+The `DesToAGV.py` script converts DESCRHAMBLER outputs into AGV-compatible data.
+
 ```
-usage: DesToAGV.py [-h] -p INPUT_DIR -n ANCESTOR_NAME -c CONFIG_FILE [-r NAMING_OPT] [-R NAMING_TABLE_FILE]
+usage: DesToAGV.py [-h] -i INPUT_DIR -n ANCESTOR_NAME -c CONFIG_FILE [-r RENAME_MODE] [-R RENAME_TABLE]
 
-Make AGV data
+Convert DESCHRAMBLER outputs into AGV-compatible visualization data.
 
-options:
+Required arguments:
+  -i INPUT_DIR          path to the directory containing DESCHRAMBLER output files to be visualized
+  -n ANCESTOR_NAME      name of the ancestral genome to display in the web interface
+  -c CONFIG_FILE        path to the DESCHRAMBLER config file used to generate the input data
+
+Optional arguments:
+  -o OUTPUT_DIR        path to the output directory (default: ./)
+  -r RENAME_MODE        display name mode for species or assembly identifiers (off, on, custom; default: off)
+  -R RENAME_TABLE       path to a renaming table file for name conversion (required when -r is set to 'custom')
   -h, --help            show this help message and exit
-  -p INPUT_DIR          Input Data Path
-  -n ANCESTOR_NAME      Ancestor Name
-  -c CONFIG_FILE        DESCHRAMBLER Config File Path
-  -r NAMING_OPT         Renaming type option (on,off,custom) / (default=off)
-  -R NAMING_TABLE_FILE  If you select custom or on option, you have to put renaming table file path
-```
-* Example Command
-  ```
-  [Naming_update_default_version]
-  DesToAGV.py -p ./examples/Boreo/RACA_APCFs.300K -n Boreo -c ./examples/Boreo/RACA_APCFs.300K/SFs/config.file -r on -R ./examples/naming_table_ex.txt
-  
-  [Naming_update_custom_version]
-  DesToAGV.py -p ./examples/Boreo/RACA_APCFs.300K -n Boreo -c ./examples/Boreo/RACA_APCFs.300K/SFs/config.file -r custom -R your_naming_table.txt
-  
-  [Naming_update_off]
-  DesToAGV.py -p ./examples/Boreo/RACA_APCFs.300K -n Boreo -c ./examples/Boreo/RACA_APCFs.300K/SFs/config.file -r off 
 
-  ```
-
-## Output
-
-All output files are generated under the current working directory using the value of ANCESTOR_NAME.
-**To visualize the results in the browser, you must copy the generated folder to:**
 ```
-browser/data/{ANCESTOR_NAME}
-or
-{Web_name}/data/{ANCESTOR_NAME}
-```
-  
-1. spc_list.txt : List of all used species 
-2. outg_spc_list.txt : List of species used as outgroup 
-3. {Ancestor}.{Chrom}.info.txt : Information table for each ancestral chromosome mapping
-  
+
+### Command-line option details
 | Column                                     | Description                                  |
 | ------------------------------------------ | -------------------------------------------- |
-| **Ancestor**                               | Name of ancestral genome                     |
-| **Chrom**                                  | Chromosome/scaffold ID in the ancestor       |
-| **Start**                                  | Start coordinate                             |
-| **End**                                    | End coordinate                               |
-| **Strand**                                 | Strand orientation (`+` or `-`)              |
-| **Target_species**                         | Target species name                          |
-| **Target_chrom (scaffold_mapping_number)** | Target chromosome/scaffold mapping index     |
-| **Target_chrom (scaffold)**                | Actual scaffold/chrom name in target species |
- 
-4. {Ancestor}.{Chrom}.adjS.txt : Adjacency score table for ancestral chromosome segments
-  
-| Column              | Description                   |
-| ------------------- | ----------------------------- |
-| **Ancestor**        | Name of ancestral genome      |
-| **Chrom**           | Chromosome/scaffold ID        |
-| **Position**        | Genomic position of adjacency |
-| **Adjacency_score** | Calculated adjacency score    |
+| `-i INPUT_DIR`                             | Path to the directory containing the DESCHRAMBLER output files to be visualized. This directory should include the results generated by DESCHRAMBLER. |
+| `-n ANCESTOR_NAME`                         | Name of the ancestral genome to be visualized. This name will be displayed in the AGV web interface and used to select which ancestor genome to visualize when multiple ancestral genomes are available. |
+| `-c CONFIG_FILE`                           | Path to the DESCHRAMBLER configuration file that was used to generate the input data. The configuration file used in the DESCHRAMBLER run should be provided without modification. |
+| `-o OUTPUT_DIR`                            | Path to the output directory (default: ./) |
+| `-r RENAME_MODE`                           | Option for controlling how species or assembly names are displayed in the AGV web interface.|
+| `-R RENAME_TABLE`                          | Path to a renaming table file used for name conversion in the AGV web interface. This option is required when `-r` is set to `custom`. Please refer to the example file `examples/naming_table_ex.txt` for the expected format.|
 
-## Result
-After placing the result directory under browser/data/, access the visualization through the following URLs:  
-* Default
+### Example commands using the example dataset
+#### Basic usage
 ```
-http://your.host/browser
-```
-* In case of setting the custom website name
-```
-http://your.host/[Website name]
+python3 DesToAGV.py \
+    -p ./examples/Boreo/RACA_APCFs.300K \
+    -n Boreo \
+    -c ./examples/Boreo/RACA_APCFs.300K/SFs/config.file \
 ```
 
-## Example
-Online Example Page <a href="http://biweb.konkuk.ac.kr/AGV/">Example Page</a>  
-  
-Example web data is provided under:
-* examples/ in this repository
-* DESCHRAMBLER official examples:
-  <a href="https://github.com/jkimlab/DESCHRAMBLER/tree/master/examples/">Example Data</a>
+#### Automatic renaming using the default mapping table
+```
+python3 DesToAGV.py \
+    -p ./examples/Boreo/RACA_APCFs.300K \
+    -n Boreo \
+    -c ./examples/Boreo/RACA_APCFs.300K/SFs/config.file \
+    -r on
+```
+
+#### Custom renaming using a user-defined mapping table
+```
+python3 DesToAGV.py \
+    -p ./examples/Boreo/RACA_APCFs.300K \
+    -n Boreo \
+    -c ./examples/Boreo/RACA_APCFs.300K/SFs/config.file \
+    -r custom
+    -R your_naming_table.txt
+```
+
+## Outputs
+After running `DesToAGV.py`, a new directory named after the ancestor name specified with the `-n` option will be created in the output directory. This directory contains all data files required for visualization.
+
+To visualize the generated data in the AGV web interface, **the resulted directory must be copied into the `data` directory under the AGV web root**.
+```
+cp -r <output_dir>/<ANCESTOR_NAME> <web_root_path>/<your_webpage_name>/data
+```
+Once copied, the ancestral genome specified by <ANCESTOR_NAME> will be available for selection and visualization in the AGV web interface.
+
+You can access the AGV web interface at:
+```
+http://your.host/<your_webpage_name>/
+```
+
+### Generated files
+Running `DesToAGV.py` generates the following files inside the <ANCESTOR_NAME> directory.
+* `spc_list.txt`: List of species included in the ancestral genome reconstruction.
+* `outg_spc_list.txt`: List of outgroup species used in the ancestral genome reconstruction.
+* `<ANCESTOR_NAME>.<CHR>.info.txt`: Table describing the mapping of syntenic fragments for each reconstructed ancestral chromosome.
+    **Columns (in order) :**
+        1. Name of the ancestral genome
+        2. Chromosome or scaffold ID in the ancestral genome
+        3. Start coordinate of the ancestral genomic segment
+        4. End coordinate of the ancestral genomic segment
+        5. Strand orientation (+ or -)
+        6. Name of the target species
+        7. Mapping index of the target chromosome or scaffold
+        6. Name of the target chromosome or scaffold
+* `<ANCESTOR_NAME>.<CHR>.adjS.txt`: Adjacency score table for reconstructed ancestral chromosomes.
+    **Columns (in order) :**
+        1. Name of the ancestral genome
+        2. Chromosome or scaffold ID
+        3. Genomic position of the adjacency
+        4. Adjacency score for the corresponding position
+
+## Example data and demo webpage
+### Example data
+AGV provides example input data in the `examples/` directory. These example datasets are identical to the example data provided by [DESCHRAMBLER](https://github.com/jkimlab/DESCHRAMBLER/tree/master/examples/) and are included to help users quickly test and understand the AGV workflow.
+Using the provided example data, you can generate AGV-compatible data files with `DesToAGV.py` and explore ancestral genomes in the AGV web interface.
+
+### Demo webpage
+In addition, a [demo web page](http://biweb.konkuk.ac.kr/AGV/) generated from the example data is available. This demo page allows users to interactively explore reconstructed ancestral chromosomes and serves as a reference for setting up and visualizing their own DESCHRAMBLER results using AGV.
