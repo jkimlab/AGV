@@ -4,23 +4,30 @@ from collections import defaultdict
 import os
 import argparse
 
-parser=argparse.ArgumentParser(description="Make AGV data")
-parser.add_argument('-p',metavar='INPUT_DIR', help='Input Data Path',required=True)
-parser.add_argument('-n',metavar='ANCESTOR_NAME',help='Ancestor Name',required=True)
-parser.add_argument('-c',metavar='CONFIG_FILE',help='DESCHRAMBLER Config File Path',required=True)
-parser.add_argument('-r',metavar='NAMING_OPT',default='off',choices=['on','off','custom'],help='Renaming type option (on,off,custom) / (default=off)')
-parser.add_argument('-R',metavar='NAMING_TABLE_FILE',help='If you select custom or on option, you have to put renaming table file path')
+parser=argparse.ArgumentParser(description="Convert DESCHRAMBLER outputs into AGV-compatible visualization data.",add_help=False)
+req=parser.add_argument_group("Required arguments")
+req.add_argument('-i',metavar='INPUT_DIR', help='Path to the directory containing DESCHRAMBLER output files to be visualized',required=True)
+req.add_argument('-n',metavar='ANCESTOR_NAME',help='Name of the ancestral genome to display in the web interface',required=True)
+req.add_argument('-c',metavar='CONFIG_FILE',help='Path to the DESCHRAMBLER config file used to generate the input data',required=True)
+opt=parser.add_argument_group("Optional arguments")
+opt.add_argument('-o',metavar='OUTPUT_DIR',help='Path to the output directory (default: ./)')
+opt.add_argument('-r',metavar='RENAME_MODE',default='off',choices=['on','off','custom'],help='Rename species or assembly names (off, on, custom; default: off)')
+opt.add_argument('-R',metavar='RENAME_TABLE',help='Path to a renaming table file for name conversion (required when -r is set to \'custom\')')
+opt.add_argument('-h','--help',action='help',help='Show this help message and exit')
 
 args=parser.parse_args()
 if args.r in ('on', 'custom') and args.R is None:
     parser.error("option -R/--rename-table is required when -r is 'on' or 'custom'")
 #Parameter
-dirPos=args.p #Program_path(DESC_Output)
-OutputPos="." #Output_path -> data fix (Current Path)
+dirPos=args.i #Program_path(DESC_Output)
+os.system("mkdir -p result")
+OutputPos=args.o #Output_path -> data fix 
 AncestorName=args.n #Project_Name,Ancestor_Name
 Config=args.c
 naming_opt=args.r #on,off,custom
 rename_table=args.R
+if not(OutputPos):
+    OutputPos="."
 os.makedirs(f"{OutputPos}/{AncestorName}", exist_ok=True)
 
 #Input 
