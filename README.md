@@ -37,7 +37,6 @@ Optional arguments:
   -h, --help            Show this help message and exit
 
 ```
-</br>
 ### Command-line option details
 | Column                                     | Description                                  |
 | ------------------------------------------ | -------------------------------------------- |
@@ -48,7 +47,6 @@ Optional arguments:
 | `-r RENAME_MODE`                           | Option for controlling how species or assembly names are displayed in the AGV web interface.|
 | `-R RENAME_TABLE`                          | Path to a renaming table file used for name conversion in the AGV web interface.</br>This option is required when `-r` is set to `custom`. Please refer to the example file `examples/naming_table_ex.txt` for the expected format.|
 
-</br>
 ### Example commands using the example dataset
 #### Basic usage
 ```
