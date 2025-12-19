@@ -1,0 +1,26 @@
+hg38	Human
+hg19	Human
+panTro3	Chimpanzee
+gorGor3	Gorilla
+ponAbe2	Orangutan
+rheMac3	Rhesus macaque
+calJac3	Marmoset
+mm10	Mouse
+rn4	Rat
+cavPor3	Guinea pig
+oryCun2	Rabbit
+ochPri3	Pika
+bosTau7	Cow
+capHir1	Goat
+susScr2	Pig
+equCab2	Horse
+canFam2	Dog
+eriEur2	Hedgehog
+sorAra2	Shrew
+loxAfr3	Elephant
+echTel2	Tenrec
+monDom5	Opossum
+galGal3	Chicken
+cerSim1	White rhinoceros
+dasNov3	Nine-banded armadillo
+triMan2	Bottlenose dolphin
