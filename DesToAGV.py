@@ -16,18 +16,18 @@ opt.add_argument('-R',metavar='RENAME_TABLE',help='Path to a renaming table file
 opt.add_argument('-h','--help',action='help',help='Show this help message and exit')
 
 args=parser.parse_args()
-if args.r in ('on', 'custom') and args.R is None:
-    parser.error("option -R/--rename-table is required when -r is 'on' or 'custom'")
+if args.r=='custom' and args.R is None:
+    parser.error("option -R/--rename-table is required when -r is 'custom'")
+
 #Parameter
 dirPos=args.i #Program_path(DESC_Output)
-os.system("mkdir -p result")
 OutputPos=args.o #Output_path -> data fix 
 AncestorName=args.n #Project_Name,Ancestor_Name
-Config=args.c
-naming_opt=args.r #on,off,custom
-rename_table=args.R
+Config=args.c #DESC_Config file
+naming_opt=args.r #Naming opts_on,off,custom
+rename_table=args.R #Custom Table
 if not(OutputPos):
-    OutputPos="."
+    OutputPos="." #default OutputPos
 os.makedirs(f"{OutputPos}/{AncestorName}", exist_ok=True)
 
 #Input 
@@ -102,7 +102,7 @@ os.system(f"cp {dirPos}/SFs/outgroup.txt {OutputPos}/{AncestorName}/outg_spc_lis
 os.system(f"cat {dirPos}/SFs/outgroup.txt >> {OutputPos}/{AncestorName}/spc_list_temp.txt")
 if naming_opt=="on":
     naming={}
-    for line in open(f"{rename_table}"):
+    for line in open(f"./examples/naming_table_ex.txt"):
         line=line.rstrip()
         pre,new=line.split('\t')
         naming[pre]=new
@@ -183,7 +183,6 @@ for  (block1,block2),score in adj_scores.items():
             _, r_chr, r_start, r_end, r_strand = match.groups()
         if r_chr:
             r_start,r_end=int(r_start),int(r_end)
-            #r_start,r_end,t_start,t_end=int(r_start),int(r_end),int(t_start),int(t_end)
             block_files[frag1].add(f"{AncestorName}\t{frag1}\t{r_end}\t{score}\n")
             flag=0
             continue
@@ -229,7 +228,7 @@ for chr_name,listing in block_files.items():
     os.system(f"sort -k3,3n {OutputPos}/{AncestorName}/APCF.{chr_name}.adjS_temp.txt > {OutputPos}/{AncestorName}/APCF.{chr_name}.adjS.txt")
 for chr_name,listing in map_files.items():
     with open(f"{OutputPos}/{AncestorName}/APCF.{chr_name}.info.txt", "w") as mf:
-        for i in listing:
+        for i in sorted(listing):
             mf.writelines(i)
 #APCF.size.txt
 os.system(f"cp {dirPos}/APCF_size.txt {OutputPos}/{AncestorName}/APCF.sizes.txt")
