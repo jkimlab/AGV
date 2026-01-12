@@ -11,6 +11,7 @@ req.add_argument('-n',metavar='ANCESTOR_NAME',help='Name of the ancestral genome
 req.add_argument('-c',metavar='CONFIG_FILE',help='Path to the DESCHRAMBLER config file used to generate the input data',required=True)
 opt=parser.add_argument_group("Optional arguments")
 opt.add_argument('-o',metavar='OUTPUT_DIR',help='Path to the output directory (default: ./)')
+opt.add_argument('-t',metavar='TARGET_SPECIES',help=' Path to the file listing taget species names (before renaming; one per line)')
 opt.add_argument('-r',metavar='RENAME_MODE',default='off',choices=['on','off','custom'],help='Rename species or assembly names (off, on, custom; default: off)')
 opt.add_argument('-R',metavar='RENAME_TABLE',help='Path to a renaming table file for name conversion (required when -r is set to \'custom\')')
 opt.add_argument('-h','--help',action='help',help='Show this help message and exit')
@@ -24,6 +25,7 @@ dirPos=args.i #Program_path(DESC_Output)
 OutputPos=args.o #Output_path -> data fix 
 AncestorName=args.n #Project_Name,Ancestor_Name
 Config=args.c #DESC_Config file
+target=args.t #Target_species
 naming_opt=args.r #Naming opts_on,off,custom
 rename_table=args.R #Custom Table
 if not(OutputPos):
@@ -232,3 +234,12 @@ for chr_name,listing in map_files.items():
             mf.writelines(i)
 #APCF.size.txt
 os.system(f"cp {dirPos}/APCF_size.txt {OutputPos}/{AncestorName}/APCF.sizes.txt")
+
+#Target_species.txt
+if target:
+    with open(f"{OutputPos}/{AncestorName}/tar_spc_list.txt",'w') as f:
+        for line in open(target):
+            line=line.rstrip()
+            if line in naming.keys():
+                f.write(naming[line])
+                f.write('\n')
