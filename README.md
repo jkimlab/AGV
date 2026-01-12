@@ -21,7 +21,7 @@ AGV requires preprocessed input files generated from DESCHRAMBLER outputs.</br>
 The `DesToAGV.py` script converts DESCRHAMBLER outputs into AGV-compatible data.</br>
 
 ```
-usage: DesToAGV.py [-h] -i INPUT_DIR -n ANCESTOR_NAME -c CONFIG_FILE [-o OUTPUT_DIR] [-r RENAME_MODE] [-R RENAME_TABLE]
+usage: DesToAGV.py [-h] -i INPUT_DIR -n ANCESTOR_NAME -c CONFIG_FILE [-o OUTPUT_DIR] [-t TARGET_SPECIES] [-r RENAME_MODE] [-R RENAME_TABLE]
 
 Convert DESCHRAMBLER outputs into AGV-compatible visualization data.
 
@@ -32,6 +32,7 @@ Required arguments:
 
 Optional arguments:
   -o OUTPUT_DIR         Path to the output directory (default: ./)
+  -t TARGET_SPECIES     Path to the file listing taget species names (before renaming; one per line)
   -r RENAME_MODE        Rename species or assembly names (off, on, custom; default: off)
   -R RENAME_TABLE       Path to a renaming table file for name conversion (required when -r is set to 'custom')
   -h, --help            Show this help message and exit
@@ -44,6 +45,7 @@ Optional arguments:
 | `-n ANCESTOR_NAME`                         | Name of the ancestral genome to be visualized.</br>This name will be displayed in the AGV web interface and used to select which ancestor genome to visualize when multiple ancestral genomes are available. |
 | `-c CONFIG_FILE`                           | Path to the DESCHRAMBLER configuration file that was used to generate the input data.</br>The configuration file used in the DESCHRAMBLER run should be provided without modification. |
 | `-o OUTPUT_DIR`                            | Path to the output directory (default: ./) |
+| `-t TARGET_SPECIES`                        | Path to the file listing target species names.</br> Target species names must match the original identifiers used in the DESCHRAMBLER output (before renaming). If provided, AGV enables a focused view that shows only target species in the web browser. |
 | `-r RENAME_MODE`                           | Option for controlling how species or assembly names are displayed in the AGV web interface.|
 | `-R RENAME_TABLE`                          | Path to a renaming table file used for name conversion in the AGV web interface.</br>This option is required when `-r` is set to `custom`. Please refer to the example file `examples/naming_table_ex.txt` for the expected format.|
 
