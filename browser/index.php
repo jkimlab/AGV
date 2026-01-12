@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<script type="text/javascript" src="js/d3.min.js"></script>
     <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/jspdf.umd.min.js"></script>
+    <script src="js/svg2pdf.umd.min.js"></script>
 	<script type="text/javascript" src="js/Blob.js"></script>
 	<script type="text/javascript" src="js/FileSaver.min.js"></script>
 </head>
@@ -85,8 +87,9 @@
     }
 ?>
 	</select>
-	<input type="button" value="Submit" onclick="get_chr();">
-	<input type="button" value="ExportSVG" id="saveSVG">
+	<!--<input type="button" value="Submit" onclick="get_chr();">-->
+    <input type="button" id="resetBtn" value="Reset" onclick="location.href = location.pathname;">
+	<input type="button" value="Export To PDF" id="saveSVG">
 	&nbsp&nbsp
 	1/10X
 <?php
@@ -94,16 +97,6 @@
 ?>
 	100X
 	<br>
-<?php
-	$tar_spc = 0;
-    $inputtarF = "./data/".$s_prj."/tar_spc_list.txt";
-	if (file_exists($inputtarF)) {
-		echo "<input type=\"checkbox\" id=\"include_chromosomal\" onclick=\"set_chr_spc();\">Only show target species\n";
-		$tar_spc = 1;
-	} else {
-		echo "<input type=\"checkbox\" id=\"include_chromosomal\" disabled>Only show target species\n";
-	}
-?>
 
 	<div id="body"></div>
 	<script type="text/javascript">
@@ -129,10 +122,6 @@
         $outgspc_arr = file($inputOutgF, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
         echo "\t\tarr_outg_spc = ". json_encode($outgspc_arr) .";\n";
     }
-	if ($tar_spc == 1) {
-    	$tar_spc_arr = file($inputtarF, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    	echo "\t\tvar arr_chr_spc = ". json_encode($tar_spc_arr) .";\n";
-	}
 ?>
 	//Hash parameters
 		var hash_chrSizes = {};
@@ -199,14 +188,6 @@
 			{
 				d3.select("#main_svg").remove();
 			}
-			if(sessionStorage.getItem("chr") == "true")
-			{
-				document.getElementById("include_chromosomal").checked = true;
-			}
-			else
-			{
-				document.getElementById("include_chromosomal").checked = false;
-			}
 			set_svg();
 			draw_ruler();
 			draw_main();
@@ -217,14 +198,7 @@
 		
 		function set_svg()
 		{
-			if (document.getElementById("include_chromosomal").checked)
-			{
-				arr_spc = arr_chr_spc;
-			}
-			else
-			{
-				arr_spc = arr_raw_spc;
-			}
+			arr_spc = arr_raw_spc;
 			var wWidth = arr_spc.length*(rectW+1)/2 + 35;
 			var tempX = (arr_spc.length+1)*(rectW+1);
 			var sXpos = tempX + 13;
@@ -233,15 +207,7 @@
 			var figWidth = sXpos + 40;
 			var svgWidth = figWidth;
 			var svgHeight = hash_chrSizes[s_chr] * bp2px + 155;
-			var mainYpos;
-			if (document.getElementById("include_chromosomal").checked)
-			{
-				mainYpos = 90;
-			}
-			else
-			{
-				mainYpos = 120;
-			}
+			var mainYpos =120;
 			var textYpos = mainYpos - 5;
 			
 			var main_svg = d3.select("#body").append("svg")
@@ -372,15 +338,7 @@
 		
 		function draw_main()
 		{
-			if (document.getElementById("include_chromosomal").checked)
-			{
-				arr_spc = arr_chr_spc;
-			}
-			else
-			{
-				arr_spc = arr_raw_spc;
-			}
-			
+			arr_spc = arr_raw_spc;
 			var wWidth = arr_spc.length*(rectW+1);
 			var px_chrSize = bp2px * hash_chrSizes[s_chr];
 			var figG = d3.select("#Figure_"+s_chr);
@@ -491,14 +449,7 @@
 		
 		function draw_spcText()
 		{
-			if (document.getElementById("include_chromosomal").checked)
-			{
-				arr_spc = arr_chr_spc;
-			}
-			else
-			{
-				arr_spc = arr_raw_spc;
-			}
+			arr_spc = arr_raw_spc;
 			var spcTextG = d3.select("#Figure_Text_"+s_chr);
 			var text_x = -0.8 * (rectW+1)/2;
 			for (var i = 0; i < arr_spc.length; i++)
@@ -597,15 +548,27 @@
 			return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 		}
 		
-		d3.select("#saveSVG").on("click",function () {
-			//var e = document.getElementById("chromosome");
-			//var chr = e.options[e.selectedIndex].value;
-			var html = d3.select("#main_svg")
-					.attr("version",1.1)
-					.attr("xmlns","http://www.w3.org/2000/svg")
-					.node().parentNode.innerHTML;
-			var blob = new Blob([html], {type: "image/svg+xml"});
-			saveAs(blob, "APCF_"+s_chr+".svg");
+		d3.select("#saveSVG").on("click",async function () {
+            const svg = document.getElementById("main_svg");
+            const g = svg.querySelector("#APCF_Fig0") || svg;
+            const bbox = g.getBBox();
+            
+            const pad = 50;
+            const pxToPt = 1.1;
+    
+            const pageWpt = (bbox.width + pad * 2) * pxToPt;
+            const pageHpt = (bbox.height + pad * 2) * pxToPt;
+
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF({
+                unit: "pt",
+                format: [pageWpt, pageHpt],
+                compress: true
+            });
+            
+            await window.svg2pdf.svg2pdf(svg, doc, {xOffset:(pad-bbox.x)*pxToPt, yOffset:(pad-bbox.y)*pxToPt, scale:pxToPt});
+            doc.save(`APCF_${s_chr}.pdf`);
+			//saveAs(blob, "APCF_"+s_chr+".svg");
 		});	
 		
         function get_chr()
@@ -617,16 +580,6 @@
             var scale = document.getElementById("bp2px_slider").value;
             window.location="index.php?prj="+prj+"&chr="+chr+"&scale="+scale;
         }
-
-		function set_chr_spc()
-		{
-			var checkChr = document.getElementById("include_chromosomal").checked;
-			//alert(checkChr);
-			sessionStorage.setItem("chr",checkChr);
-			//alert(sessionStorage.getItem("chr"));
-			draw_figure();
-		}
-
 
         function populateChr(list) {
             $('#APCF_chr').empty();
@@ -665,10 +618,12 @@
             .done(function(txt) {
                 var list = parseSizesTxt(txt);
                 populateChr(list);
+                get_chr();
             })
         }
 
         $('#PRJ').on("change", function() { loadchrs($(this).val());});
+        $('#APCF_chr').on("change", function() { get_chr(); });
 
 	</script>
 </body>
