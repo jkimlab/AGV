@@ -115,9 +115,9 @@ The AGV web interface provides a useful environment for exploring reconstructed 
 Each component of the interface is numbered in the figure and described below.
 
 
-- **(1)** Ancestor and chromosome selection dropdown  
-A dropdown menu that allows users to select the ancestral genome and a specific ancestral chromosome to visualize.
-Once selected, the reconstruction results for the chosen ancestral chromosome are automatically rendered in the main visualization panel.
+**(1)** Ancestor and chromosome selection dropdown  
+    &emsp;A dropdown menu that allows users to select the ancestral genome and a specific ancestral chromosome to visualize.
+    &emsp;Once selected, the reconstruction results for the chosen ancestral chromosome are automatically rendered in the main visualization panel.
 
 **(2)** Reset view button  
 A control button to reset the current view, including the selected ancestor, chromosome, and visualization scale, back to the default state.
