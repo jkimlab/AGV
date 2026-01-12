@@ -11,7 +11,6 @@ req.add_argument('-n',metavar='ANCESTOR_NAME',help='Name of the ancestral genome
 req.add_argument('-c',metavar='CONFIG_FILE',help='Path to the DESCHRAMBLER config file used to generate the input data',required=True)
 opt=parser.add_argument_group("Optional arguments")
 opt.add_argument('-o',metavar='OUTPUT_DIR',help='Path to the output directory (default: ./)')
-opt.add_argument('-t',metavar='TARGET_SPECIES',help=' Path to the file listing taget species names (before renaming; one per line)')
 opt.add_argument('-r',metavar='RENAME_MODE',default='off',choices=['on','off','custom'],help='Rename species or assembly names (off, on, custom; default: off)')
 opt.add_argument('-R',metavar='RENAME_TABLE',help='Path to a renaming table file for name conversion (required when -r is set to \'custom\')')
 opt.add_argument('-h','--help',action='help',help='Show this help message and exit')
@@ -25,7 +24,6 @@ dirPos=args.i #Program_path(DESC_Output)
 OutputPos=args.o #Output_path -> data fix 
 AncestorName=args.n #Project_Name,Ancestor_Name
 Config=args.c #DESC_Config file
-target=args.t #Target_species
 naming_opt=args.r #Naming opts_on,off,custom
 rename_table=args.R #Custom Table
 if not(OutputPos):
@@ -36,6 +34,15 @@ os.makedirs(f"{OutputPos}/{AncestorName}", exist_ok=True)
 ADJS=f"{dirPos}/Ancestor.ADJS"
 APCFs=f"{dirPos}/SFs/Conserved.Segments"
 Ancestor_APCF=f"{dirPos}/Ancestor.APCF"
+if not os.path.isfile(ADJS):
+    print(f"Error: {ADJS} not found.")
+    exit(1)
+if not os.path.isfile(APCFs):
+    print(f"Error: {APCFs} not found.")
+    exit(1)
+if not os.path.isfile(Ancestor_APCF):
+    print(f"Error: {Ancestor_APCF} not found.")
+    exit(1) 
 ancestor_name = "" 
 block_to_frag={}
 with open(Ancestor_APCF) as f:
@@ -62,20 +69,27 @@ with open(ADJS) as f:
             score = float(parts[2])
             adj_scores[(block1,block2)] = score
 
-frag_map =defaultdict(dict)
+frag_map =defaultdict(lambda: defaultdict(dict))
 genome_names = set()
 
 with open(APCFs) as f:
     for line in f:
         line = line.strip()
         if line.startswith('>'):
-            frag_id=line[1:]
-        match = re.search(r"(\S+)\.(\S+):(\d+)-(\d+)\s+([+-])(?:\s+\[\d+\])?", line)
-        if match:
-            genome, chr_name, start, end, strand= match.groups()
-            frag_id = int(frag_id)
+            frag_id = line[1:].strip()
+        elif line:
+            match = re.search(r"(\S+)\.(\S+):(\d+)-(\d+)\s+([+-])(?:\s+\[\d+\])?", line)
+            genome, chr_name, start, end,strand= match.groups()
             genome_names.add(genome)
-            frag_map[frag_id][genome] = (chr_name, int(start), int(end),strand)
+            frag_id=int(frag_id)
+            frag_id_rev=int(frag_id)*(-1)
+            chr_id=block_to_frag.get(frag_id)
+            if chr_id is None:
+                chr_id=block_to_frag.get(frag_id_rev)
+                frag_map[chr_id][genome][frag_id_rev]=(chr_name, int(start), int(end),strand)
+            else:
+                frag_map[chr_id][genome][frag_id]=(chr_name, int(start), int(end),strand)
+
 flag=0
 Ingroup=[]
 Outgroup=[]
@@ -157,18 +171,20 @@ elif naming_opt=="custom":
 else:
     print("Wrong naming_option")
 
-#APCF.size.txt
-os.system(f"cp {dirPos}/APCF_size.txt {OutputPos}/{AncestorName}/APCF.sizes.txt")
+##adjS.txt & info.txt
 genomes = sorted(genome_names)  
 block_files =defaultdict(set)
 map_files =defaultdict(set)
 for  (block1,block2),score in adj_scores.items():
+    block1_rev=(int(block1)*(-1))
+    block2_rev=(int(block2)*(-1))
     frag1=block_to_frag.get(block1)
     frag2=block_to_frag.get(block2)
+    if frag1 is None and frag2 is None:
+        frag2=block_to_frag.get(block1_rev)
+        frag1=block_to_frag.get(block2_rev)
     if frag1 is None or frag2 is None or frag1 != frag2: continue
-    block1=abs(block1)
-    block2=abs(block2)
-    d=frag_map.get(frag1)
+    d=frag_map.get(frag1).keys()
     genome=next(iter(d))
     flag=0
     r_chr=''
@@ -176,19 +192,22 @@ for  (block1,block2),score in adj_scores.items():
     Map=f"{dirPos}/APCF_{genome}.map"
     for line in open(Map):
         line=line.rstrip()
-        if line.startswith('>'):
-            ID=int(line[1:])
-            if ID!=block1:continue
-            flag=1
-        elif f'APCF' in line and flag==1:
+        if line.startswith('>'):continue
+        elif 'APCF' in line :
             match = re.search(r"(\S+)\.(\S+):(\d+)-(\d+)\s+(\S+)", line)
             _, r_chr, r_start, r_end, r_strand = match.groups()
-        if r_chr:
-            r_start,r_end=int(r_start),int(r_end)
+            flag=1
+        elif line and flag==1:
+            match = re.search(r"(\S+)\.(\S+):(\d+)-(\d+)\s+(\S+)", line)
+            _,t_chr,t_start,t_end,t_strand=match.groups()
+            if frag_map[frag1][genome].get(block1):
+                T_chr,T_start,T_end,T_strand=frag_map[frag1][genome][block1]
+            else:
+                T_chr,T_start,T_end,T_strand=frag_map[frag1][genome][block1_rev]
+            if t_chr!=T_chr or t_start!=str(T_start) or t_end!=str(T_end):continue
             block_files[frag1].add(f"{AncestorName}\t{frag1}\t{r_end}\t{score}\n")
             flag=0
             continue
-
 mapping_number=0
 for ID in sorted(set(block_to_frag.values())):
     for genome in genomes:
@@ -222,6 +241,7 @@ for ID in sorted(set(block_to_frag.values())):
                         else:
                             map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{naming[genome]}\t{t_chr_split}\t{t_chr}\n")
                         continue
+##chromLevel
 for chr_name,listing in block_files.items():
     lines=sorted(listing)
     with open(f"{OutputPos}/{AncestorName}/APCF.{chr_name}.adjS_temp.txt", "w") as bf:
@@ -232,14 +252,7 @@ for chr_name,listing in map_files.items():
     with open(f"{OutputPos}/{AncestorName}/APCF.{chr_name}.info.txt", "w") as mf:
         for i in sorted(listing):
             mf.writelines(i)
+
 #APCF.size.txt
 os.system(f"cp {dirPos}/APCF_size.txt {OutputPos}/{AncestorName}/APCF.sizes.txt")
 
-#Target_species.txt
-if target:
-    with open(f"{OutputPos}/{AncestorName}/tar_spc_list.txt",'w') as f:
-        for line in open(target):
-            line=line.rstrip()
-            if line in naming.keys():
-                f.write(naming[line])
-                f.write('\n')
