@@ -382,8 +382,10 @@
 					var len_px = e_px - s_px;
 					var dir = arr_chr_info[4];
 					var tChr = arr_chr_info[6];
-                    const tChr_n = (arr_chr_info.length === 8) ? arr_chr_info[7] : "";
+                    var tChr_n = (arr_chr_info.length === 8) ? arr_chr_info[7] : "";
 					var text_y = s_px + (len_px/2) + 0.5;
+                    var dir_c = (dir == -1) ? "-" : "+";
+                    const popup_text = tChr_n + ":" + arr_chr_info[2] + "-" + arr_chr_info[3] + " (" + dir_c + ")"
 					var con_rect = figG.append("rect")
 							.attr("x",x_rect_pos)
 							.attr("y",s_px+0.5)
@@ -393,7 +395,7 @@
                             .on('mouseenter', function() {
                                 if (!tChr_n) return;
                                 tooltip.style('display', 'block')
-                                    .text(tChr_n);
+                                    .text(popup_text);
                             })
                             .on('mousemove', function() {
                                 const [mx, my] = d3.mouse(document.body);
