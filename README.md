@@ -103,6 +103,8 @@ Running `DesToAGV.py` generates the following files inside the <ANCESTOR_NAME> d
     &emsp;6. Name of the target species</br>
     &emsp;7. Mapping index of the target chromosome or scaffold</br>
     &emsp;8. Name of the target chromosome or scaffold</br>
+    &emsp;9. Start coordinate in the target chromosome or scaffold</br>
+    &emsp;10. End coordinate in the target chromosome or scaffold</br>
 * `<ANCESTOR_NAME>.<CHR>.adjS.txt`: Adjacency score table for reconstructed ancestral chromosomes.</br>
     **Columns (in order) :**</br>
     &emsp;1. Name of the ancestral genome</br>
