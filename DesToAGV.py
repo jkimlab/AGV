@@ -229,17 +229,17 @@ for ID in sorted(set(block_to_frag.values())):
                     if Species[genome]=='scaf':
                         mapping_number+=1
                         if genome not in naming.keys():
-                            map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{genome}\ts{mapping_number}\t{t_chr}\n")
+                            map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{genome}\ts{mapping_number}\t{t_chr}\t{t_start}\t{t_end}\n")
                         else:
-                            map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{naming[genome]}\ts{mapping_number}\t{t_chr}\n")
+                            map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{naming[genome]}\ts{mapping_number}\t{t_chr}\t{t_start}\t{t_end}\n")
                         continue
                     else:
                         t_chr_split=t_chr.replace("chr","")
                         t_chr_split=t_chr_split.replace("Chr","")
                         if genome not in naming.keys():
-                            map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{genome}\t{t_chr_split}\t{t_chr}\n")
+                            map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{genome}\t{t_chr_split}\t{t_chr}\t{t_start}\t{t_end}\n")
                         else:
-                            map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{naming[genome]}\t{t_chr_split}\t{t_chr}\n")
+                            map_files[ID].add(f"{AncestorName}\t{r_chr}\t{r_start}\t{r_end}\t{direction}\t{naming[genome]}\t{t_chr_split}\t{t_chr}\t{t_start}\t{t_end}\n")
                         continue
 ##chromLevel
 for chr_name,listing in block_files.items():
