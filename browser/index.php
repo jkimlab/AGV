@@ -88,8 +88,7 @@
 ?>
 	</select>
 	<!--<input type="button" value="Submit" onclick="get_chr();">-->
-    <input type="button" id="resetBtn" value="Reset" onclick="location.href = location.pathname;">
-	<input type="button" value="Export To PDF" id="saveSVG">
+	<input type="button" value="Export To SVG" id="saveSVG">
 	&nbsp&nbsp
 	1/10X
 <?php
@@ -385,7 +384,7 @@
                     var tChr_n = arr_chr_info[7];
 					var text_y = s_px + (len_px/2) + 0.5;
                     var dir_c = (dir == -1) ? "-" : "+";
-                    const popup_text = arr_chr_info[5] + "." + tChr_n + ":" + arr_chr_info[8] + "-" + arr_chr_info[9] + " (" + dir_c + ")"
+                    const popup_text = arr_chr_info[5] + "." + tChr_n + ":" + arr_chr_info[8] + "-" + arr_chr_info[9] + " " + dir_c
 					var con_rect = figG.append("rect")
 							.attr("x",x_rect_pos)
 							.attr("y",s_px+0.5)
@@ -532,16 +531,29 @@
 							.style("stroke-width",0.5);
 				}
 			}
+            var tooltip = getTooltip();
 			for(var i in hash_adjS)
 			{
 				var arr_info = hash_adjS[i].split("\t");
 				var cirX = rectW * arr_info[3];
 				var posY = arr_info[2]*bp2px;
+                const adj_score = arr_info[3];
 				var scoreFCircle = scoreFG.append("circle")
 						.attr("cx",cirX)
 						.attr("cy",posY)
 						.attr("r",2)
-						.style("fill","orange");
+                        .style("fill","orange")
+                        .on("mouseenter", function() {
+                            tooltip.style('display', 'block').text(adj_score);
+                        })
+                        .on("mousemove", function() {
+                            const [mx, my] = d3.mouse(document.body);
+                            tooltip.style('left', (mx+12) + 'px')
+                                .style('top', (my+12) + 'px');
+                        })
+                        .on("mouseleave", function() {
+                            tooltip.style('display', 'none');
+                        });
 			}
 		}
 		
@@ -550,29 +562,17 @@
 			return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 		}
 		
-		d3.select("#saveSVG").on("click",async function () {
-            const svg = document.getElementById("main_svg");
-            const g = svg.querySelector("#APCF_Fig0") || svg;
-            const bbox = g.getBBox();
-            
-            const pad = 50;
-            const pxToPt = 1.1;
-    
-            const pageWpt = (bbox.width + pad * 2) * pxToPt;
-            const pageHpt = (bbox.height + pad * 2) * pxToPt;
+	    d3.select("#saveSVG").on("click",function () {
+            //var e = document.getElementById("chromosome");
+            //var chr = e.options[e.selectedIndex].value;
+            var html = d3.select("#main_svg")
+                    .attr("version",1.1)
+                    .attr("xmlns","http://www.w3.org/2000/svg")
+                    .node().parentNode.innerHTML;
+            var blob = new Blob([html], {type: "image/svg+xml"});
+            saveAs(blob, "APCF_"+s_chr+".svg");
+        });
 
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF({
-                unit: "pt",
-                format: [pageWpt, pageHpt],
-                compress: true
-            });
-            
-            await window.svg2pdf.svg2pdf(svg, doc, {xOffset:(pad-bbox.x)*pxToPt, yOffset:(pad-bbox.y)*pxToPt, scale:pxToPt});
-            doc.save(`APCF_${s_chr}.pdf`);
-			//saveAs(blob, "APCF_"+s_chr+".svg");
-		});	
-		
         function get_chr()
         {
             var p = document.getElementById("PRJ");
