@@ -151,3 +151,7 @@ Using the provided example data, you can generate AGV-compatible data files with
 ### Demo webpage
 A [demo web page](http://biweb.konkuk.ac.kr/AGV/) generated from the example data is available.</br>
 This demo page allows users to interactively explore reconstructed ancestral chromosomes and serves as a reference for setting up and visualizing their own DESCHRAMBLER results using AGV.
+
+## Maintenance & Support 
+AGV is actively maintained by the IBCLab at Konkuk University. 
+Bug reports and feature requests can be submitted via GitHub Issues. We aim to respond within 2 weeks.
