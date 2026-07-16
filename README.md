@@ -16,8 +16,14 @@ mv <web_root_path>/browser <web_root_path>/<your_webpage_name>
 Replace `<web_root_path>` with the root directory of your web server (e.g., `/var/www/html` for Apache).</br>
 You may rename the `browser` directory to any name you prefer. This name will be used as the web page URL.</br>
 
+## Usage: Validating AGV input data
+AGV requires preprocessed input files generated from DESCHRAMLER outputs.</br>
+The 'Validate.py' script validates DESCHRAMBLER outputs for processing AGV conversion.
+```
+usage: Validate.py <DESCHRAMBLER output dir>
+```
+
 ## Usage: Preparing AGV data
-AGV requires preprocessed input files generated from DESCHRAMBLER outputs.</br>
 The `DesToAGV.py` script converts DESCRHAMBLER outputs into AGV-compatible data.</br>
 
 ```
