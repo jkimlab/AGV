@@ -3,9 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="js/d3.min.js"></script>
-    <script src="js/jquery-1.8.2.min.js"></script>
-    <script src="js/jspdf.umd.min.js"></script>
-    <script src="js/svg2pdf.umd.min.js"></script>
+	<script src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/Blob.js"></script>
 	<script type="text/javascript" src="js/FileSaver.min.js"></script>
 </head>
