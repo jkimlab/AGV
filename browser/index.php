@@ -3,31 +3,45 @@
 <head>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="js/d3.min.js"></script>
-	<script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/Blob.js"></script>
 	<script type="text/javascript" src="js/FileSaver.min.js"></script>
 </head>
 <body>
     <select id="PRJ">
-<?php
-    $s_prj = "";
-    if (isset($_GET['prj'])) { $s_prj = $_GET['prj']; }
-    $prj_array = array();
-    $dir_handle = opendir("./data");
-    while($file = readdir($dir_handle)) {
-        if ($file == "." || $file == "..") { continue; }
-        if (is_dir("./data/".$file)) {
-            if ($s_prj == $file || $s_prj == "") {
-                echo "<option id=\"".$file."\" value=\"".$file."\" selected>".$file."</option>";
-                $s_prj = $file;
-            } else {
-                echo "<option id=\"".$file."\" value=\"".$file."\">".$file."</option>";
+    <?php
+        $r_prj = "";
+        if (isset($_GET['prj'])) { $r_prj = $_GET['prj']; }
+
+        $s_prj = "";
+        $prj_array = array();
+
+        $dir_handle = opendir("./data");
+        while ($file = readdir($dir_handle)) {
+            if ($file == "." || $file == "..") { continue; }
+
+            if (is_dir("./data/" . $file)) {
+                $prj_array[$file] = $file;
             }
-            $prj_array[$file] = $file;
         }
-    }
-    closedir($dir_handle);
-?>
+        closedir($dir_handle);
+
+        if ($r_prj !== "" && isset($prj_array[$r_prj])) {
+            $s_prj = $r_prj;
+        }
+
+        if ($s_prj === "" && !empty($prj_array)) {
+            $s_prj = array_key_first($prj_array);
+        }
+
+        foreach ($prj_array as $file) {
+            if ($s_prj === $file) {
+                echo "<option id=\"$file\" value=\"$file\" selected>$file</option>";
+            } else {
+                echo "<option id=\"$file\" value=\"$file\">$file</option>";
+            }
+        }
+    ?>
     </select>
 	<select id="APCF_chr">
 <?php
