@@ -1,4 +1,7 @@
 # AGV (Ancestral Genome Visualization with DESCHRAMBLER)
+
+> **Publication:** The paper describing AGV has been accepted for publication in *BMC Bioinformatics* and is currently **in press**.
+
 AGV (Ancestral Genome Visualization with DESCHRAMBLER) is a web-based tool for visualization of the results of [DESCHRAMBLER](https://github.com/jkimlab/DESCHRAMBLER), an algorithm that reconstructs ancestral chromosomes by inferring the order and orientation of syntenic genomic fragments from genome assemblies.</br>
 AGV allows users to intuitively explore reconstructed ancestral genomes directly in a web browser.</br>
 
